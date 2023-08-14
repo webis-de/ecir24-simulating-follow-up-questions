@@ -1,11 +1,19 @@
 SHELL := /bin/bash
 
-install: install_mlc_chat
+configure:
+	read -p "Huggingface access token: " hftoken;\
+	echo "$${hftoken}" > hf-token.txt;
+
+install: install_venv huggingface_login
 
 install_venv:
 	@if [ ! -d "venv" ]; then\
 		python3 -m venv venv; \
-	fi
+	fi; \
+	source venv/bin/activate && pip install -r requirements.txt;
+
+huggingface_login: install_venv
+	source venv/bin/activate && huggingface-cli login --token $(shell cat hf-token.txt)
 
 install_mlc_chat: install_venv
 	@if [ `command -v nvidia-smi` ]; then\
@@ -24,4 +32,4 @@ install_mlc_chat: install_venv
 	cd dist/prebuilt && git clone https://huggingface.co/mlc-ai/mlc-chat-Llama-2-7b-chat-hf-q4f16_1
 
 clean:
-	rm -rf venv
+	rm -rf venv dist

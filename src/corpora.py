@@ -1,11 +1,15 @@
 import abc
 import os.path
+import re
+from typing import Optional, List
 from zipfile import ZipFile
 
 
 class Text:
-    def __init__(self, _id: str, content: str):
+    def __init__(self, _id: str, doc_id: str, dataset: str, content: str):
         self._id = _id
+        self.doc_id = doc_id
+        self.dataset = dataset
         self.content = content
         self.questions = []
 
@@ -14,6 +18,17 @@ class Text:
 
     def get_id(self):
         return self._id
+
+
+class GeneratedText(Text):
+    def __init__(self, text: Text,
+                 prompt: str,
+                 generated_response: str,
+                 questions: Optional[List[str]]):
+        super().__init__(text.get_id(), text.doc_id, text.dataset, text.content)
+        self.prompt = prompt
+        self.generated_response = generated_response
+        self.parsed_questions = questions
 
 
 class Corpus(metaclass=abc.ABCMeta):
@@ -43,12 +58,15 @@ class InquisitiveCorpus(Corpus):
         self.question_line = self.questions.readline()
 
         self.current_article = 1
-        self.article = self.articles_zip.open("0001.txt", "r")
+        self.article = self.articles_zip.open("article/0001.txt", "r")
         self.article_line = None
 
     def has_next(self) -> bool:
         self.article_line = self.article.readline()
         if self.article_line:
+            self.article_line = self.article_line \
+                .decode("utf-8") \
+                .strip()
             return True
 
         return False
@@ -58,7 +76,7 @@ class InquisitiveCorpus(Corpus):
         _id = split[0]
         content = " ".join(split[1:])
 
-        text = Text(_id, content)
+        text = Text(_id, str(self.current_article), "inquisitive", content)
 
         while True:
             if not self.question_line:
