@@ -31,5 +31,13 @@ install_mlc_chat: install_venv
 
 	cd dist/prebuilt && git clone https://huggingface.co/mlc-ai/mlc-chat-Llama-2-7b-chat-hf-q4f16_1
 
+docker-build:
+	docker build -t registry.webis.de/code-research/conversational-search/simulation-by-question-under-discussion .
+
+docker-push:
+	docker push registry.webis.de/code-research/conversational-search/simulation-by-question-under-discussion
+
+deploy: docker-build docker-push
+
 clean:
 	rm -rf venv dist
