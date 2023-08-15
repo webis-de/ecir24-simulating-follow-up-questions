@@ -1,6 +1,6 @@
 import os.path
 
-from llm import LLama27B, GODEL
+from llm import *
 from constants import PROMPT_TEMPLATE, DATASET
 from corpora import InquisitiveCorpus, GeneratedText
 import logging
@@ -17,7 +17,7 @@ def main():
     logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
     data_conf = load_config("datasets.yml")
 
-    tested_models = [GODEL, LLama27B]
+    tested_models = [GODEL, LLama27B, LLama27BChat, LLama213B, LLama213BChat]
 
     if not os.path.exists("data"):
         os.mkdir("data")

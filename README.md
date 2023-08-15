@@ -4,11 +4,14 @@ Repository for evaluating LLMs for user simulation for conversational agents.
 
 ## Models
 
-| Model  | Params | Needs GPU | Implemented            |
-|--------|--------|-----------|------------------------|
-| LLama2 | 7B     | yes       | :heavy_check_mark:     |
-| LLama2 | 13B    | yes       | :x:                    |
-| Alpaca | 7B     | no (API)  | :x:                    |
+| Model       | Params | Needs GPU | Implemented        |
+|-------------|--------|-----------|--------------------|
+| LLama2      | 7B     | yes       | :heavy_check_mark: |
+| LLama2      | 13B    | yes       | :heavy_check_mark: |
+| LLama2-Chat | 7B     | yes       | :heavy_check_mark: |
+| LLama2-Chat | 13B    | yes       | :heavy_check_mark: |
+| GODEL       | 2.7B?  | no        | :heavy_check_mark: |
+| Alpaca      | 7B     | no (API)  | :x:                |
 
 ## Setup
 

@@ -42,9 +42,15 @@ class LLM(metaclass=abc.ABCMeta):
 
 class LLama2(LLM):
 
-    def __init__(self, param: Param = Param.SEVEN_B):
+    def __init__(self, param: Param = Param.SEVEN_B, chat: bool = True):
         super().__init__()
-        self.model_name = f"meta-llama/Llama-2-{param.value}-chat-hf"
+
+        if chat:
+            chat_str = "-chat"
+        else:
+            chat_str = ""
+
+        self.model_name = f"meta-llama/Llama-2-{param.value}{chat_str}-hf"
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         self.pipeline = transformers.pipeline(
             "text-generation",
@@ -75,8 +81,8 @@ class LLama2(LLM):
         line_split = response.split("\n")
         for line in line_split:
             line = line.strip()
-            if re.match("^[0-9].*", line):
-                questions.append(re.sub("^[0-9]+\\.\\s", "", line))
+            if re.match("^([0-9]+\\.|-|[a-zA-Z]\\))?.*\\?$", line):
+                questions.append(re.sub("^([0-9]+\\.|-|[a-zA-Z]\\))", "", line).strip())
 
         if len(questions) > 0:
             return questions
@@ -86,7 +92,22 @@ class LLama2(LLM):
 
 class LLama27B(LLama2):
     def __init__(self):
-        super().__init__()
+        super().__init__(Param.SEVEN_B, False)
+
+
+class LLama27BChat(LLama2):
+    def __init__(self):
+        super().__init__(Param.SEVEN_B, True)
+
+
+class LLama213B(LLama2):
+    def __init__(self):
+        super().__init__(Param.THIRTEEN_B, False)
+
+
+class LLama213BChat(LLama2):
+    def __init__(self):
+        super().__init__(Param.THIRTEEN_B, True)
 
 
 class GODEL(LLM):
