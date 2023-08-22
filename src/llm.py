@@ -1,7 +1,7 @@
 import abc
 import re
 from enum import Enum
-from typing import List, Optional
+from typing import List, Optional, Literal
 
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import transformers
@@ -10,11 +10,13 @@ import logging
 import sys
 
 from logger import StdOutLogger
+from chatnoir_api.chat import chat, ModelType
 
 
 class Param(Enum):
     SEVEN_B = "7b"
     THIRTEEN_B = "13b"
+    SEVENTY_B = "70b"
 
 
 class LLM(metaclass=abc.ABCMeta):
@@ -110,6 +112,11 @@ class LLama213BChat(LLama2):
         super().__init__(Param.THIRTEEN_B, True)
 
 
+class LLama270BChat(LLama2):
+    def __init__(self):
+        super().__init__(Param.SEVENTY_B, True)
+
+
 class GODEL(LLM):
 
     def __init__(self):
@@ -142,3 +149,34 @@ class GODEL(LLM):
             return questions
 
         return None
+
+
+class ChatnoirModel(Enum):
+    ALPACA_7B = "alpaca-en-7b"
+    GPT2_BASE = "gpt2-base"
+    GPT2_LARGE = "gpt2-large"
+    GPT2_XL = "gpt2-xl"
+
+
+class ChatnoirAPIModel(LLM):
+    def __init__(self, model: ChatnoirModel):
+        super().__init__()
+        with open("chatnoir-token.txt") as in_file:
+            self.api_key = in_file.read().strip()
+
+        self.model_name = model.value
+
+    def generate(self, prompt: str) -> str:
+        return chat(api_key=self.api_key, input_sentence=prompt, model=self.model_name)
+
+    @staticmethod
+    def parse_response(response: str) -> Optional[List[str]]:
+        return LLama2.parse_response(response)
+
+    def name(self) -> str:
+        return self.model_name
+
+
+class Alpaca(ChatnoirAPIModel):
+    def __init__(self):
+        super().__init__(ChatnoirModel.ALPACA_7B)

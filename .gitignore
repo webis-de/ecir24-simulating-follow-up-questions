@@ -163,3 +163,4 @@ cython_debug/
 dist
 
 /hf-token.txt
+/chatnoir-token.txt

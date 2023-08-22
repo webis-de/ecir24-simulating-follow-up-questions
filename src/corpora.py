@@ -26,6 +26,9 @@ class GeneratedText(Text):
                  generated_response: str,
                  questions: Optional[List[str]]):
         super().__init__(text.get_id(), text.doc_id, text.dataset, text.content)
+        for question in text.questions:
+            self.add_question(question)
+
         self.prompt = prompt
         self.generated_response = generated_response
         self.parsed_questions = questions

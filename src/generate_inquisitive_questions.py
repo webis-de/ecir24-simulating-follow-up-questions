@@ -17,7 +17,7 @@ def main():
     logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
     data_conf = load_config("datasets.yml")
 
-    tested_models = [GODEL, LLama27B, LLama27BChat, LLama213B, LLama213BChat]
+    tested_models = [LLama270BChat, GODEL, LLama27B, LLama27BChat, LLama213B, LLama213BChat]
 
     if not os.path.exists("data"):
         os.mkdir("data")

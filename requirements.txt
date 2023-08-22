@@ -3,3 +3,4 @@ transformers~=4.31
 torch~=2.0.1
 accelerate~=0.21.0
 xformers
+chatnoir-api

@@ -1,8 +1,15 @@
 SHELL := /bin/bash
 
-configure:
+configure: configure_hf configure_chatnoir
+
+
+configure_hf:
 	read -p "Huggingface access token: " hftoken;\
 	echo "$${hftoken}" > hf-token.txt;
+
+configure_chatnoir:
+	read -p "Chatnoir API access token: " apitoken;\
+	echo "$${apitoken}" > chatnoir-token.txt;
 
 install: install_venv huggingface_login
 
