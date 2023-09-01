@@ -1,38 +1,8 @@
 import abc
 import dataclasses
 import os.path
-import re
-from typing import Optional, List
+from typing import List
 from zipfile import ZipFile
-
-
-class Text:
-    def __init__(self, _id: str, doc_id: str, dataset: str, content: str):
-        self._id = _id
-        self.doc_id = doc_id
-        self.dataset = dataset
-        self.content = content
-        self.questions = []
-
-    def add_question(self, question: str):
-        self.questions.append(question)
-
-    def get_id(self):
-        return self._id
-
-
-class GeneratedText(Text):
-    def __init__(self, text: Text,
-                 prompt: str,
-                 generated_response: str,
-                 questions: Optional[List[str]]):
-        super().__init__(text.get_id(), text.doc_id, text.dataset, text.content)
-        for question in text.questions:
-            self.add_question(question)
-
-        self.prompt = prompt
-        self.generated_response = generated_response
-        self.parsed_questions = questions
 
 
 @dataclasses.dataclass
