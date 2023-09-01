@@ -1,3 +1,6 @@
 inquisitive:
   path: /mnt/ceph/storage/corpora/corpora-thirdparty/corpus-inquisitive/
   formatted_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/corpus-inquisitive.jsonl
+
+nudged_questions:
+  path: /mnt/ceph/storage/corpora/corpora-webis/corpus-webis-nudged-questions-23

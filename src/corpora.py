@@ -1,5 +1,6 @@
 import abc
 import dataclasses
+import json
 import os.path
 from typing import List
 from zipfile import ZipFile
@@ -118,3 +119,44 @@ class InquisitiveCorpus(Corpus):
         self.current_article.close()
         self.articles_zip.close()
         self.questions.close()
+
+
+class NudgedQuestionsCorpus(Corpus):
+    def __init__(self, base_path: str):
+        super().__init__(base_path)
+        data_zip = ZipFile(os.path.join(self.base_path, "study-data.zip"))
+        data_file = data_zip.open("results/results-annotated.jsonl", "r")
+        self.data = []
+
+        for line in data_file:
+            self.data.extend(json.loads(line)["tasks"])
+
+        data_file.close()
+        data_zip.close()
+
+        self.data = list(sorted(self.data, key=lambda d: d["snippet"]))
+
+    def has_next(self) -> bool:
+        return len(self.data) > 0
+
+    def next_turn(self) -> ConversationTurn:
+        turn = None
+        while True:
+            if len(self.data) == 0:
+                return turn
+
+            task = self.data.pop(0)
+
+            conversation_id = hex(hash(task["snippet"]))
+            id = f"nudged-questions-{conversation_id}"
+            if turn is None:
+                turn = ConversationTurn(id, conversation_id, task["snippet"], [], [])
+
+            if conversation_id != turn.conversation_id:
+                self.data.insert(0, task)
+                return turn
+
+            turn.user_responses.append(task["question"])
+
+    def close(self):
+        pass

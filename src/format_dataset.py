@@ -2,7 +2,7 @@ import dataclasses
 import json
 import os.path
 
-from corpora import InquisitiveCorpus
+from corpora import InquisitiveCorpus, NudgedQuestionsCorpus
 from generate_inquisitive_questions import load_config
 
 
@@ -10,8 +10,13 @@ def main():
     out_path = ("/mnt/ceph/storage/data-in-progress/data-research"
                 "/conversational-search/ecir24-simulation-by-question-under-discussion")
     data_conf = load_config("datasets.yml")
+    parser = {"inquisitive": InquisitiveCorpus, "nudged_questions": NudgedQuestionsCorpus}
+
     for dataset in data_conf:
-        corpus_parser = InquisitiveCorpus(data_conf[dataset]["path"])
+        if dataset == "inquisitive":
+            continue
+
+        corpus_parser = parser[dataset](data_conf[dataset]["path"])
 
         with open(os.path.join(out_path, f"corpus-{dataset}.jsonl"), "w+") as out_file:
             while corpus_parser.has_next():
