@@ -12,6 +12,7 @@ import sys
 from logger import StdOutLogger
 from chatnoir_api.chat import chat, ModelType
 
+QUESTION_PATTERN = re.compile(r'(?:(?<=^)|(?<=[.!?]))([0-9]+\\.|-|[a-zA-Z]\)|\*)?.*?\?', flags=re.MULTILINE)
 
 class Param(Enum):
     SEVEN_B = "7b"
@@ -83,8 +84,11 @@ class LLama2(LLM):
         line_split = response.split("\n")
         for line in line_split:
             line = line.strip()
-            if re.match("^([0-9]+\\.|-|[a-zA-Z]\\))?.*\\?$", line):
-                questions.append(re.sub("^([0-9]+\\.|-|[a-zA-Z]\\))", "", line).strip())
+            matches = re.finditer(QUESTION_PATTERN, line)
+            for match in matches:
+                question = match.group(0).strip()
+                if len(question) > 0:
+                    questions.append(question)
 
         if len(questions) > 0:
             return questions

@@ -4,3 +4,4 @@ torch~=2.0.1
 accelerate~=0.21.0
 xformers
 chatnoir-api
+dacite

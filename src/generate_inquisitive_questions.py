@@ -1,11 +1,13 @@
+import dataclasses
 import os.path
 
+from corpora import ConversationTurn
 from llm import *
-from constants import PROMPT_TEMPLATE, DATASET
-from corpora import InquisitiveCorpus, GeneratedText
+from constants import PROMPT_TEMPLATE
 import logging
 import yaml
 import json
+import dacite
 
 
 def load_config(path: str):
@@ -17,28 +19,44 @@ def main():
     logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
     data_conf = load_config("datasets.yml")
 
-    tested_models = [LLama270BChat, GODEL, LLama27B, LLama27BChat, LLama213B, LLama213BChat]
+    tested_models = [Alpaca]
 
     if not os.path.exists("data"):
         os.mkdir("data")
 
-    for model in tested_models:
-        llm = model()
+    for dataset in data_conf:
+        for model in tested_models:
+            llm = model()
 
-        file_name = f"{llm.name()}-{DATASET.lower()}.jsonl".split("/")[-1]
-        with open(f"data/{file_name}", "w+") as out_file:
-            corpus_parser = InquisitiveCorpus(data_conf[DATASET]["path"])
+            llm_name = llm.name().split("/")[-1]
+            file_name = f"corpus-{dataset.lower()}-{llm_name}.jsonl"
+            with (open(f"data/{file_name}", "w+") as out_file):
+                with open(data_conf[dataset]["formatted_path"]) as in_file:
+                    conversation_turn = None
+                    for line in in_file:
+                        turn = dacite.from_dict(data_class=ConversationTurn, data=json.loads(line))
+                        if conversation_turn is None \
+                                or conversation_turn.conversation_id != turn.conversation_id:
+                            conversation_turn = ConversationTurn(turn.id, turn.conversation_id, turn.system, [], [])
+                        else:
+                            past_turn = conversation_turn.to_past_turn()
+                            conversation_turn.id = turn.id
+                            conversation_turn.conversation_id = turn.conversation_id
+                            conversation_turn.system = turn.system
+                            conversation_turn.previous_turns.append(past_turn)
 
-            while corpus_parser.has_next():
-                text = corpus_parser.next_text()
-                prompt = PROMPT_TEMPLATE.format(text.content)
-                response = llm.generate(prompt)
-                questions = llm.parse_response(response)
-                gen_text = GeneratedText(text, prompt, response, questions)
-                out_file.write(json.dumps(gen_text.__dict__))
-                out_file.write("\n")
+                        prompt = PROMPT_TEMPLATE.format(turn.system)
+                        response = llm.generate(prompt)
+                        questions = llm.parse_response(response)
+                        if questions is not None:
+                            conversation_turn.user_responses = questions
+                        else:
+                            conversation_turn.user_responses = [response]
 
-        del llm
+                        out_file.write(json.dumps(dataclasses.asdict(conversation_turn)))
+                        out_file.write("\n")
+
+            del llm
 
 
 if __name__ == '__main__':
