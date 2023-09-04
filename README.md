@@ -14,7 +14,7 @@
     "<text, 2nd (alternative) response of a user to the system text>",
     ...
   ],
-  "previous-turns": [
+  "previous_turns": [
     { "index": 1, "id": "<text>", "system": "<text>", "user_responses": ["<text>" ,"<text>" ] },
     { "index": 2, "id": "<text>", "system": "<text>", "user_responses": ["<text>" ,"<text>" ] },
     ...
