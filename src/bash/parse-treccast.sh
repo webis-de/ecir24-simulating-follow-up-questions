@@ -19,12 +19,11 @@ for input in $@;do
 
          if (cindex == 1) {
            delete history
-           history[cindex] = "{\"index\":1,\"user_responses\":[\""utterance"\"]}"
            informationNeed = utterance
          } else {
            if (!(conversation"-"turnNumber in printed)) {
              printf "%s", "{\"id\":\"cast-"conversation"-"turnNumber"\",\"conversation_id\":\"cast-"conversation"\",\"system\":\""lastResponse"\",\"user_responses\":[\""utterance"\"],\"previous_turns\":["
-             for (i = 1; i < cindex; i += 1) {
+             for (i = 1; i < (cindex - 1); i += 1) {
                if (i > 1) { printf "," }
                printf "%s", history[i]
              }
@@ -32,7 +31,7 @@ for input in $@;do
 
              printed[conversation"-"turnNumber] = 1
            }
-           history[cindex] = "{\"index\":"cindex",\"system\":\""lastResponse"\",\"user_responses\":[\""utterance"\"]}"
+           history[cindex - 1] = "{\"index\":"(cindex - 1)",\"system\":\""lastResponse"\",\"user_responses\":[\""utterance"\"]}"
          }
 
          lastResponse = response
