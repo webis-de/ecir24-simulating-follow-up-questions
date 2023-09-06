@@ -1,16 +1,16 @@
 import abc
-import re
-from enum import Enum
-from typing import List, Optional, Literal
-
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-import transformers
-import torch
 import logging
+import re
 import sys
+from enum import Enum
+from typing import List, Optional
+
+import torch
+import transformers
+from chatnoir_api.chat import chat
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 from logger import StdOutLogger
-from chatnoir_api.chat import chat, ModelType
 
 QUESTION_PATTERN = re.compile(r'(?:(?<=^)|(?<=[.!?]))([0-9]+\\.|-|[a-zA-Z]\)|\*)?.*?\?', flags=re.MULTILINE)
 

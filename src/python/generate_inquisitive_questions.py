@@ -1,13 +1,14 @@
 import dataclasses
+import json
+import logging
 import os.path
 
+import dacite
+import yaml
+
+from constants import PROMPT_TEMPLATE
 from corpora import ConversationTurn
 from llm import *
-from constants import PROMPT_TEMPLATE
-import logging
-import yaml
-import json
-import dacite
 
 
 def load_config(path: str):
@@ -19,12 +20,13 @@ def main():
     logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
     data_conf = load_config("datasets.yml")
 
-    tested_models = [Alpaca]
+    tested_models = [LLama27B, LLama27BChat]
+    tested_datasets = ["nudged_questions"]
 
     if not os.path.exists("data"):
         os.mkdir("data")
 
-    for dataset in data_conf:
+    for dataset in tested_datasets:
         for model in tested_models:
             llm = model()
 

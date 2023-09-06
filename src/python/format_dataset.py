@@ -13,7 +13,7 @@ def main():
     parser = {"inquisitive": InquisitiveCorpus, "nudged_questions": NudgedQuestionsCorpus}
 
     for dataset in data_conf:
-        if dataset == "inquisitive":
+        if "path" not in data_conf[dataset]:
             continue
 
         corpus_parser = parser[dataset](data_conf[dataset]["path"])

@@ -8,7 +8,7 @@ from zipfile import ZipFile
 
 @dataclasses.dataclass
 class PastTurn:
-    index: str
+    index: int
     id: str
     system: str
     user_responses: List[str]
@@ -23,7 +23,7 @@ class ConversationTurn:
     previous_turns: List[PastTurn]
 
     def to_past_turn(self) -> PastTurn:
-        return PastTurn(str(len(self.previous_turns) + 1),
+        return PastTurn(len(self.previous_turns) + 1,
                         self.id,
                         self.system,
                         self.user_responses)
