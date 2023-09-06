@@ -4,7 +4,7 @@
 
 ### Conversations
 
-```
+```json lines
 {
   "id": "<text, points to the user's turn in the original data set>",
   "conversation_id": "<text, points to the conversation in the original data set>",
@@ -51,14 +51,14 @@ to their models [here](https://huggingface.co/meta-llama/Llama-2-7b-hf).
 4. Activate the virtual environment and run the experiment.
    ```bash
    source venv/bin/activate
-   python src/generate_inquisitive_questions.py
+   python src/python/generate_inquisitive_questions.py
    ```
 
 ## Reproduction
 
 ### Parsing TREC CAsT
 
-```
+```bash
 git clone git@github.com:daltonj/treccastweb.git
 cd treccastweb
 git checkout 3384661
