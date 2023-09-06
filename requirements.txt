@@ -5,3 +5,4 @@ accelerate~=0.21.0
 xformers
 chatnoir-api
 dacite
+click~=8.1.7

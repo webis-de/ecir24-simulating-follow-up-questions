@@ -1,13 +1,14 @@
 import dataclasses
 import json
+import logging
 import os.path
 
+import click
 import dacite
 import yaml
 
-from constants import PROMPT_TEMPLATE
+from constants import PROMPT_TEMPLATE, DATASETS, MODELS
 from corpora import ConversationTurn
-from llm import *
 
 
 def load_config(path: str):
@@ -15,20 +16,22 @@ def load_config(path: str):
         return yaml.safe_load(in_file)
 
 
-def main():
+@click.command()
+@click.option("-d", "--dataset", "datasets", multiple=True, default=["nudged_questions", "treccast"],
+              type=click.Choice(DATASETS), required=True)
+@click.option("-m", "--model", "models", multiple=True, default=["Alpaca"], type=click.Choice(MODELS.keys()),
+              required=True)
+def main(datasets, models):
     logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
     data_conf = load_config("datasets.yml")
-
-    tested_models = [Alpaca]
-    tested_datasets = ["nudged_questions"]
 
     if not os.path.exists("data"):
         os.mkdir("data")
 
-    for dataset in tested_datasets:
-        for model in tested_models:
-            llm = model()
+    for model in models:
+        llm = MODELS[model]()
 
+        for dataset in datasets:
             llm_name = llm.name().split("/")[-1]
             file_name = f"corpus-{dataset.lower()}-{llm_name}.jsonl"
             with (open(f"data/{file_name}", "w+") as out_file):
@@ -57,7 +60,7 @@ def main():
                         out_file.write(json.dumps(dataclasses.asdict(conversation_turn)))
                         out_file.write("\n")
 
-            del llm
+        del llm
 
 
 if __name__ == '__main__':
