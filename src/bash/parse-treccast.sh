@@ -31,7 +31,7 @@ for input in $@;do
 
              printed[conversation"-"turnNumber] = 1
            }
-           history[cindex - 1] = "{\"index\":"(cindex - 1)",\"system\":\""lastResponse"\",\"user_responses\":[\""utterance"\"]}"
+           history[cindex - 1] = "{\"index\":"(cindex - 1)",\"id\":\"cast-"conversation"-"turnNumber"\",\"system\":\""lastResponse"\",\"user_responses\":[\""utterance"\"]}"
          }
 
          lastResponse = response
