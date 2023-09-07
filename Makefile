@@ -1,15 +1,18 @@
 SHELL := /bin/bash
 
-configure: configure_hf configure_chatnoir
+auth: auth_hf auth_chatnoir
 
 
-configure_hf:
+auth_hf:
 	read -p "Huggingface access token: " hftoken;\
 	echo "$${hftoken}" > hf-token.txt;
 
-configure_chatnoir:
+auth_chatnoir:
 	read -p "Chatnoir API access token: " apitoken;\
 	echo "$${apitoken}" > chatnoir-token.txt;
+
+configure:
+	source venv/bin/activate && python src/python/configure.py
 
 install: install_venv huggingface_login
 
@@ -39,12 +42,14 @@ install_mlc_chat: install_venv
 	cd dist/prebuilt && git clone https://huggingface.co/mlc-ai/mlc-chat-Llama-2-7b-chat-hf-q4f16_1
 
 docker-build:
-	docker build -t registry.webis.de/code-research/conversational-search/simulation-by-question-under-discussion .
+	docker build -t registry.webis.de/code-lib/public-images/simulation-by-question-under-discussion:latest .
 
 docker-push:
-	docker push registry.webis.de/code-research/conversational-search/simulation-by-question-under-discussion
+	docker push registry.webis.de/code-lib/public-images/simulation-by-question-under-discussion:latest
 
 deploy: docker-build docker-push
+	sudo cp src/bash/generate-inquisitive-questions.slurm.sh /mnt/ceph/storage/data-tmp/current/${USER}/
+	sudo cp run.yml /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/
 
 clean:
 	rm -rf venv dist

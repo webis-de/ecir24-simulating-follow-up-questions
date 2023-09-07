@@ -39,10 +39,10 @@
 1. The LLama2 model needs access permissions to their repository. 
 Hence, you need to have a Hugging Face account with an access token (can be created [here](https://huggingface.co/settings/tokens)).
 Fill out [this Meta-AI form](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and request permission 
-to their models [here](https://huggingface.co/meta-llama/Llama-2-7b-hf). 
-2. Run the following command to add your Hugging Face access token to the repo. 
+to their models [here](https://huggingface.co/meta-llama/Llama-2-7b-hf).
+2. Run the following command to add your Hugging Face and Chatnoir API access token to the repo.
     ```bash
-    make configure
+    make auth
     ```
 3. Run the following command to install all dependencies.
    ```bash

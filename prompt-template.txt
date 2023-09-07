@@ -1,0 +1,5 @@
+### Instruction: Inquisitive questions are the questions elicited from readers as they naturally read through text. Given the text below, write inquisitive questions that you would ask if you were reading this text for the first time.
+
+### Text: {}
+
+### Inquisitive questions:

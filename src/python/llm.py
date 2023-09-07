@@ -2,12 +2,14 @@ import abc
 import logging
 import re
 import sys
+import time
 from enum import Enum
 from typing import List, Optional
 
 import torch
 import transformers
 from chatnoir_api.chat import chat
+from requests import HTTPError
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 from logger import StdOutLogger
@@ -171,7 +173,14 @@ class ChatnoirAPIModel(LLM):
         self.model_name = model.value
 
     def generate(self, prompt: str) -> str:
-        return chat(api_key=self.api_key, input_sentence=prompt, model=self.model_name)
+        try:
+            return chat(api_key=self.api_key, input_sentence=prompt, model=self.model_name)
+        except HTTPError as e:
+            if e.response.status_code == 429:
+                time.sleep(int(e.response.headers["Retry-After"]))
+                return self.generate(prompt)
+            else:
+                raise e
 
     @staticmethod
     def parse_response(response: str) -> Optional[List[str]]:

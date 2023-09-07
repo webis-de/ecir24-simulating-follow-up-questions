@@ -13,10 +13,10 @@ def main():
     parser = {"inquisitive": InquisitiveCorpus, "nudged_questions": NudgedQuestionsCorpus}
 
     for dataset in data_conf:
-        if "path" not in data_conf[dataset]:
+        if "original_path" not in data_conf[dataset]:
             continue
 
-        corpus_parser = parser[dataset](data_conf[dataset]["path"])
+        corpus_parser = parser[dataset](data_conf[dataset]["original_path"])
 
         with open(os.path.join(out_path, f"corpus-{dataset}.jsonl"), "w+") as out_file:
             while corpus_parser.has_next():
