@@ -90,3 +90,10 @@ cd ..
   treccastweb/2022/2022_evaluation_topics_flattened_duplicated_v1.0.json \
   > data/conversational-questions/corpus-treccast.jsonl
 ```
+
+### Compute top-k most-frequent leading bigrams
+
+```bash
+source venv/bin/activate
+python src/python/compute_leading_bigrams_frequency -f <path_to_dataset> -k <number_of_k>
+```
