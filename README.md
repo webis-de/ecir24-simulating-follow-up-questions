@@ -25,33 +25,55 @@
 
 ## Models
 
-| Model       | Params | Needs GPU | Implemented        |
-|-------------|--------|-----------|--------------------|
-| LLama2      | 7B     | yes       | :heavy_check_mark: |
-| LLama2      | 13B    | yes       | :heavy_check_mark: |
-| LLama2-Chat | 7B     | yes       | :heavy_check_mark: |
-| LLama2-Chat | 13B    | yes       | :heavy_check_mark: |
-| GODEL       | 2.7B?  | no        | :heavy_check_mark: |
-| Alpaca      | 7B     | no (API)  | :heavy_check_mark: |
+| Model       | Params | Requirements            |
+|-------------|--------|-------------------------|
+| Alpaca      | 7B     | Chatnoir API Token      |
+| GODEL       | 2.7B?  | -                       |
+| LLama2      | 7B     | GPU, Hugging Face Token | 
+| LLama2      | 13B    | GPU, Hugging Face Token | 
+| LLama2-Chat | 7B     | GPU, Hugging Face Token | 
+| LLama2-Chat | 13B    | GPU, Hugging Face Token |  
+
+## Authentication
+
+1. The LLama2 model needs access permissions to their repository.
+   Hence, you need to have a Hugging Face account with an access token (can be
+   created [here](https://huggingface.co/settings/tokens)).
+   Fill out [this Meta-AI form](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and request
+   permission
+   to their models [here](https://huggingface.co/meta-llama/Llama-2-7b-hf).
+2. The Alpaca model requires an Chatnoir API token which can be requested [here](https://www.chatnoir.eu/apikey).
 
 ## Setup
 
-1. The LLama2 model needs access permissions to their repository. 
-Hence, you need to have a Hugging Face account with an access token (can be created [here](https://huggingface.co/settings/tokens)).
-Fill out [this Meta-AI form](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and request permission 
-to their models [here](https://huggingface.co/meta-llama/Llama-2-7b-hf).
-2. Run the following command to add your Hugging Face and Chatnoir API access token to the repo.
+1. Run the following command to add your Hugging Face and Chatnoir API access token to the repo.
     ```bash
     make auth
     ```
-3. Run the following command to install all dependencies.
+2. Run the following command to install all dependencies.
    ```bash
    make clean install
    ```
-4. Activate the virtual environment and run the experiment.
+3. Activate the virtual environment and run the experiment.
    ```bash
    source venv/bin/activate
    python src/python/generate_inquisitive_questions.py
+   ```
+
+## Deploy experiment on gammaweb
+
+1. Configure models and datasets for the experiment.
+   ```bash
+   make configure
+   ```
+2. Build and push docker image to the registry.
+   ```bash
+   make deploy
+   ```
+3. Login to [ssh.webis.de]()
+4. Submit job to Slurm
+   ```bash
+   sbatch generate-inquisitive-questions.slurm.sh
    ```
 
 ## Reproduction
