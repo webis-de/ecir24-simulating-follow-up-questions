@@ -16,6 +16,7 @@ from logger import StdOutLogger
 
 QUESTION_PATTERN = re.compile(r'(?:(?<=^)|(?<=[.!?]))([0-9]+\\.|-|[a-zA-Z]\)|\*)?.*?\?', flags=re.MULTILINE)
 
+
 class Param(Enum):
     SEVEN_B = "7b"
     THIRTEEN_B = "13b"
@@ -47,15 +48,18 @@ class LLM(metaclass=abc.ABCMeta):
 
 class LLama2(LLM):
 
-    def __init__(self, param: Param = Param.SEVEN_B, chat: bool = True):
+    def __init__(self, param: Param = Param.SEVEN_B, chat: bool = True, model_name: str = None):
         super().__init__()
 
-        if chat:
-            chat_str = "-chat"
-        else:
-            chat_str = ""
+        self.model_name = model_name
+        if self.model_name is None:
+            if chat:
+                chat_str = "-chat"
+            else:
+                chat_str = ""
 
-        self.model_name = f"meta-llama/Llama-2-{param.value}{chat_str}-hf"
+            self.model_name = f"meta-llama/Llama-2-{param.value}{chat_str}-hf"
+
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         self.pipeline = transformers.pipeline(
             "text-generation",
@@ -106,6 +110,26 @@ class LLama27B(LLama2):
 class LLama27BChat(LLama2):
     def __init__(self):
         super().__init__(Param.SEVEN_B, True)
+
+
+class LLama27BQUD(LLama2):
+    def __init__(self):
+        super().__init__(model_name="nailiamirzakhmedova/Llama-2-7b-hf-inquisitive-questions")
+
+
+class LLama27BChatQUD(LLama2):
+    def __init__(self):
+        super().__init__(model_name="nailiamirzakhmedova/Llama-2-7b-chat-hf-inquisitive-questions")
+
+
+class LLama213BQUD(LLama2):
+    def __init__(self):
+        super().__init__(model_name="nailiamirzakhmedova/Llama-2-13b-hf-inquisitive-questions")
+
+
+class LLama213BChatQUD(LLama2):
+    def __init__(self):
+        super().__init__(model_name="nailiamirzakhmedova/Llama-2-13b-chat-hf-inquisitive-questions")
 
 
 class LLama213B(LLama2):

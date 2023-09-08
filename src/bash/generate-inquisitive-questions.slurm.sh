@@ -8,6 +8,7 @@ CONTAINER_NAME="generate-inquisitive-questions"
 IMAGE_SQSH="${CONTAINER_NAME}.sqsh"
 IMAGE="docker://registry.webis.de#code-lib/public-images/simulation-by-question-under-discussion:latest"
 
+echo "Check container"
 
 mapfile -t AVAILABLE_CONTAINER < <( enroot list )
 
