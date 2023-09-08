@@ -2,6 +2,7 @@ import dataclasses
 import json
 import logging
 import os.path
+from typing import List
 
 import click
 import dacite
@@ -19,6 +20,27 @@ def load_config(path: str):
 def load_prompt_template(path: str):
     with open(path, "r") as in_file:
         return in_file.read()
+
+
+def load_dataset(path: str) -> List[ConversationTurn]:
+    turns = []
+    with open(path) as in_file:
+        conversation_turn = None
+        for line in in_file:
+            turn = dacite.from_dict(data_class=ConversationTurn, data=json.loads(line))
+            if conversation_turn is None \
+                    or conversation_turn.conversation_id != turn.conversation_id:
+                conversation_turn = ConversationTurn(turn.id, turn.conversation_id, turn.system, [], [])
+            else:
+                past_turn = conversation_turn.to_past_turn()
+                conversation_turn.id = turn.id
+                conversation_turn.conversation_id = turn.conversation_id
+                conversation_turn.system = turn.system
+                conversation_turn.previous_turns.append(past_turn)
+
+            turns.append(conversation_turn)
+
+    return turns
 
 
 @click.command()
@@ -48,31 +70,21 @@ def main(datasets, models, config):
         for dataset in datasets:
             llm_name = llm.name().split("/")[-1]
             file_name = f"corpus-{dataset.lower()}-{llm_name}.jsonl"
+
+            turns = load_dataset(data_conf[dataset]["formatted_path"])
+            for turn in turns:
+                prompt = prompt_template.format(turn.system)
+                response = llm.generate(prompt)
+                questions = llm.parse_response(response)
+                if questions is not None:
+                    turn.user_responses = questions
+                else:
+                    turn.user_responses = [response]
+
             with (open(f"data/conversational-questions/{file_name}", "w+") as out_file):
-                with open(data_conf[dataset]["formatted_path"]) as in_file:
-                    conversation_turn = None
-                    for line in in_file:
-                        turn = dacite.from_dict(data_class=ConversationTurn, data=json.loads(line))
-                        if conversation_turn is None \
-                                or conversation_turn.conversation_id != turn.conversation_id:
-                            conversation_turn = ConversationTurn(turn.id, turn.conversation_id, turn.system, [], [])
-                        else:
-                            past_turn = conversation_turn.to_past_turn()
-                            conversation_turn.id = turn.id
-                            conversation_turn.conversation_id = turn.conversation_id
-                            conversation_turn.system = turn.system
-                            conversation_turn.previous_turns.append(past_turn)
-
-                        prompt = prompt_template.format(turn.system)
-                        response = llm.generate(prompt)
-                        questions = llm.parse_response(response)
-                        if questions is not None:
-                            conversation_turn.user_responses = questions
-                        else:
-                            conversation_turn.user_responses = [response]
-
-                        out_file.write(json.dumps(dataclasses.asdict(conversation_turn)))
-                        out_file.write("\n")
+                for turn in turns:
+                    out_file.write(json.dumps(dataclasses.asdict(turn)))
+                    out_file.write("\n")
 
         del llm
 

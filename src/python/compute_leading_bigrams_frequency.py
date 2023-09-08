@@ -1,4 +1,5 @@
 import json
+import re
 
 import click
 
@@ -16,6 +17,7 @@ def main(files, k):
                 data = json.loads(line)
 
                 for response in data["user_responses"]:
+                    response = re.sub(r"^[^a-zA-Z]+", "", response)
                     words = response.split()
                     leading_bi_gram = " ".join(words[0:2]).lower()
 
