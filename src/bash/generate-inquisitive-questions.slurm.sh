@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 #SBATCH --job-name="generate-inquisitive-questions"
-#SBATCH --output="/mnt/ceph/storage/data-tmp/current/%u/log-%x-%j.txt"
+#SBATCH --output="/mnt/ceph/storage/data-tmp/current/kipu5728/log-%x-%j.txt"
 #SBATCH --gres=gpu:ampere
 
 CONTAINER_NAME="generate-inquisitive-questions"

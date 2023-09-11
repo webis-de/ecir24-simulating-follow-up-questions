@@ -6,3 +6,5 @@ xformers
 chatnoir-api
 dacite
 click~=8.1.7
+nltk
+sentence-transformers
