@@ -81,14 +81,16 @@
 ### Parsing TREC CAsT
 
 ```bash
+./src/bash/parse-label-studio.sh cast-question-target-annotation-at-2023-09-17-22-04-f5e8d8a3.json \
+  | awk -F'-' '$2 >= 132' \
+  | sort -g \
+  > data/treccast22-question-targets.jsonl
+
 git clone git@github.com:daltonj/treccastweb.git
-cd treccastweb
-git checkout 3384661
-cd ..
-./src/bash/parse-treccast.sh \
-  treccastweb/2021/2021_manual_evaluation_topics_v1.0.json \
+python src/python/parse-treccast.py \
   treccastweb/2022/2022_evaluation_topics_flattened_duplicated_v1.0.json \
-  > data/conversational-questions/corpus-treccast.jsonl
+  data/treccast22-question-targets.jsonl \
+  > data/conversational-questions/corpus-treccast22.jsonl 
 ```
 
 ### Compute top-k most-frequent leading bigrams
