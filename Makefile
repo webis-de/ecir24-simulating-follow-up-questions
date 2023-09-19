@@ -21,6 +21,8 @@ install_venv:
 		python3 -m venv venv; \
 	fi; \
 	source venv/bin/activate && pip install -r requirements.txt;
+	source venv/bin/activate && python -c "import nltk; nltk.download('wordnet');"
+	source venv/bin/activate && python -m spacy download en_core_web_sm
 
 huggingface_login: install_venv
 	source venv/bin/activate && huggingface-cli login --token $(shell cat hf-token.txt)

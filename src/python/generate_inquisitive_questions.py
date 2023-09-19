@@ -46,7 +46,7 @@ def load_dataset(path: str) -> List[ConversationTurn]:
 @click.command()
 @click.option("-d", "--dataset", "datasets", multiple=True, default=["nudged_questions", "treccast"],
               type=click.Choice(DATASETS), required=True)
-@click.option("-m", "--model", "models", multiple=True, default=["Alpaca"], type=click.Choice(MODELS.keys()),
+@click.option("-m", "--model", "models", multiple=True, default=["LLama27BChat"], type=click.Choice(MODELS.keys()),
               required=True)
 @click.option("-c", "--config", type=click.Path(exists=True, dir_okay=False), required=False, default=None)
 def main(datasets, models, config):

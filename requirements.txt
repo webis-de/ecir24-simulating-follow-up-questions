@@ -8,3 +8,5 @@ dacite
 click~=8.1.7
 nltk
 sentence-transformers
+spacy
+contractions

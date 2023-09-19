@@ -2,12 +2,15 @@ import json
 import re
 
 import click
+import contractions
+import spacy
 
 
 @click.command()
 @click.option("-f", "--file", "files", type=click.Path(exists=True, dir_okay=False), multiple=True, required=True)
 @click.option("-k", type=int, required=True, default=10)
 def main(files, k):
+    nlp = spacy.load("en_core_web_sm", disable=["parser", "ner"])
     for file in files:
         bi_gram_frequencies = {}
         total_responses = 0
@@ -18,8 +21,14 @@ def main(files, k):
 
                 for response in data["user_responses"]:
                     response = re.sub(r"^[^a-zA-Z]+", "", response)
-                    words = response.split()
-                    leading_bi_gram = " ".join(words[0:2]).lower()
+                    response = contractions.fix(response)
+
+                    doc = nlp(response)
+
+                    if len(doc) < 3:
+                        continue
+
+                    leading_bi_gram = f"{doc[0]} [{doc[1].lemma_ if not doc[1].is_punct else doc[2].lemma_}]".lower()
 
                     if leading_bi_gram not in bi_gram_frequencies:
                         bi_gram_frequencies[leading_bi_gram] = 0

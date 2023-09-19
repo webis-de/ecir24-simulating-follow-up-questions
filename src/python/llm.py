@@ -36,6 +36,10 @@ class LLM(metaclass=abc.ABCMeta):
     def generate(self, prompt: str) -> str:
         pass
 
+    @abc.abstractmethod
+    def generate_all(self, prompts: List[str]) -> List[str]:
+        pass
+
     @staticmethod
     @abc.abstractmethod
     def parse_response(response: str) -> Optional[List[str]]:
@@ -80,6 +84,23 @@ class LLama2(LLM):
 
         for seq in sequences:
             return seq["generated_text"]
+
+    def generate_all(self, prompts: List[str]) -> List[str]:
+        response = self.pipeline(
+            prompts,
+            do_sample=True,
+            top_k=10,
+            num_return_sequences=1,
+            eos_token_id=self.tokenizer.eos_token_id,
+            max_length=500
+        )
+
+        results = []
+        for sequence in response:
+            for seq in sequence:
+                results.append(seq["generated_text"])
+
+        return results
 
     def name(self) -> str:
         return self.model_name
