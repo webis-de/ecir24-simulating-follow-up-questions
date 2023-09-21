@@ -1,14 +1,12 @@
 import dataclasses
 import json
-import logging
 import os.path
-from typing import List
 
 import click
 import dacite
 import yaml
 
-from constants import DATASETS, MODELS
+from constants import *
 from corpora import ConversationTurn
 
 
@@ -44,7 +42,7 @@ def load_dataset(path: str) -> List[ConversationTurn]:
 
 
 @click.command()
-@click.option("-d", "--dataset", "datasets", multiple=True, default=["nudged_questions", "treccast"],
+@click.option("-d", "--dataset", "datasets", multiple=True, default=["nudged-questions", "treccast"],
               type=click.Choice(DATASETS), required=True)
 @click.option("-m", "--model", "models", multiple=True, default=["LLama27BChat"], type=click.Choice(MODELS.keys()),
               required=True)
@@ -68,23 +66,32 @@ def main(datasets, models, config):
         llm = MODELS[model]()
 
         for dataset in datasets:
-            llm_name = llm.name().split("/")[-1]
-            file_name = f"corpus-{dataset.lower()}-{llm_name}.jsonl"
+            for fold in range(NUM_FOLDS):
+                llm_name = llm.name().split("/")[-1]
 
-            turns = load_dataset(data_conf[dataset]["formatted_path"])
-            for turn in turns:
-                prompt = prompt_template.format(turn.system)
-                response = llm.generate(prompt)
-                questions = llm.parse_response(response)
-                if questions is not None:
-                    turn.user_responses = questions
-                else:
-                    turn.user_responses = [response]
+                path = data_conf[dataset]["formatted_path"].format(k=fold)
+                turns = load_dataset(path)
 
-            with (open(f"data/conversational-questions/{file_name}", "w+") as out_file):
-                for turn in turns:
-                    out_file.write(json.dumps(dataclasses.asdict(turn)))
-                    out_file.write("\n")
+                for run in range(1, NUM_REPETITIONS):
+                    prompts = []
+                    for turn in turns:
+                        prompt = prompt_template.format(turn.system)
+                        prompts.append(prompt)
+
+                    responses = llm.generate_all(prompts)
+
+                    for turn, prompt, response in zip(turns, prompts, responses):
+                        questions = llm.parse_response(response)
+                        if questions is not None:
+                            turn.user_responses = questions
+                        else:
+                            turn.user_responses = []
+
+                    file_name = f"corpus-{dataset.lower()}-{fold}-{llm_name}-run{run}.jsonl"
+                    with (open(f"data/conversational-questions/{file_name}", "w+") as out_file):
+                        for turn in turns:
+                            out_file.write(json.dumps(dataclasses.asdict(turn)))
+                            out_file.write("\n")
 
         del llm
 

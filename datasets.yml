@@ -1,10 +1,10 @@
 inquisitive:
   original_path: /mnt/ceph/storage/corpora/corpora-thirdparty/corpus-inquisitive/
-  formatted_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/corpus-inquisitive.jsonl
+  formatted_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/kfolds/corpus-inquisitive-{k}.jsonl
 
-nudged_questions:
+nudged-questions:
   original_path: /mnt/ceph/storage/corpora/corpora-webis/corpus-webis-nudged-questions-23
-  formatted_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/corpus-nudged-questions.jsonl
+  formatted_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/kfolds/corpus-nudged-questions-{k}.jsonl
 
 treccast:
-  formatted_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/corpus-treccast.jsonl
+  formatted_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/kfolds/corpus-treccast22-{k}.jsonl

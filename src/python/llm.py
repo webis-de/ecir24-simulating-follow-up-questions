@@ -14,7 +14,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 from logger import StdOutLogger
 
-QUESTION_PATTERN = re.compile(r'(?:(?<=^)|(?<=[.!?]))([0-9]+\\.|-|[a-zA-Z]\)|\*)?.*?\?', flags=re.MULTILINE)
+QUESTION_PATTERN = re.compile(r'(?:(?<=^)|(?<=[.!?]))([0-9]+\\.|-|[a-zA-Z]\)|\*)?[^.!?]*?\?', flags=re.MULTILINE)
 
 
 class Param(Enum):
@@ -36,9 +36,8 @@ class LLM(metaclass=abc.ABCMeta):
     def generate(self, prompt: str) -> str:
         pass
 
-    @abc.abstractmethod
     def generate_all(self, prompts: List[str]) -> List[str]:
-        pass
+        return [self.generate(x) for x in prompts]
 
     @staticmethod
     @abc.abstractmethod
@@ -92,7 +91,7 @@ class LLama2(LLM):
             top_k=10,
             num_return_sequences=1,
             eos_token_id=self.tokenizer.eos_token_id,
-            max_length=500
+            max_length=256
         )
 
         results = []
@@ -107,7 +106,7 @@ class LLama2(LLM):
 
     @staticmethod
     def parse_response(response: str):
-        questions = []
+        questions = set()
         line_split = response.split("\n")
         for line in line_split:
             line = line.strip()
@@ -115,10 +114,11 @@ class LLama2(LLM):
             for match in matches:
                 question = match.group(0).strip()
                 if len(question) > 0:
-                    questions.append(question)
+                    question = re.sub(r"^[^a-zA-Z]+", "", question)
+                    questions.add(question.strip())
 
         if len(questions) > 0:
-            return questions
+            return list(questions)
 
         return None
 

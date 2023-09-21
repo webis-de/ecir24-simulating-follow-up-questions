@@ -2,7 +2,7 @@ from llm import *
 
 DATASETS = {
     "inquisitive",
-    "nudged_questions",
+    "nudged-questions",
     "treccast"
 }
 
@@ -18,3 +18,7 @@ MODELS = {
     "GODEL": GODEL,
     "Alpaca": Alpaca
 }
+
+NUM_REPETITIONS = 10
+
+NUM_FOLDS = 3
