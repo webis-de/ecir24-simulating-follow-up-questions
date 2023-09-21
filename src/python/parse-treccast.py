@@ -25,7 +25,7 @@ with open(treccast_file_name) as treccast_file:
                         "index": t,
                         "id": turn_id,
                         "system": previous_response,
-                        "user_response": turn["utterance"]
+                        "user_responses": turn["utterance"]
                     })
                 previous_response = turn["response"]
 
@@ -38,13 +38,18 @@ with open(treccast_file_name) as treccast_file:
                         parent_turn_id = turns[target_turn_index - 2]["id"]
 
                     if not parent_turn_id in records:
+                        def make_user_response_an_array(x):
+                            x["user_responses"] = [ x["user_responses"] ] 
+                            return x
+
+                        previous_turns = [make_user_response_an_array(x.copy()) for x in turns[0:(target_turn_index - 1)]]
                         records[parent_turn_id] = {
                           "id": turn_id,
                           "conversation_id": conversation_id,
                           "information_need": information_need,
                           "system": turns[target_turn_index - 1]["system"],
                           "user_responses": [],
-                          "previous_turns": turns[0:(target_turn_index - 1)].copy()
+                          "previous_turns": previous_turns
                         }
 
                     user_response = target["user_response"].strip()
