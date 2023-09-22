@@ -1,6 +1,7 @@
 import dataclasses
 import json
 import os.path
+from datetime import datetime
 
 import click
 import dacite
@@ -62,6 +63,9 @@ def main(datasets, models, config):
     if not os.path.exists("data/conversational-questions"):
         os.makedirs("data/conversational-questions", exist_ok=True)
 
+    start_timestamp = datetime.now().isoformat()
+    log_file = open(f"data/runtime-log-{start_timestamp}.jsonl", "w")
+
     for model in models:
         llm = MODELS[model]()
 
@@ -69,10 +73,12 @@ def main(datasets, models, config):
             for fold in range(NUM_FOLDS):
                 llm_name = llm.name().split("/")[-1]
 
-                path = data_conf[dataset]["formatted_path"].format(k=fold)
+                path = data_conf[dataset]["folds_path"].format(k=fold)
                 turns = load_dataset(path)
 
-                for run in range(1, NUM_REPETITIONS):
+                for run in range(0, NUM_REPETITIONS):
+                    runtime_log = []
+                    run_start = time.time()
                     prompts = []
                     for turn in turns:
                         prompt = prompt_template.format(turn.system)
@@ -87,13 +93,22 @@ def main(datasets, models, config):
                         else:
                             turn.user_responses = []
 
+                    run_duration = time.time() - run_start
+                    runtime_log.append({"dataset": dataset.lower(), "fold": fold, "model": llm_name, "run": run,
+                                        "runtime": run_duration})
                     file_name = f"corpus-{dataset.lower()}-{fold}-{llm_name}-run{run}.jsonl"
                     with (open(f"data/conversational-questions/{file_name}", "w+") as out_file):
                         for turn in turns:
                             out_file.write(json.dumps(dataclasses.asdict(turn)))
                             out_file.write("\n")
 
+                    for log in runtime_log:
+                        log_file.write(json.dumps(log))
+                        log_file.write("\n")
+
         del llm
+
+    log_file.close()
 
 
 if __name__ == '__main__':
