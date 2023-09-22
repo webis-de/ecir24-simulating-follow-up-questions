@@ -91,7 +91,7 @@ class LLama2(LLM):
             top_k=10,
             num_return_sequences=1,
             eos_token_id=self.tokenizer.eos_token_id,
-            max_length=256
+            max_length=500
         )
 
         results = []

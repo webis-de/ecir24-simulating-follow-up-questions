@@ -77,7 +77,6 @@ def main(datasets, models, config):
                 turns = load_dataset(path)
 
                 for run in range(0, NUM_REPETITIONS):
-                    runtime_log = []
                     run_start = time.time()
                     prompts = []
                     for turn in turns:
@@ -94,17 +93,18 @@ def main(datasets, models, config):
                             turn.user_responses = []
 
                     run_duration = time.time() - run_start
-                    runtime_log.append({"dataset": dataset.lower(), "fold": fold, "model": llm_name, "run": run,
-                                        "runtime": run_duration})
+
                     file_name = f"corpus-{dataset.lower()}-{fold}-{llm_name}-run{run}.jsonl"
                     with (open(f"data/conversational-questions/{file_name}", "w+") as out_file):
                         for turn in turns:
                             out_file.write(json.dumps(dataclasses.asdict(turn)))
                             out_file.write("\n")
 
-                    for log in runtime_log:
-                        log_file.write(json.dumps(log))
-                        log_file.write("\n")
+                    log_entry = {"dataset": dataset.lower(), "fold": fold, "model": llm_name, "run": run,
+                                 "runtime": run_duration, "prompt": prompt_template}
+                    log_file.write(json.dumps(log_entry))
+                    log_file.write("\n")
+                    log_file.flush()
 
         del llm
 
