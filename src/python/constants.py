@@ -9,12 +9,12 @@ DATASETS = {
 MODELS = {
     "LLama27B": LLama27B,
     "LLama27BChat": LLama27BChat,
-    "LLama27BQUD": LLama27BQUD,
-    "LLama27BChatQUD": LLama27BChatQUD,
+    "LLama27BInquisitve": LLama27BInquisitive,
+    "LLama27BChatInquisitive": LLama27BChatInquisitive,
     "LLama213B": LLama213B,
     "LLama213BChat": LLama213BChat,
-    "LLama213BQUD": LLama213BQUD,
-    "LLama213BChatQUD": LLama213BChatQUD,
+    "LLama213BInquisitive": LLama213BInquisitive,
+    "LLama213BChatInquisitive": LLama213BChatInquisitive,
     "GODEL": GODEL,
     "Alpaca": Alpaca
 }

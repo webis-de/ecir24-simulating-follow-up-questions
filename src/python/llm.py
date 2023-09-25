@@ -1,5 +1,6 @@
 import abc
 import logging
+import os.path
 import re
 import sys
 import time
@@ -9,8 +10,9 @@ from typing import List, Optional
 import torch
 import transformers
 from chatnoir_api.chat import chat
+from peft import PeftModel
 from requests import HTTPError
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM
 
 from logger import StdOutLogger
 
@@ -24,6 +26,8 @@ class Param(Enum):
 
 
 class LLM(metaclass=abc.ABCMeta):
+    TUNED_BASE_PATH = "/mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/kfolds/models"
+
     def __init__(self):
         self.logger = logging.getLogger(self.__class__.__name__)
         self.logger.debug("Loading model " + self.__class__.__name__)
@@ -51,7 +55,7 @@ class LLM(metaclass=abc.ABCMeta):
 
 class LLama2(LLM):
 
-    def __init__(self, param: Param = Param.SEVEN_B, chat: bool = True, model_name: str = None):
+    def __init__(self, param: Param = Param.SEVEN_B, chat: bool = True, model_name: str = None, tuning: str = None):
         super().__init__()
 
         self.model_name = model_name
@@ -63,10 +67,26 @@ class LLama2(LLM):
 
             self.model_name = f"meta-llama/Llama-2-{param.value}{chat_str}-hf"
 
-        self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+        self.model = AutoModelForCausalLM.from_pretrained(
+            self.model_name,
+            torch_dtype=torch.float16,
+            device_map="auto"
+        )
+
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            self.model_name
+        )
+
+        if tuning is not None:
+            weight_dir = f"{self.model_name.split('/')[-1]}-{tuning}"
+            merged_model = PeftModel.from_pretrained(self.model, os.path.join(LLM.TUNED_BASE_PATH, weight_dir))
+            merged_model = merged_model.merge_and_unload()
+            self.model = merged_model
+
         self.pipeline = transformers.pipeline(
             "text-generation",
-            model=self.model_name,
+            model=self.model,
+            tokenizer=self.tokenizer,
             torch_dtype=torch.float16,
             device_map="auto",
         )
@@ -78,7 +98,7 @@ class LLama2(LLM):
             top_k=10,
             num_return_sequences=1,
             eos_token_id=self.tokenizer.eos_token_id,
-            max_length=500
+            max_new_tokens=150
         )
 
         for seq in sequences:
@@ -91,7 +111,7 @@ class LLama2(LLM):
             top_k=10,
             num_return_sequences=1,
             eos_token_id=self.tokenizer.eos_token_id,
-            max_length=500
+            max_new_tokens=150
         )
 
         results = []
@@ -114,6 +134,7 @@ class LLama2(LLM):
             for match in matches:
                 question = match.group(0).strip()
                 if len(question) > 0:
+                    question = re.sub(r"^Q[0-9:]+", "", question)
                     question = re.sub(r"^[^a-zA-Z]+", "", question)
                     questions.add(question.strip())
 
@@ -133,24 +154,34 @@ class LLama27BChat(LLama2):
         super().__init__(Param.SEVEN_B, True)
 
 
-class LLama27BQUD(LLama2):
+class LLama27BInquisitive(LLama2):
     def __init__(self):
-        super().__init__(model_name="nailiamirzakhmedova/Llama-2-7b-hf-inquisitive-questions")
+        super().__init__(Param.SEVEN_B, False, tuning="inquisitive")
 
 
-class LLama27BChatQUD(LLama2):
+class LLama27BChatInquisitive(LLama2):
     def __init__(self):
-        super().__init__(model_name="nailiamirzakhmedova/Llama-2-7b-chat-hf-inquisitive-questions")
+        super().__init__(Param.SEVEN_B, True, tuning="inquisitive")
 
 
-class LLama213BQUD(LLama2):
+class LLama27BNudgedQuestion(LLama2):
+    def __init__(self, folds: str):
+        super().__init__(Param.SEVEN_B, False, tuning=f"nudged-questions{folds}")
+
+
+class LLama27BChatNudgedQuestion(LLama2):
+    def __init__(self, folds: str):
+        super().__init__(Param.SEVEN_B, True, tuning=f"nudged-questions{folds}")
+
+
+class LLama213BInquisitive(LLama2):
     def __init__(self):
-        super().__init__(model_name="nailiamirzakhmedova/Llama-2-13b-hf-inquisitive-questions")
+        super().__init__(Param.THIRTEEN_B, False, tuning="inquisitive")
 
 
-class LLama213BChatQUD(LLama2):
+class LLama213BChatInquisitive(LLama2):
     def __init__(self):
-        super().__init__(model_name="nailiamirzakhmedova/Llama-2-13b-chat-hf-inquisitive-questions")
+        super().__init__(Param.THIRTEEN_B, True, tuning="inquisitive")
 
 
 class LLama213B(LLama2):

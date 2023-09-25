@@ -32,9 +32,8 @@ def load_dataset(path: str) -> List[ConversationTurn]:
                 conversation_turn = ConversationTurn(turn.id, turn.conversation_id, turn.system, [], [])
             else:
                 past_turn = conversation_turn.to_past_turn()
-                conversation_turn.id = turn.id
-                conversation_turn.conversation_id = turn.conversation_id
-                conversation_turn.system = turn.system
+                conversation_turn = ConversationTurn(turn.id, turn.conversation_id, turn.system, [],
+                                                     turn.previous_turns)
                 conversation_turn.previous_turns.append(past_turn)
 
             turns.append(conversation_turn)
@@ -64,7 +63,8 @@ def main(datasets, models, config):
         os.makedirs("data/conversational-questions", exist_ok=True)
 
     start_timestamp = datetime.now().isoformat()
-    log_file = open(f"data/runtime-log-{start_timestamp}.jsonl", "w")
+    runtime_log_file = open(f"data/runtime-log-{start_timestamp}.jsonl", "w")
+    inference_log_file = open(f"data/inference-log-{start_timestamp}.jsonl", "w")
 
     for model in models:
         llm = MODELS[model]()
@@ -77,6 +77,7 @@ def main(datasets, models, config):
                 turns = load_dataset(path)
 
                 for run in range(0, NUM_REPETITIONS):
+                    start_timestamp = datetime.now().isoformat()
                     run_start = time.time()
                     prompts = []
                     for turn in turns:
@@ -85,12 +86,28 @@ def main(datasets, models, config):
 
                     responses = llm.generate_all(prompts)
 
+                    inferences = []
+
                     for turn, prompt, response in zip(turns, prompts, responses):
                         questions = llm.parse_response(response)
+
+                        inferences.append({"id": turn.id, "prompt": prompt, "response": response, "parsed": questions})
                         if questions is not None:
                             turn.user_responses = questions
                         else:
-                            turn.user_responses = []
+                            for _ in range(5):
+                                new_response = llm.generate(prompt)
+                                new_questions = llm.parse_response(new_response)
+
+                                inferences.append(
+                                    {"id": turn.id, "prompt": prompt, "response": response, "parsed": questions})
+
+                                if new_questions is not None:
+                                    turn.user_responses = new_questions
+                                    break
+
+                            if turn.user_responses is None:
+                                turn.user_responses = []
 
                     run_duration = time.time() - run_start
 
@@ -100,15 +117,21 @@ def main(datasets, models, config):
                             out_file.write(json.dumps(dataclasses.asdict(turn)))
                             out_file.write("\n")
 
-                    log_entry = {"dataset": dataset.lower(), "fold": fold, "model": llm_name, "run": run,
+                    log_entry = {"start_time": start_timestamp, "dataset": dataset.lower(), "fold": fold,
+                                 "model": llm_name, "run": run,
                                  "runtime": run_duration, "prompt": prompt_template}
-                    log_file.write(json.dumps(log_entry))
-                    log_file.write("\n")
-                    log_file.flush()
+                    runtime_log_file.write(json.dumps(log_entry))
+                    runtime_log_file.write("\n")
+                    runtime_log_file.flush()
+
+                    for inference in inferences:
+                        inference_log_file.write(json.dumps(inference))
+                        inference_log_file.write("\n")
+                        inference_log_file.flush()
 
         del llm
 
-    log_file.close()
+    runtime_log_file.close()
 
 
 if __name__ == '__main__':

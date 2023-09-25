@@ -10,3 +10,5 @@ nltk
 sentence-transformers
 spacy
 contractions
+peft==0.4.0
+bitsandbytes==0.40.2
