@@ -7,18 +7,14 @@ DATASETS = {
 }
 
 MODELS = {
-    "LLama27B": LLama27B,
-    "LLama27BInquisitve": LLama27BInquisitive,
-    "LLama27BNudgedQuestions": LLama27BNudgedQuestion,
-    "LLama27BTreccast": LLama27BTreccast,
-    "LLama213B": LLama213B,
-    "LLama213BInquisitive": LLama213BInquisitive,
-    "LLama213BNudgedQuestions": LLama213BNudgedQuestion,
-    "LLama213BTreccast": LLama213BTreccast,
-    "LLama27BChat": LLama27BChat,
-    "LLama27BChatInquisitive": LLama27BChatInquisitive,
-    "LLama213BChat": LLama213BChat,
-    "LLama213BChatInquisitive": LLama213BChatInquisitive,
+    "Llama-2-7b-hf": LLama27B,
+    "Llama-2-7b-hf-inquisitive": LLama27BInquisitive,
+    "Llama-2-7b-hf-nudged-questions": LLama27BNudgedQuestion,
+    "Llama-2-7b-hf-treccast": LLama27BTreccast,
+    "Llama-2-13b-hf": LLama213B,
+    "Llama-2-13b-hf-inquisitive": LLama213BInquisitive,
+    "Llama-2-13b-hf-nudged-questions": LLama213BNudgedQuestion,
+    "Llama-2-13b-hf-treccast": LLama213BTreccast,
     "GODEL": GODEL,
     "Alpaca": Alpaca
 }
