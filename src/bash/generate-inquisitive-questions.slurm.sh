@@ -22,5 +22,5 @@ if [[ ! " ${AVAILABLE_CONTAINER[*]} " =~ ${CONTAINER_NAME} ]]; then
   enroot create --name ${CONTAINER_NAME} ${IMAGE_SQSH}
 fi
 
-enroot start -w -r ${CONTAINER_NAME}
+enroot start -w -r -m /mnt/ceph/storage/data-tmp/current/kipu5728/generate-inquisitive-questions/src:/app/src ${CONTAINER_NAME}
 

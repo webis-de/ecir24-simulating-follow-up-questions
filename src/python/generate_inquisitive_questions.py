@@ -71,6 +71,9 @@ def main(datasets, models, config):
 
         for dataset in datasets:
             for fold in range(NUM_FOLDS):
+                if isinstance(llm, CrossValModel):
+                    llm.set_test_fold(fold, NUM_FOLDS)
+
                 llm_name = llm.name().split("/")[-1]
 
                 path = data_conf[dataset]["folds_path"].format(k=fold)
@@ -91,7 +94,8 @@ def main(datasets, models, config):
                     for turn, prompt, response in zip(turns, prompts, responses):
                         questions = llm.parse_response(response)
 
-                        inferences.append({"id": turn.id, "prompt": prompt, "response": response, "parsed": questions})
+                        inferences.append({"id": turn.id, "model": llm_name, "prompt": prompt, "response": response,
+                                           "parsed": questions})
                         if questions is not None:
                             turn.user_responses = questions
                         else:
@@ -100,7 +104,8 @@ def main(datasets, models, config):
                                 new_questions = llm.parse_response(new_response)
 
                                 inferences.append(
-                                    {"id": turn.id, "prompt": prompt, "response": response, "parsed": questions})
+                                    {"id": turn.id, "model": llm_name, "prompt": prompt, "response": response,
+                                     "parsed": questions})
 
                                 if new_questions is not None:
                                     turn.user_responses = new_questions
@@ -111,7 +116,7 @@ def main(datasets, models, config):
 
                     run_duration = time.time() - run_start
 
-                    file_name = f"corpus-{dataset.lower()}-{fold}-{llm_name}-run{run}.jsonl"
+                    file_name = f"corpus-{dataset.lower()}-{fold}-{re.sub(r'[0-9]+$', '', llm_name)}-run{run}.jsonl"
                     with (open(f"data/conversational-questions/{file_name}", "w+") as out_file):
                         for turn in turns:
                             out_file.write(json.dumps(dataclasses.asdict(turn)))

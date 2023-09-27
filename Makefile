@@ -49,8 +49,11 @@ docker-build:
 docker-push:
 	docker push registry.webis.de/code-lib/public-images/simulation-by-question-under-discussion:latest
 
-deploy: docker-build docker-push
+build: docker-build docker-push
+
+deploy:
 	sudo cp src/bash/generate-inquisitive-questions.slurm.sh /mnt/ceph/storage/data-tmp/current/${USER}/
+	sudo cp -R src /mnt/ceph/storage/data-tmp/current/${USER}/generate-inquisitive-questions/
 	sudo cp run.yml /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/
 
 clean:

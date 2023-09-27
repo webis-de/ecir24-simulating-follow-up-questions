@@ -5,7 +5,7 @@ import re
 import sys
 import time
 from enum import Enum
-from typing import List, Optional
+from typing import List, Optional, Type
 
 import torch
 import transformers
@@ -53,6 +53,44 @@ class LLM(metaclass=abc.ABCMeta):
         pass
 
 
+class CrossValModel(LLM):
+    def __init__(self, base_model: Type[LLM], **kwargs):
+        super().__init__()
+        self.current_test_fold = None
+
+        self.base_model = base_model
+        self.model_params = kwargs
+
+        self.model_instance = None
+
+    def set_test_fold(self, fold: int, max_folds: int):
+        self.current_test_fold = fold
+
+        train_folds = list(range(max_folds))
+        train_folds.remove(self.current_test_fold)
+        train_folds = [str(x) for x in train_folds]
+        train_folds = "".join(train_folds)
+        if "tuning" in self.model_params:
+            if re.fullmatch(r"^.*[0-9]+$", self.model_params["tuning"]):
+                self.model_params["tuning"] = re.sub(r"[0-9]+$", train_folds, self.model_params["tuning"])
+            else:
+                self.model_params["tuning"] += train_folds
+
+        self.model_instance = self.base_model(**self.model_params)
+
+    def generate(self, prompt: str) -> str:
+        return self.model_instance.generate(prompt)
+
+    def generate_all(self, prompts: List[str]) -> List[str]:
+        return self.model_instance.generate_all(prompts)
+
+    def parse_response(self, response: str) -> Optional[List[str]]:
+        return self.base_model.parse_response(response)
+
+    def name(self) -> str:
+        return self.model_instance.name()
+
+
 class LLama2(LLM):
 
     def __init__(self, param: Param = Param.SEVEN_B, chat: bool = True, model_name: str = None, tuning: str = None):
@@ -70,15 +108,20 @@ class LLama2(LLM):
         self.model = AutoModelForCausalLM.from_pretrained(
             self.model_name,
             torch_dtype=torch.float16,
-            device_map="auto"
+            device_map="auto",
+            low_cpu_mem_usage=True
         )
 
         self.tokenizer = AutoTokenizer.from_pretrained(
             self.model_name
         )
 
+        self.tokenizer.pad_token = self.tokenizer.bos_token
+        self.tokenizer.padding_side = "left"
+
         if tuning is not None:
-            weight_dir = f"{self.model_name.split('/')[-1]}-{tuning}"
+            self.model_name += f"-{tuning}"
+            weight_dir = f"{self.model_name.split('/')[-1]}"
             merged_model = PeftModel.from_pretrained(self.model, os.path.join(LLM.TUNED_BASE_PATH, weight_dir))
             merged_model = merged_model.merge_and_unload()
             self.model = merged_model
@@ -104,22 +147,22 @@ class LLama2(LLM):
         for seq in sequences:
             return seq["generated_text"]
 
-    def generate_all(self, prompts: List[str]) -> List[str]:
-        response = self.pipeline(
-            prompts,
-            do_sample=True,
-            top_k=10,
-            num_return_sequences=1,
-            eos_token_id=self.tokenizer.eos_token_id,
-            max_new_tokens=150
-        )
-
-        results = []
-        for sequence in response:
-            for seq in sequence:
-                results.append(seq["generated_text"])
-
-        return results
+    # def generate_all(self, prompts: List[str]) -> List[str]:
+    #     response = self.pipeline(
+    #         prompts,
+    #         do_sample=True,
+    #         top_k=10,
+    #         num_return_sequences=1,
+    #         eos_token_id=self.tokenizer.eos_token_id,
+    #         max_new_tokens=150
+    #     )
+    #
+    #     results = []
+    #     for sequence in response:
+    #         for seq in sequence:
+    #             results.append(seq["generated_text"])
+    #
+    #     return results
 
     def name(self) -> str:
         return self.model_name
@@ -149,29 +192,24 @@ class LLama27B(LLama2):
         super().__init__(Param.SEVEN_B, False)
 
 
-class LLama27BChat(LLama2):
-    def __init__(self):
-        super().__init__(Param.SEVEN_B, True)
-
-
 class LLama27BInquisitive(LLama2):
     def __init__(self):
         super().__init__(Param.SEVEN_B, False, tuning="inquisitive")
 
 
-class LLama27BChatInquisitive(LLama2):
+class LLama27BNudgedQuestion(CrossValModel):
     def __init__(self):
-        super().__init__(Param.SEVEN_B, True, tuning="inquisitive")
+        super().__init__(LLama2, param=Param.SEVEN_B, chat=False, tuning=f"nudged-questions")
 
 
-class LLama27BNudgedQuestion(LLama2):
-    def __init__(self, folds: str):
-        super().__init__(Param.SEVEN_B, False, tuning=f"nudged-questions{folds}")
+class LLama27BTreccast(CrossValModel):
+    def __init__(self):
+        super().__init__(LLama2, param=Param.SEVEN_B, chat=False, tuning=f"treccast")
 
 
-class LLama27BChatNudgedQuestion(LLama2):
-    def __init__(self, folds: str):
-        super().__init__(Param.SEVEN_B, True, tuning=f"nudged-questions{folds}")
+class LLama213B(LLama2):
+    def __init__(self):
+        super().__init__(Param.THIRTEEN_B, False)
 
 
 class LLama213BInquisitive(LLama2):
@@ -179,14 +217,39 @@ class LLama213BInquisitive(LLama2):
         super().__init__(Param.THIRTEEN_B, False, tuning="inquisitive")
 
 
+class LLama213BNudgedQuestion(CrossValModel):
+    def __init__(self):
+        super().__init__(LLama2, param=Param.THIRTEEN_B, chat=False, tuning=f"nudged-questions")
+
+
+class LLama213BTreccast(CrossValModel):
+    def __init__(self):
+        super().__init__(LLama2, param=Param.THIRTEEN_B, chat=False, tuning=f"treccast")
+
+
+"""
+CHAT MODELS
+"""
+
+
+class LLama27BChat(LLama2):
+    def __init__(self):
+        super().__init__(Param.SEVEN_B, True)
+
+
+class LLama27BChatInquisitive(LLama2):
+    def __init__(self):
+        super().__init__(Param.SEVEN_B, True, tuning="inquisitive")
+
+
+class LLama27BChatNudgedQuestion(LLama2):
+    def __init__(self, folds: str):
+        super().__init__(Param.SEVEN_B, True, tuning=f"nudged-questions{folds}")
+
+
 class LLama213BChatInquisitive(LLama2):
     def __init__(self):
         super().__init__(Param.THIRTEEN_B, True, tuning="inquisitive")
-
-
-class LLama213B(LLama2):
-    def __init__(self):
-        super().__init__(Param.THIRTEEN_B, False)
 
 
 class LLama213BChat(LLama2):
