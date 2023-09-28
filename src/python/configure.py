@@ -90,7 +90,13 @@ def choose_models():
 def main():
     datasets = choose_datasets()
     models = choose_models()
-    data = {"datasets": datasets, "models": models}
+
+    os.system('cls' if os.name == 'nt' else 'clear')
+    choice = input("Want to simulate user types [y/N]: ")
+
+    simulate_user = "y" == choice.lower()
+
+    data = {"datasets": datasets, "models": models, "simulate_user": simulate_user}
 
     with open("run.yml", "w") as out_file:
         yaml.dump(data, out_file)

@@ -361,8 +361,16 @@ class OpenAIModel(LLM):
 
     def generate(self, prompt: str) -> str:
         import openai
-        response = openai.ChatCompletion.create(model=self.model_name, messages=[{"role": "user", "content": prompt}])
-        return response.choices[0].message.content
+        for _ in range(10):
+            try:
+                response = openai.ChatCompletion.create(model=self.model_name,
+                                                        messages=[{"role": "user", "content": prompt}])
+                return response.choices[0].message.content
+            except TimeoutError:
+                time.sleep(60)
+                continue
+
+        raise TimeoutError
 
     def name(self) -> str:
         return self.model_name
