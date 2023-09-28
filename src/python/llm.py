@@ -350,3 +350,24 @@ class Alpaca7BNudgedQuestions(CrossValModel):
 class Alpaca7BTreccast(CrossValModel):
     def __init__(self):
         super().__init__(HFModel, model_name="nailiamirzakhmedova/alpaca-7b", tuning="treccast")
+
+
+class OpenAIModel(LLM):
+    def __init__(self, model_name):
+        import openai
+        super().__init__()
+        openai.api_key = os.getenv("OPENAI_API_KEY")
+        self.model_name = model_name
+
+    def generate(self, prompt: str) -> str:
+        import openai
+        response = openai.ChatCompletion.create(model=self.model_name, messages=[{"role": "user", "content": prompt}])
+        return response.choices[0].message.content
+
+    def name(self) -> str:
+        return self.model_name
+
+
+class GPT4(OpenAIModel):
+    def __init__(self):
+        super().__init__("gpt-4")
