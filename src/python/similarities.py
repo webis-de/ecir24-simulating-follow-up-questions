@@ -1,3 +1,4 @@
+from nltk.tokenize import word_tokenize
 from nltk.translate import bleu_score
 from sentence_transformers import SentenceTransformer
 from sentence_transformers.util import cos_sim
@@ -8,7 +9,7 @@ class Bleu:
         self.smoothing = bleu_score.SmoothingFunction()
 
     def similarity(self, reference: str, hypothesis: str):
-        return bleu_score.sentence_bleu([reference.split()], hypothesis.split(),
+        return bleu_score.sentence_bleu([word_tokenize(reference)], word_tokenize(hypothesis),
                                         smoothing_function=self.smoothing.method4)
 
 

@@ -44,9 +44,23 @@ class LLM(metaclass=abc.ABCMeta):
         return [self.generate(x) for x in prompts]
 
     @staticmethod
-    @abc.abstractmethod
     def parse_response(response: str) -> Optional[List[str]]:
-        pass
+        questions = set()
+        line_split = response.split("\n")
+        for line in line_split:
+            line = line.strip()
+            matches = re.finditer(QUESTION_PATTERN, line)
+            for match in matches:
+                question = match.group(0).strip()
+                if len(question) > 0:
+                    question = re.sub(r"^Q[0-9:]+", "", question)
+                    question = re.sub(r"^[^a-zA-Z]+", "", question)
+                    questions.add(question.strip())
+
+        if len(questions) > 0:
+            return list(questions)
+
+        return None
 
     @abc.abstractmethod
     def name(self) -> str:
@@ -91,19 +105,11 @@ class CrossValModel(LLM):
         return self.model_instance.name()
 
 
-class LLama2(LLM):
+class HFModel(LLM):
 
-    def __init__(self, param: Param = Param.SEVEN_B, chat: bool = True, model_name: str = None, tuning: str = None):
+    def __init__(self, model_name, tuning=None):
         super().__init__()
-
         self.model_name = model_name
-        if self.model_name is None:
-            if chat:
-                chat_str = "-chat"
-            else:
-                chat_str = ""
-
-            self.model_name = f"meta-llama/Llama-2-{param.value}{chat_str}-hf"
 
         self.model = AutoModelForCausalLM.from_pretrained(
             self.model_name,
@@ -167,24 +173,21 @@ class LLama2(LLM):
     def name(self) -> str:
         return self.model_name
 
-    @staticmethod
-    def parse_response(response: str):
-        questions = set()
-        line_split = response.split("\n")
-        for line in line_split:
-            line = line.strip()
-            matches = re.finditer(QUESTION_PATTERN, line)
-            for match in matches:
-                question = match.group(0).strip()
-                if len(question) > 0:
-                    question = re.sub(r"^Q[0-9:]+", "", question)
-                    question = re.sub(r"^[^a-zA-Z]+", "", question)
-                    questions.add(question.strip())
 
-        if len(questions) > 0:
-            return list(questions)
+class LLama2(HFModel):
 
-        return None
+    def __init__(self, param: Param = Param.SEVEN_B, chat: bool = True, model_name: str = None, tuning: str = None):
+
+        name = model_name
+        if name is None:
+            if chat:
+                chat_str = "-chat"
+            else:
+                chat_str = ""
+
+            name = f"meta-llama/Llama-2-{param.value}{chat_str}-hf"
+
+        super().__init__(name, tuning)
 
 
 class LLama27B(LLama2):
@@ -323,12 +326,27 @@ class ChatnoirAPIModel(LLM):
 
     @staticmethod
     def parse_response(response: str) -> Optional[List[str]]:
-        return LLama2.parse_response(response)
+        return LLM.parse_response(response)
 
     def name(self) -> str:
         return self.model_name
 
 
-class Alpaca(ChatnoirAPIModel):
+class Alpaca7B(HFModel):
     def __init__(self):
-        super().__init__(ChatnoirModel.ALPACA_7B)
+        super().__init__("nailiamirzakhmedova/alpaca-7b")
+
+
+class Alpaca7BInquisitive(HFModel):
+    def __init__(self):
+        super().__init__("nailiamirzakhmedova/alpaca-7b", "inquisitive")
+
+
+class Alpaca7BNudgedQuestions(CrossValModel):
+    def __init__(self):
+        super().__init__(HFModel, model_name="nailiamirzakhmedova/alpaca-7b", tuning="nudged-questions")
+
+
+class Alpaca7BTreccast(CrossValModel):
+    def __init__(self):
+        super().__init__(HFModel, model_name="nailiamirzakhmedova/alpaca-7b", tuning="treccast")

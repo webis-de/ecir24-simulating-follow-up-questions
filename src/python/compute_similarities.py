@@ -97,10 +97,11 @@ def main():
             printed_header = True
 
         for dataset in sims["bleu"]:
-            if len(sims["bleu"][dataset]) == 0:
+            if len(sims["bleu"][dataset]) != NUM_REPETITIONS * NUM_FOLDS:
                 continue
             sims["bleu"][dataset] = sum(sims["bleu"][dataset]) / len(sims["bleu"][dataset])
             sims["sentence_bert"][dataset] = sum(sims["sentence_bert"][dataset]) / len(sims["sentence_bert"][dataset])
+
         if isinstance(sims["bleu"]["treccast"], list):
             continue
 

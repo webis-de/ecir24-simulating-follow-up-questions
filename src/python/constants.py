@@ -16,7 +16,10 @@ MODELS = {
     "Llama-2-13b-hf-nudged-questions": LLama213BNudgedQuestion,
     "Llama-2-13b-hf-treccast": LLama213BTreccast,
     "GODEL": GODEL,
-    "Alpaca": Alpaca
+    "alpaca-7b": Alpaca7B,
+    "alpaca-7b-inquisitive": Alpaca7BInquisitive,
+    "alpaca-7b-nudged-questions": Alpaca7BNudgedQuestions,
+    "alpaca-7b-treccast": Alpaca7BTreccast
 }
 
 NUM_REPETITIONS = 10

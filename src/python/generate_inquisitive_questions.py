@@ -44,8 +44,8 @@ def load_dataset(path: str) -> List[ConversationTurn]:
 @click.command()
 @click.option("-d", "--dataset", "datasets", multiple=True, default=["nudged-questions", "treccast"],
               type=click.Choice(DATASETS), required=True)
-@click.option("-m", "--model", "models", multiple=True, default=["LLama27BChat"], type=click.Choice(MODELS.keys()),
-              required=True)
+@click.option("-m", "--model", "models", multiple=True, default=None, type=click.Choice(MODELS.keys()),
+              required=False)
 @click.option("-c", "--config", type=click.Path(exists=True, dir_okay=False), required=False, default=None)
 def main(datasets, models, config):
     logging.basicConfig(level=logging.DEBUG,
@@ -92,7 +92,7 @@ def main(datasets, models, config):
                     inferences = []
 
                     for turn, prompt, response in zip(turns, prompts, responses):
-                        questions = llm.parse_response(response)
+                        questions = LLM.parse_response(response)
 
                         inferences.append({"id": turn.id, "model": llm_name, "prompt": prompt, "response": response,
                                            "parsed": questions})
