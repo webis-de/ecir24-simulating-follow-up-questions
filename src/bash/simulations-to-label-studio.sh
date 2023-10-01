@@ -13,12 +13,15 @@ get_for_original() {
   cat $data_file \
     | jq -c '. as $context
         | .previous_turns
-        | reverse
-        | map(. | "User " + (.index|tostring) + ": " + .user_responses[0] + "\n\nSystem " + (.index|tostring) + ": " + .system + "\n\n")
+        | map(. |
+            "System " + (.index|tostring) + ": " + .system + "\n\n"
+            + "User " + (.index|tostring) + ": " + .user_responses[0] + "\n\n"
+          )
         | join("")
         | {
             "id": $context.id,
-            "history": ("System " + ($context.previous_turns|length+1|tostring) + ": " + $context.system + "\n\n" + . + "User 0: " + $context.information_need + "\n\n"),
+            "history": ("User 0: " + $context.information_need + "\n\n" + .),
+            "system": $context.system,
             "user_response": $context.user_responses[0]
           }'
 }
@@ -67,25 +70,27 @@ done \
   | shuf \
   | python3 -c '
 import json, sys
-turns = {}
+data = {}
 counts = {}
 for line in sys.stdin:
     record = json.loads(line)
     turn_id = record["id"]
-    if turn_id not in turns:
-        turns[turn_id] = {}
+    if turn_id not in data:
+        data[turn_id] = {"id":turn_id}
         counts[turn_id] = 0
     number = str(counts[turn_id])
     counts[turn_id] += 1
-    turns[turn_id]["user_response_" + number] = record["user_response"]
+    data[turn_id]["user_response_" + number] = record["user_response"]
     if "history" in record:
-      turns[turn_id]["history"] = record["history"]
-      turns[turn_id]["user_response_" + number + "_type"] = "original"
+      data[turn_id]["history"] = record["history"]
+      data[turn_id]["system"] = record["system"]
+      data[turn_id]["user_response_" + number + "_type"] = "original"
     else:
-      turns[turn_id]["user_response_" + number + "_type"] = record["base_model"]+"_"+record["tuning"]+"_"+record["user_experience"]+"_"+record["user_direction"]
-for turn_id in turns:
-  print(json.dumps({"id":turn_id, "data":turns[turn_id]}))
+      data[turn_id]["user_response_" + number + "_type"] = record["base_model"]+"_"+record["tuning"]+"_"+record["user_experience"]+"_"+record["user_direction"]
+for turn_id in data:
+  print(json.dumps({"id":turn_id, "data":data[turn_id]}))
 ' \
+  | sort \
   | jq -s '.'
 
 
