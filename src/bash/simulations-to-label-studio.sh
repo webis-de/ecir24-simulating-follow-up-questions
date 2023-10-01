@@ -64,20 +64,25 @@ for test_data in treccast nudged-questions;do
     done
   done
 done \
-  | sort \
+  | shuf \
   | python3 -c '
 import json, sys
 turns = {}
+counts = {}
 for line in sys.stdin:
     record = json.loads(line)
     turn_id = record["id"]
     if turn_id not in turns:
         turns[turn_id] = {}
+        counts[turn_id] = 0
+    number = str(counts[turn_id])
+    counts[turn_id] += 1
+    turns[turn_id]["user_response_" + number] = record["user_response"]
     if "history" in record:
       turns[turn_id]["history"] = record["history"]
-      turns[turn_id]["original"] = record["user_response"]
+      turns[turn_id]["user_response_" + number + "_type"] = "original"
     else:
-      turns[turn_id][record["base_model"]+"_"+record["tuning"]+"_"+record["user_experience"]+"_"+record["user_direction"]] = record["user_response"]
+      turns[turn_id]["user_response_" + number + "_type"] = record["base_model"]+"_"+record["tuning"]+"_"+record["user_experience"]+"_"+record["user_direction"]
 for turn_id in turns:
   print(json.dumps({"id":turn_id, "data":turns[turn_id]}))
 ' \
