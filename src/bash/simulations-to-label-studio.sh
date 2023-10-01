@@ -20,6 +20,7 @@ get_for_original() {
         | join("")
         | {
             "id": $context.id,
+            "dataset": "'"$test_data"'",
             "history": ("User 0: " + $context.information_need + "\n\n" + .),
             "system": $context.system,
             "user_response": $context.user_responses[0]
@@ -84,9 +85,14 @@ for line in sys.stdin:
     if "history" in record:
       data[turn_id]["history"] = record["history"]
       data[turn_id]["system"] = record["system"]
+      data[turn_id]["dataset"] = record["dataset"]
       data[turn_id]["user_response_" + number + "_type"] = "original"
     else:
-      data[turn_id]["user_response_" + number + "_type"] = record["base_model"]+"_"+record["tuning"]+"_"+record["user_experience"]+"_"+record["user_direction"]
+      data[turn_id]["user_response_" + number + "_type"] = "generated"
+      data[turn_id]["user_response_" + number + "_base_model"] = record["base_model"]
+      data[turn_id]["user_response_" + number + "_tuning"] = record["tuning"]
+      data[turn_id]["user_response_" + number + "_user_experience"] = record["user_experience"]
+      data[turn_id]["user_response_" + number + "_user_direction"] = record["user_direction"]
 for turn_id in data:
   print(json.dumps({"id":turn_id, "data":data[turn_id]}))
 ' \

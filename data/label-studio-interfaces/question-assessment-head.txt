@@ -1,0 +1,35 @@
+<View>
+  <Style>
+    .htx-text{
+      white-space: pre-wrap;
+    }
+    h4 {
+      font-weight: normal !important;
+      font-size: revert !important;
+    }
+    .unit {
+      margin-bottom: 50px;
+      border-top: 1px solid;
+    }
+    .unit .lsf-richtext {
+      font-weight: bold;
+    }
+    .slider {
+      display: flex;
+      column-gap: 10px;
+    }
+    .slider h4 {
+      width: 8em;
+    }
+    .slider h4:first-child {
+      text-align: right;
+    }
+  </Style>
+ 
+  <Collapse>
+  <Panel>
+  <View>
+  <Text name="history" value="$history"/>
+  </View>
+  </Panel>
+  </Collapse>
