@@ -17,4 +17,5 @@
 <Number name="direction{{NUM}}" toName="user-response{{NUM}}" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments{{NUM}}" toName="user-response{{NUM}}" placeholder="comments" />
 </View>

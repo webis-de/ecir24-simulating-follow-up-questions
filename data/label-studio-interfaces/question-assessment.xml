@@ -52,6 +52,7 @@
 <Number name="direction0" toName="user-response0" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments0" toName="user-response0" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="1. $system"/>
@@ -72,6 +73,7 @@
 <Number name="direction1" toName="user-response1" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments1" toName="user-response1" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="2. $system"/>
@@ -92,6 +94,7 @@
 <Number name="direction2" toName="user-response2" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments2" toName="user-response2" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="3. $system"/>
@@ -112,6 +115,7 @@
 <Number name="direction3" toName="user-response3" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments3" toName="user-response3" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="4. $system"/>
@@ -132,6 +136,7 @@
 <Number name="direction4" toName="user-response4" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments4" toName="user-response4" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="5. $system"/>
@@ -152,6 +157,7 @@
 <Number name="direction5" toName="user-response5" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments5" toName="user-response5" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="6. $system"/>
@@ -172,6 +178,7 @@
 <Number name="direction6" toName="user-response6" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments6" toName="user-response6" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="7. $system"/>
@@ -192,6 +199,7 @@
 <Number name="direction7" toName="user-response7" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments7" toName="user-response7" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="8. $system"/>
@@ -212,6 +220,7 @@
 <Number name="direction8" toName="user-response8" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments8" toName="user-response8" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="9. $system"/>
@@ -232,6 +241,7 @@
 <Number name="direction9" toName="user-response9" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments9" toName="user-response9" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="10. $system"/>
@@ -252,6 +262,7 @@
 <Number name="direction10" toName="user-response10" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments10" toName="user-response10" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="11. $system"/>
@@ -272,6 +283,7 @@
 <Number name="direction11" toName="user-response11" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments11" toName="user-response11" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="12. $system"/>
@@ -292,6 +304,7 @@
 <Number name="direction12" toName="user-response12" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments12" toName="user-response12" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="13. $system"/>
@@ -312,6 +325,7 @@
 <Number name="direction13" toName="user-response13" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments13" toName="user-response13" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="14. $system"/>
@@ -332,6 +346,7 @@
 <Number name="direction14" toName="user-response14" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments14" toName="user-response14" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="15. $system"/>
@@ -352,6 +367,7 @@
 <Number name="direction15" toName="user-response15" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments15" toName="user-response15" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="16. $system"/>
@@ -372,6 +388,7 @@
 <Number name="direction16" toName="user-response16" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments16" toName="user-response16" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="17. $system"/>
@@ -392,6 +409,7 @@
 <Number name="direction17" toName="user-response17" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments17" toName="user-response17" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="18. $system"/>
@@ -412,6 +430,7 @@
 <Number name="direction18" toName="user-response18" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments18" toName="user-response18" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="19. $system"/>
@@ -432,6 +451,7 @@
 <Number name="direction19" toName="user-response19" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments19" toName="user-response19" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="20. $system"/>
@@ -452,6 +472,7 @@
 <Number name="direction20" toName="user-response20" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments20" toName="user-response20" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="21. $system"/>
@@ -472,6 +493,7 @@
 <Number name="direction21" toName="user-response21" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments21" toName="user-response21" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="22. $system"/>
@@ -492,6 +514,7 @@
 <Number name="direction22" toName="user-response22" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments22" toName="user-response22" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="23. $system"/>
@@ -512,6 +535,7 @@
 <Number name="direction23" toName="user-response23" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments23" toName="user-response23" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="24. $system"/>
@@ -532,6 +556,7 @@
 <Number name="direction24" toName="user-response24" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments24" toName="user-response24" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="25. $system"/>
@@ -552,6 +577,7 @@
 <Number name="direction25" toName="user-response25" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments25" toName="user-response25" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="26. $system"/>
@@ -572,6 +598,7 @@
 <Number name="direction26" toName="user-response26" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments26" toName="user-response26" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="27. $system"/>
@@ -592,6 +619,7 @@
 <Number name="direction27" toName="user-response27" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments27" toName="user-response27" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="28. $system"/>
@@ -612,6 +640,7 @@
 <Number name="direction28" toName="user-response28" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments28" toName="user-response28" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="29. $system"/>
@@ -632,6 +661,7 @@
 <Number name="direction29" toName="user-response29" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments29" toName="user-response29" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="30. $system"/>
@@ -652,6 +682,7 @@
 <Number name="direction30" toName="user-response30" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments30" toName="user-response30" placeholder="comments" />
 </View>
 <View className="unit">
 <Header value="31. $system"/>
@@ -672,5 +703,6 @@
 <Number name="direction31" toName="user-response31" min="-1" max="1" slider="true"/>
 <Header value="implications"/>
 </View>
+<TextArea name="comments31" toName="user-response31" placeholder="comments" />
 </View>
 </View>
