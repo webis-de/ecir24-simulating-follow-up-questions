@@ -59,12 +59,14 @@ for test_data in treccast nudged-questions;do
     for tuning in "" inquisitive treccast nudged-questions;do
       get_for_simulation $test_data $base_model $tuning "" ""
     done
+    get_for_simulation $test_data gpt-4 "" "" ""
   done
   for user_experience in naive savvy;do
     for user_direction in reasons implications;do
       get_for_simulation $test_data alpaca-7b "" $user_experience $user_direction
       get_for_simulation $test_data Llama-2-13b-hf "" $user_experience $user_direction
       get_for_simulation $test_data Llama-2-13b-hf inquisitive $user_experience $user_direction
+      get_for_simulation $test_data gpt-4 "" $user_experience $user_direction
     done
   done
 done \

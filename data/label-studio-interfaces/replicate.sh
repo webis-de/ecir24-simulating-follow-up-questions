@@ -1,6 +1,6 @@
 #!/bin/bash
 
-max=24
+max=31
 
 cat question-assessment-head.txt > question-assessment.xml
 for num in $(seq 0 $max);do
