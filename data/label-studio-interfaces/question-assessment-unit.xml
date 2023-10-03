@@ -1,7 +1,7 @@
 <View className="unit">
 <Header value="{{NUM}}. $system"/>
 <Text name="user-response{{NUM}}" value="$user_response_{{NUM}}"/>
-<Choices name="ratings{{NUM}}" toName="user-response{{NUM}}" choice="multiple" showInline="true" required="true">
+<Choices name="ratings{{NUM}}" toName="user-response{{NUM}}" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>

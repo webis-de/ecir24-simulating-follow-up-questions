@@ -36,7 +36,7 @@
 <View className="unit">
 <Header value="0. $system"/>
 <Text name="user-response0" value="$user_response_0"/>
-<Choices name="ratings0" toName="user-response0" choice="multiple" showInline="true" required="true">
+<Choices name="ratings0" toName="user-response0" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -57,7 +57,7 @@
 <View className="unit">
 <Header value="1. $system"/>
 <Text name="user-response1" value="$user_response_1"/>
-<Choices name="ratings1" toName="user-response1" choice="multiple" showInline="true" required="true">
+<Choices name="ratings1" toName="user-response1" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -78,7 +78,7 @@
 <View className="unit">
 <Header value="2. $system"/>
 <Text name="user-response2" value="$user_response_2"/>
-<Choices name="ratings2" toName="user-response2" choice="multiple" showInline="true" required="true">
+<Choices name="ratings2" toName="user-response2" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -99,7 +99,7 @@
 <View className="unit">
 <Header value="3. $system"/>
 <Text name="user-response3" value="$user_response_3"/>
-<Choices name="ratings3" toName="user-response3" choice="multiple" showInline="true" required="true">
+<Choices name="ratings3" toName="user-response3" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -120,7 +120,7 @@
 <View className="unit">
 <Header value="4. $system"/>
 <Text name="user-response4" value="$user_response_4"/>
-<Choices name="ratings4" toName="user-response4" choice="multiple" showInline="true" required="true">
+<Choices name="ratings4" toName="user-response4" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -141,7 +141,7 @@
 <View className="unit">
 <Header value="5. $system"/>
 <Text name="user-response5" value="$user_response_5"/>
-<Choices name="ratings5" toName="user-response5" choice="multiple" showInline="true" required="true">
+<Choices name="ratings5" toName="user-response5" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -162,7 +162,7 @@
 <View className="unit">
 <Header value="6. $system"/>
 <Text name="user-response6" value="$user_response_6"/>
-<Choices name="ratings6" toName="user-response6" choice="multiple" showInline="true" required="true">
+<Choices name="ratings6" toName="user-response6" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -183,7 +183,7 @@
 <View className="unit">
 <Header value="7. $system"/>
 <Text name="user-response7" value="$user_response_7"/>
-<Choices name="ratings7" toName="user-response7" choice="multiple" showInline="true" required="true">
+<Choices name="ratings7" toName="user-response7" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -204,7 +204,7 @@
 <View className="unit">
 <Header value="8. $system"/>
 <Text name="user-response8" value="$user_response_8"/>
-<Choices name="ratings8" toName="user-response8" choice="multiple" showInline="true" required="true">
+<Choices name="ratings8" toName="user-response8" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -225,7 +225,7 @@
 <View className="unit">
 <Header value="9. $system"/>
 <Text name="user-response9" value="$user_response_9"/>
-<Choices name="ratings9" toName="user-response9" choice="multiple" showInline="true" required="true">
+<Choices name="ratings9" toName="user-response9" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -246,7 +246,7 @@
 <View className="unit">
 <Header value="10. $system"/>
 <Text name="user-response10" value="$user_response_10"/>
-<Choices name="ratings10" toName="user-response10" choice="multiple" showInline="true" required="true">
+<Choices name="ratings10" toName="user-response10" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -267,7 +267,7 @@
 <View className="unit">
 <Header value="11. $system"/>
 <Text name="user-response11" value="$user_response_11"/>
-<Choices name="ratings11" toName="user-response11" choice="multiple" showInline="true" required="true">
+<Choices name="ratings11" toName="user-response11" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -288,7 +288,7 @@
 <View className="unit">
 <Header value="12. $system"/>
 <Text name="user-response12" value="$user_response_12"/>
-<Choices name="ratings12" toName="user-response12" choice="multiple" showInline="true" required="true">
+<Choices name="ratings12" toName="user-response12" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -309,7 +309,7 @@
 <View className="unit">
 <Header value="13. $system"/>
 <Text name="user-response13" value="$user_response_13"/>
-<Choices name="ratings13" toName="user-response13" choice="multiple" showInline="true" required="true">
+<Choices name="ratings13" toName="user-response13" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -330,7 +330,7 @@
 <View className="unit">
 <Header value="14. $system"/>
 <Text name="user-response14" value="$user_response_14"/>
-<Choices name="ratings14" toName="user-response14" choice="multiple" showInline="true" required="true">
+<Choices name="ratings14" toName="user-response14" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -351,7 +351,7 @@
 <View className="unit">
 <Header value="15. $system"/>
 <Text name="user-response15" value="$user_response_15"/>
-<Choices name="ratings15" toName="user-response15" choice="multiple" showInline="true" required="true">
+<Choices name="ratings15" toName="user-response15" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -372,7 +372,7 @@
 <View className="unit">
 <Header value="16. $system"/>
 <Text name="user-response16" value="$user_response_16"/>
-<Choices name="ratings16" toName="user-response16" choice="multiple" showInline="true" required="true">
+<Choices name="ratings16" toName="user-response16" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -393,7 +393,7 @@
 <View className="unit">
 <Header value="17. $system"/>
 <Text name="user-response17" value="$user_response_17"/>
-<Choices name="ratings17" toName="user-response17" choice="multiple" showInline="true" required="true">
+<Choices name="ratings17" toName="user-response17" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -414,7 +414,7 @@
 <View className="unit">
 <Header value="18. $system"/>
 <Text name="user-response18" value="$user_response_18"/>
-<Choices name="ratings18" toName="user-response18" choice="multiple" showInline="true" required="true">
+<Choices name="ratings18" toName="user-response18" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -435,7 +435,7 @@
 <View className="unit">
 <Header value="19. $system"/>
 <Text name="user-response19" value="$user_response_19"/>
-<Choices name="ratings19" toName="user-response19" choice="multiple" showInline="true" required="true">
+<Choices name="ratings19" toName="user-response19" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -456,7 +456,7 @@
 <View className="unit">
 <Header value="20. $system"/>
 <Text name="user-response20" value="$user_response_20"/>
-<Choices name="ratings20" toName="user-response20" choice="multiple" showInline="true" required="true">
+<Choices name="ratings20" toName="user-response20" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -477,7 +477,7 @@
 <View className="unit">
 <Header value="21. $system"/>
 <Text name="user-response21" value="$user_response_21"/>
-<Choices name="ratings21" toName="user-response21" choice="multiple" showInline="true" required="true">
+<Choices name="ratings21" toName="user-response21" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -498,7 +498,7 @@
 <View className="unit">
 <Header value="22. $system"/>
 <Text name="user-response22" value="$user_response_22"/>
-<Choices name="ratings22" toName="user-response22" choice="multiple" showInline="true" required="true">
+<Choices name="ratings22" toName="user-response22" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -519,7 +519,7 @@
 <View className="unit">
 <Header value="23. $system"/>
 <Text name="user-response23" value="$user_response_23"/>
-<Choices name="ratings23" toName="user-response23" choice="multiple" showInline="true" required="true">
+<Choices name="ratings23" toName="user-response23" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -540,7 +540,7 @@
 <View className="unit">
 <Header value="24. $system"/>
 <Text name="user-response24" value="$user_response_24"/>
-<Choices name="ratings24" toName="user-response24" choice="multiple" showInline="true" required="true">
+<Choices name="ratings24" toName="user-response24" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -561,7 +561,7 @@
 <View className="unit">
 <Header value="25. $system"/>
 <Text name="user-response25" value="$user_response_25"/>
-<Choices name="ratings25" toName="user-response25" choice="multiple" showInline="true" required="true">
+<Choices name="ratings25" toName="user-response25" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -582,7 +582,7 @@
 <View className="unit">
 <Header value="26. $system"/>
 <Text name="user-response26" value="$user_response_26"/>
-<Choices name="ratings26" toName="user-response26" choice="multiple" showInline="true" required="true">
+<Choices name="ratings26" toName="user-response26" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -603,7 +603,7 @@
 <View className="unit">
 <Header value="27. $system"/>
 <Text name="user-response27" value="$user_response_27"/>
-<Choices name="ratings27" toName="user-response27" choice="multiple" showInline="true" required="true">
+<Choices name="ratings27" toName="user-response27" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -624,7 +624,7 @@
 <View className="unit">
 <Header value="28. $system"/>
 <Text name="user-response28" value="$user_response_28"/>
-<Choices name="ratings28" toName="user-response28" choice="multiple" showInline="true" required="true">
+<Choices name="ratings28" toName="user-response28" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -645,7 +645,7 @@
 <View className="unit">
 <Header value="29. $system"/>
 <Text name="user-response29" value="$user_response_29"/>
-<Choices name="ratings29" toName="user-response29" choice="multiple" showInline="true" required="true">
+<Choices name="ratings29" toName="user-response29" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -666,7 +666,7 @@
 <View className="unit">
 <Header value="30. $system"/>
 <Text name="user-response30" value="$user_response_30"/>
-<Choices name="ratings30" toName="user-response30" choice="multiple" showInline="true" required="true">
+<Choices name="ratings30" toName="user-response30" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>
@@ -687,7 +687,7 @@
 <View className="unit">
 <Header value="31. $system"/>
 <Text name="user-response31" value="$user_response_31"/>
-<Choices name="ratings31" toName="user-response31" choice="multiple" showInline="true" required="true">
+<Choices name="ratings31" toName="user-response31" choice="multiple" showInline="true">
   <Choice value="valid (complete and comprehensible question)" alias="valid"/>
   <Choice value="related (not off-topic)" alias="related"/>
   <Choice value="generic (fits to all texts)" alias="generic"/>

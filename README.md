@@ -93,6 +93,15 @@ python src/python/parse-treccast.py \
   > data/conversational-questions/corpus-treccast22.jsonl 
 ```
 
+### Parsing Human Annotations from Label Studio
+
+```bash
+cat data/human-assessment.json.gz \
+  | gunzip \
+  | python3 src/python/parse-label-studio-human-assessment.py /dev/stdin \
+  > data/human-assessment.tsv
+```
+
 ### Compute top-k most-frequent leading bigrams
 
 ```bash
