@@ -99,6 +99,7 @@ python src/python/parse-treccast.py \
 cat data/human-assessment.json.gz \
   | gunzip \
   | python3 src/python/parse-label-studio-human-assessment.py /dev/stdin \
+  | sort -g \
   > data/human-assessment.tsv
 ```
 
