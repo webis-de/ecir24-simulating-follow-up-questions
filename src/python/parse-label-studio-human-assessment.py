@@ -15,7 +15,8 @@ with open(sys.argv[1]) as assessment_file:
                 labels[target] = []
 
             if result["from_name"] == ("ratings" + target):
-                labels[target].append(result["value"]["choices"])
+                for label in result["value"]["choices"]:
+                    labels[target].append(label)
             elif result["from_name"] == ("direction" + target):
                 if result["value"]["number"] == -1:
                     labels[target].append("reasons")
