@@ -40,6 +40,7 @@ with open(sys.argv[1]) as assessment_file:
             elif result["from_name"] == ("comments" + target):
                 comments[target] = result["value"]["text"][0]
 
+        had_gpt_none_none_none = False
         for t in range(0, 32):
             target = str(t)
             user_response = data["user_response_" + target]
@@ -87,6 +88,14 @@ with open(sys.argv[1]) as assessment_file:
             comment = ""
             if target in comments:
                 comment = comments[target]
-            sys.stdout.write(f"{dataset}\t{turn_id}\t{response_type}\t{base_model}\t{tuning}\t{user_experience}\t{user_direction}\t{user_response}\t{not_generic}\t{valid}\t{related}\t{informative}\t{naive}\t{savvy}\t{reasons}\t{informative}\t{comment}\n")
+
+            skip = False
+            if base_model == "gpt-4" and user_experience == "none":
+                if had_gpt_none_none_none:
+                    skip = True
+                else:
+                    had_gpt_none_none_none = True
+            if not skip:
+                sys.stdout.write(f"{dataset}\t{turn_id}\t{response_type}\t{base_model}\t{tuning}\t{user_experience}\t{user_direction}\t{user_response}\t{not_generic}\t{valid}\t{related}\t{informative}\t{naive}\t{savvy}\t{reasons}\t{informative}\t{comment}\n")
 
 

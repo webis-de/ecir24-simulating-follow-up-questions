@@ -10,8 +10,6 @@ nudged-questions	nudged-questions-0x11d0bc5cb2831808	generated	alpaca-7b	treccas
 nudged-questions	nudged-questions-0x11d0bc5cb2831808	generated	gpt-4	none	naive	implications	Are there considerable differences among these models regarding their build quality?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x11d0bc5cb2831808	generated	gpt-4	none	naive	reasons	Do these grills have different sizes?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x11d0bc5cb2831808	generated	gpt-4	none	none	none	Are there any other grill types apart from charcoal, gas, and pellet?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x11d0bc5cb2831808	generated	gpt-4	none	none	none	Are there any other grill types apart from charcoal, gas, and pellet?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x11d0bc5cb2831808	generated	gpt-4	none	none	none	Are there any other grill types apart from charcoal, gas, and pellet?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x11d0bc5cb2831808	generated	gpt-4	none	savvy	implications	Can you elaborate on what makes the Weber One Touch a premium choice for charcoal grills?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x11d0bc5cb2831808	generated	gpt-4	none	savvy	reasons	How does the Broil King Regal 500 stand out compared to other pellet grills or smokers?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions-0x11d0bc5cb2831808	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is a pellet grill?	1	1	1	1	0	0	0	1	
@@ -41,8 +39,6 @@ nudged-questions	nudged-questions--0x155b2baee896dcd8	generated	alpaca-7b	nudged
 nudged-questions	nudged-questions--0x155b2baee896dcd8	generated	alpaca-7b	treccast	none	none	What about the Zenith Defy 2?	1	1	1	1	0	0	0	1	asks for something beyond text
 nudged-questions	nudged-questions--0x155b2baee896dcd8	generated	gpt-4	none	naive	implications	How much does the Rolex Datejust deviate by in a year?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x155b2baee896dcd8	generated	gpt-4	none	naive	reasons	Why is craftsmanship important when buying a mechanical watch?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x155b2baee896dcd8	generated	gpt-4	none	none	none	What exactly is considered craftsmanship in mechanical watches?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x155b2baee896dcd8	generated	gpt-4	none	none	none	What exactly is considered craftsmanship in mechanical watches?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x155b2baee896dcd8	generated	gpt-4	none	none	none	What exactly is considered craftsmanship in mechanical watches?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x155b2baee896dcd8	generated	gpt-4	none	savvy	implications	How do the brand recognition of Rolex Datejust, Zenith Defy, and Citizen Caliber 0100 compare against each other?	1	0	1	0	0	0	0	0	
 nudged-questions	nudged-questions--0x155b2baee896dcd8	generated	gpt-4	none	savvy	reasons	Why does the Rolex Datejust deviate by two seconds per day?	1	1	1	1	0	0	1	1	
@@ -74,8 +70,6 @@ nudged-questions	nudged-questions--0x165b6cbd5fc7f416	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x165b6cbd5fc7f416	generated	gpt-4	none	naive	implications	What are the specific skills that could potentially be undeveloped?	1	1	0	1	0	0	0	1	
 nudged-questions	nudged-questions--0x165b6cbd5fc7f416	generated	gpt-4	none	naive	reasons	How does the unequal distribution of skills lead to the widening of the social divide?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x165b6cbd5fc7f416	generated	gpt-4	none	none	none	How does UBI affect the distribution of privileges?	1	1	1	0	0	0	0	0	
-nudged-questions	nudged-questions--0x165b6cbd5fc7f416	generated	gpt-4	none	none	none	How does UBI affect the distribution of privileges?	1	1	1	0	0	0	1	0	
-nudged-questions	nudged-questions--0x165b6cbd5fc7f416	generated	gpt-4	none	none	none	How does UBI affect the distribution of privileges?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x165b6cbd5fc7f416	generated	gpt-4	none	savvy	implications	Can you elaborate on what is meant by the "distribution of privileges" in this context, and how proponents of UBI argue it may enhance this?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x165b6cbd5fc7f416	generated	gpt-4	none	savvy	reasons	Are there potential mitigating strategies or policies to counteract this risk that UBI might widen the social divide?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x165b6cbd5fc7f416	generated	Llama-2-13b-hf	inquisitive	naive	implications	How would the UBI widen the social divide?	1	1	1	0	0	0	0	0	
@@ -105,8 +99,6 @@ nudged-questions	nudged-questions--0x1669f687530d53ac	generated	alpaca-7b	nudged
 nudged-questions	nudged-questions--0x1669f687530d53ac	generated	alpaca-7b	treccast	none	none	What were the main principles of the Bauhaus?	1	0	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x1669f687530d53ac	generated	gpt-4	none	naive	implications	How does this creation process illustrate the collaborative way of working at the Bauhaus?	1	0	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x1669f687530d53ac	generated	gpt-4	none	naive	reasons	What is the Museum of Modern Art in New York and why is the Bauhaus lamp in its collection?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x1669f687530d53ac	generated	gpt-4	none	none	none	Are there any controversies or significant stories associated with the creation of the Bauhaus lamp?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x1669f687530d53ac	generated	gpt-4	none	none	none	Are there any controversies or significant stories associated with the creation of the Bauhaus lamp?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x1669f687530d53ac	generated	gpt-4	none	none	none	Are there any controversies or significant stories associated with the creation of the Bauhaus lamp?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x1669f687530d53ac	generated	gpt-4	none	savvy	implications	Are there any modern versions or adaptations of the Bauhaus lamp?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x1669f687530d53ac	generated	gpt-4	none	savvy	reasons	What makes the design of the Bauhaus lamp stand out from other works during its time?	1	1	1	1	0	0	1	1	
@@ -138,8 +130,6 @@ nudged-questions	nudged-questions--0x1866b5ee5407eb25	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x1866b5ee5407eb25	generated	gpt-4	none	naive	implications	Why do the opponents believe that employers would have no incentive to raise wages if UBI is implemented?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x1866b5ee5407eb25	generated	gpt-4	none	naive	reasons	How would employers lose the incentive to raise wages if UBI is implemented?	1	0	1	0	0	0	1	0	
 nudged-questions	nudged-questions--0x1866b5ee5407eb25	generated	gpt-4	none	none	none	How could the implementation of UBI potentially impact the economy?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x1866b5ee5407eb25	generated	gpt-4	none	none	none	How could the implementation of UBI potentially impact the economy?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x1866b5ee5407eb25	generated	gpt-4	none	none	none	How could the implementation of UBI potentially impact the economy?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x1866b5ee5407eb25	generated	gpt-4	none	savvy	implications	How valid is the concern about the potential decrease in employment and resultant fall in revenues to fund UBI?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x1866b5ee5407eb25	generated	gpt-4	none	savvy	reasons	Have there been any experimental or real-world cases where the fears of the opponents of UBI have been realized?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x1866b5ee5407eb25	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why would employers have no incentive to raise wages?	1	1	1	0	0	0	1	0	
@@ -169,8 +159,6 @@ nudged-questions	nudged-questions-0x19033c75456323df	generated	alpaca-7b	nudged-
 nudged-questions	nudged-questions-0x19033c75456323df	generated	alpaca-7b	treccast	none	none	Does it work?	0	0	0	0	0	0	0	0	
 nudged-questions	nudged-questions-0x19033c75456323df	generated	gpt-4	none	naive	implications	Are there any drawbacks or criticisms of universal basic income?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x19033c75456323df	generated	gpt-4	none	naive	reasons	What exactly is a Universal Basic Income?	1	1	1	0	0	0	0	0	
-nudged-questions	nudged-questions-0x19033c75456323df	generated	gpt-4	none	none	none	In which countries is UBI being implemented?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x19033c75456323df	generated	gpt-4	none	none	none	In which countries is UBI being implemented?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x19033c75456323df	generated	gpt-4	none	none	none	In which countries is UBI being implemented?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x19033c75456323df	generated	gpt-4	none	savvy	implications	What response is there from non-supporters or critics of UBI, and what are their main areas of concern?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x19033c75456323df	generated	gpt-4	none	savvy	reasons	How does the government fund the Universal Basic Income?	1	1	1	1	0	0	0	1	
@@ -202,8 +190,6 @@ nudged-questions	nudged-questions--0x1d6c0d6906d3e064	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x1d6c0d6906d3e064	generated	gpt-4	none	naive	implications	Has the success of this UBI pilot program influenced policy changes in Finland or have impact on other countries?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x1d6c0d6906d3e064	generated	gpt-4	none	naive	reasons	How did this UBI scheme lead to recipients feeling more trust in other people and social institutions?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions--0x1d6c0d6906d3e064	generated	gpt-4	none	none	none	What was the government's rationale for testing the UBI for two years specifically?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x1d6c0d6906d3e064	generated	gpt-4	none	none	none	What was the government's rationale for testing the UBI for two years specifically?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x1d6c0d6906d3e064	generated	gpt-4	none	none	none	What was the government's rationale for testing the UBI for two years specifically?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x1d6c0d6906d3e064	generated	gpt-4	none	savvy	implications	Have there been comparable results from UBI pilot programs run in other countries?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x1d6c0d6906d3e064	generated	gpt-4	none	savvy	reasons	How were recipients' stress levels and trust in social institutions measured in Finland's pilot program?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions--0x1d6c0d6906d3e064	generated	Llama-2-13b-hf	inquisitive	naive	implications	How do you know they experienced less stress?	1	1	1	0	0	0	0	0	
@@ -233,8 +219,6 @@ nudged-questions	nudged-questions--0x2409e444a8657888	generated	alpaca-7b	nudged
 nudged-questions	nudged-questions--0x2409e444a8657888	generated	alpaca-7b	treccast	none	none	So what was Gropius trying to do?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x2409e444a8657888	generated	gpt-4	none	naive	implications	Why was the wall hanging by Else Mögelin selected specifically?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x2409e444a8657888	generated	gpt-4	none	naive	reasons	What is the significance of this silk wall hanging?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x2409e444a8657888	generated	gpt-4	none	none	none	Why did Gropius select a silken wall hanging from the inventory?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x2409e444a8657888	generated	gpt-4	none	none	none	Why did Gropius select a silken wall hanging from the inventory?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x2409e444a8657888	generated	gpt-4	none	none	none	Why did Gropius select a silken wall hanging from the inventory?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x2409e444a8657888	generated	gpt-4	none	savvy	implications	Can you provide more information about the student Else Mögelin?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x2409e444a8657888	generated	gpt-4	none	savvy	reasons	In what way does the wall hanging interact or interfere with the door's function?	1	1	1	1	0	0	0	1	
@@ -266,8 +250,6 @@ nudged-questions	nudged-questions--0x256706c69c5fca54	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x256706c69c5fca54	generated	gpt-4	none	naive	implications	Can larger displays be as portable as smaller ones?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions--0x256706c69c5fca54	generated	gpt-4	none	naive	reasons	What does connectivity in a smartphone mean?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x256706c69c5fca54	generated	gpt-4	none	none	none	What factors affect the battery life of a smartphone?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x256706c69c5fca54	generated	gpt-4	none	none	none	What factors affect the battery life of a smartphone?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x256706c69c5fca54	generated	gpt-4	none	none	none	What factors affect the battery life of a smartphone?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x256706c69c5fca54	generated	gpt-4	none	savvy	implications	How does the quality of a smartphone's camera influence the overall user experience?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x256706c69c5fca54	generated	gpt-4	none	savvy	reasons	Why?	0	1	0	0	0	0	0	0	
 nudged-questions	nudged-questions--0x256706c69c5fca54	generated	Llama-2-13b-hf	inquisitive	naive	implications	How is the display quality measured?	1	1	1	1	0	0	0	1	
@@ -297,8 +279,6 @@ nudged-questions	nudged-questions--0x2be40b16b729f995	generated	alpaca-7b	nudged
 nudged-questions	nudged-questions--0x2be40b16b729f995	generated	alpaca-7b	treccast	none	none	Do all of these engines have similar emissions?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x2be40b16b729f995	generated	gpt-4	none	naive	implications	What are the differences between diesel, electric, and hybrid engines?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x2be40b16b729f995	generated	gpt-4	none	naive	reasons	How does functionality factor into a car buyer's decision?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x2be40b16b729f995	generated	gpt-4	none	none	none	What are the differences between diesel, electric and hybrid engine cars?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x2be40b16b729f995	generated	gpt-4	none	none	none	What are the differences between diesel, electric and hybrid engine cars?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x2be40b16b729f995	generated	gpt-4	none	none	none	What are the differences between diesel, electric and hybrid engine cars?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x2be40b16b729f995	generated	gpt-4	none	savvy	implications	Can you provide specific examples of how the functionality of a Tesla Model 3 or Toyota Yaris may differ from that of a diesel car like the Audi S4?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x2be40b16b729f995	generated	gpt-4	none	savvy	reasons	How do cost, functionality, and aesthetics factors impact the car buyer's decision?	1	1	1	1	0	0	0	1	
@@ -330,8 +310,6 @@ nudged-questions	nudged-questions--0x34e33649043ddc49	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x34e33649043ddc49	generated	gpt-4	none	naive	implications	Where could I purchase these tents?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x34e33649043ddc49	generated	gpt-4	none	naive	reasons	How does the comfort of a tent play into the overall camping experience?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions--0x34e33649043ddc49	generated	gpt-4	none	none	none	Where can these tents be purchased?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x34e33649043ddc49	generated	gpt-4	none	none	none	Where can these tents be purchased?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x34e33649043ddc49	generated	gpt-4	none	none	none	Where can these tents be purchased?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x34e33649043ddc49	generated	gpt-4	none	savvy	implications	What specific features of the REI Wonderland 4 warrant its $500 price tag compared to other camping tents?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x34e33649043ddc49	generated	gpt-4	none	savvy	reasons	How can I determine if a camping tent's price is fair for the features it offers?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x34e33649043ddc49	generated	Llama-2-13b-hf	inquisitive	naive	implications	What are the differences between these tents?	1	1	1	1	0	0	0	1	
@@ -361,8 +339,6 @@ nudged-questions	nudged-questions-0x3f92458db4b0c416	generated	alpaca-7b	nudged-
 nudged-questions	nudged-questions-0x3f92458db4b0c416	generated	alpaca-7b	treccast	none	none	Can you trace its influence?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x3f92458db4b0c416	generated	gpt-4	none	naive	implications	What is meant by "holistic design" in the context of Bauhaus?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x3f92458db4b0c416	generated	gpt-4	none	naive	reasons	Could you explain how the office of Walter Gropius demonstrated the concept of holistic design?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x3f92458db4b0c416	generated	gpt-4	none	none	none	What does the term "holistic design" mean in the context of Bauhaus?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x3f92458db4b0c416	generated	gpt-4	none	none	none	What does the term "holistic design" mean in the context of Bauhaus?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x3f92458db4b0c416	generated	gpt-4	none	none	none	What does the term "holistic design" mean in the context of Bauhaus?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x3f92458db4b0c416	generated	gpt-4	none	savvy	implications	What was the influence of the Bauhaus school in the arts and design scene in the 1920s?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x3f92458db4b0c416	generated	gpt-4	none	savvy	reasons	How did the teachings and practices of Bauhaus influence later design movements?	1	1	1	1	0	0	0	1	asks for something beyond text
@@ -394,8 +370,6 @@ nudged-questions	nudged-questions--0x40a00ccf1f07bc38	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x40a00ccf1f07bc38	generated	gpt-4	none	naive	implications	Who is Walter Gropius?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x40a00ccf1f07bc38	generated	gpt-4	none	naive	reasons	What was the significance of having edges of five meters or 16 feet length each?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x40a00ccf1f07bc38	generated	gpt-4	none	none	none	Were there any specific reasons for choosing this type of room layout?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x40a00ccf1f07bc38	generated	gpt-4	none	none	none	Were there any specific reasons for choosing this type of room layout?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x40a00ccf1f07bc38	generated	gpt-4	none	none	none	Were there any specific reasons for choosing this type of room layout?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x40a00ccf1f07bc38	generated	gpt-4	none	savvy	implications	How much of the original room layout and size was altered by the creation of this partition wall?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x40a00ccf1f07bc38	generated	gpt-4	none	savvy	reasons	Was there any particular significance of having the office set to these specific dimensions?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x40a00ccf1f07bc38	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why did he choose this space?	1	1	1	0	0	0	1	0	
@@ -425,8 +399,6 @@ nudged-questions	nudged-questions--0x4679e6983fa97416	generated	alpaca-7b	nudged
 nudged-questions	nudged-questions--0x4679e6983fa97416	generated	alpaca-7b	treccast	none	none	What kind of buildings did they design that were important?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x4679e6983fa97416	generated	gpt-4	none	naive	implications	Why is Walter Gropius considered a pioneering master of modernist architecture?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x4679e6983fa97416	generated	gpt-4	none	naive	reasons	Why is Walter Gropius considered a pioneering master of modernist architecture?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x4679e6983fa97416	generated	gpt-4	none	none	none	Can you discuss who the other mentioned figures in modernist architecture are and what is their contribution to the field?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x4679e6983fa97416	generated	gpt-4	none	none	none	Can you discuss who the other mentioned figures in modernist architecture are and what is their contribution to the field?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x4679e6983fa97416	generated	gpt-4	none	none	none	Can you discuss who the other mentioned figures in modernist architecture are and what is their contribution to the field?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x4679e6983fa97416	generated	gpt-4	none	savvy	implications	Did Gropius collaborate or have any significant interactions with the other pioneers of modern architecture?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x4679e6983fa97416	generated	gpt-4	none	savvy	reasons	Can you provide more details about Gropius's contribution to the modernist architecture movement?	1	1	1	1	0	0	0	1	
@@ -458,8 +430,6 @@ nudged-questions	nudged-questions--0x49cef2313330e289	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x49cef2313330e289	generated	gpt-4	none	naive	implications	What is the significance of the size of a pizza stone?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x49cef2313330e289	generated	gpt-4	none	naive	reasons	How does the convenience of a pizza stone make a difference when comparing them?	1	1	0	0	0	0	0	0	
 nudged-questions	nudged-questions--0x49cef2313330e289	generated	gpt-4	none	none	none	How does the type of material affect the heat retention and distribution of the pizza stone?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x49cef2313330e289	generated	gpt-4	none	none	none	How does the type of material affect the heat retention and distribution of the pizza stone?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x49cef2313330e289	generated	gpt-4	none	none	none	How does the type of material affect the heat retention and distribution of the pizza stone?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x49cef2313330e289	generated	gpt-4	none	savvy	implications	Between cordierite and ceramic, which material is generally regarded as superior for pizza stones and why?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x49cef2313330e289	generated	gpt-4	none	savvy	reasons	Does the material of a pizza stone affect its performance and durability?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x49cef2313330e289	generated	Llama-2-13b-hf	inquisitive	naive	implications	What are the benefits of a steel pizza stone?	1	1	1	1	0	0	0	1	
@@ -489,8 +459,6 @@ nudged-questions	nudged-questions-0x4ad20fc566a8a9a0	generated	alpaca-7b	nudged-
 nudged-questions	nudged-questions-0x4ad20fc566a8a9a0	generated	alpaca-7b	treccast	none	none	So what problems do you think it causes?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x4ad20fc566a8a9a0	generated	gpt-4	none	naive	implications	If so, what has the impact been?	1	0	1	0	0	0	0	0	
 nudged-questions	nudged-questions-0x4ad20fc566a8a9a0	generated	gpt-4	none	naive	reasons	In what ways does universal basic income improve the distribution of wealth, opportunity, and privilege?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x4ad20fc566a8a9a0	generated	gpt-4	none	none	none	What is the universal basic income (UBI)?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x4ad20fc566a8a9a0	generated	gpt-4	none	none	none	What is the universal basic income (UBI)?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x4ad20fc566a8a9a0	generated	gpt-4	none	none	none	What is the universal basic income (UBI)?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x4ad20fc566a8a9a0	generated	gpt-4	none	savvy	implications	Have there been any case studies or pilots of UBI that support these claims?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x4ad20fc566a8a9a0	generated	gpt-4	none	savvy	reasons	How does a universal basic income eliminate the need to work just to survive?	1	1	1	0	0	0	0	0	
@@ -522,8 +490,6 @@ nudged-questions	nudged-questions-0x4b5a27aaa9ba6e26	generated	alpaca-7b	treccas
 nudged-questions	nudged-questions-0x4b5a27aaa9ba6e26	generated	gpt-4	none	naive	implications	Who is Benita Otte and what's her relation to Gropius?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x4b5a27aaa9ba6e26	generated	gpt-4	none	naive	reasons	Can you provide specific reasons?	1	1	0	1	0	0	0	1	
 nudged-questions	nudged-questions-0x4b5a27aaa9ba6e26	generated	gpt-4	none	none	none	Was the carpet specifically designed for this space?	1	1	1	0	0	0	0	0	
-nudged-questions	nudged-questions-0x4b5a27aaa9ba6e26	generated	gpt-4	none	none	none	Was the carpet specifically designed for this space?	1	1	1	0	0	0	0	0	
-nudged-questions	nudged-questions-0x4b5a27aaa9ba6e26	generated	gpt-4	none	none	none	Was the carpet specifically designed for this space?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions-0x4b5a27aaa9ba6e26	generated	gpt-4	none	savvy	implications	What specific characteristics does the upper light structure bring to the overall ambiance of the space?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x4b5a27aaa9ba6e26	generated	gpt-4	none	savvy	reasons	How was the cuboid used during meetings?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions-0x4b5a27aaa9ba6e26	generated	Llama-2-13b-hf	inquisitive	naive	implications	How was this cuboid imaginary?	1	0	1	1	0	0	0	1	
@@ -553,8 +519,6 @@ nudged-questions	nudged-questions-0x4c979fe0c146380c	generated	alpaca-7b	nudged-
 nudged-questions	nudged-questions-0x4c979fe0c146380c	generated	alpaca-7b	treccast	none	none	Do you have a favorite?	0	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x4c979fe0c146380c	generated	gpt-4	none	naive	implications	How does the weight of a vacuum affect its performance?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions-0x4c979fe0c146380c	generated	gpt-4	none	naive	reasons	How does the suction power differ between the Shark Navigator Lift-Away and the Kenmore Elite?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x4c979fe0c146380c	generated	gpt-4	none	none	none	Why does the Kenmore Elite weigh nearly twice as much as the Shark Navigator Lift-Away?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions-0x4c979fe0c146380c	generated	gpt-4	none	none	none	Why does the Kenmore Elite weigh nearly twice as much as the Shark Navigator Lift-Away?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions-0x4c979fe0c146380c	generated	gpt-4	none	none	none	Why does the Kenmore Elite weigh nearly twice as much as the Shark Navigator Lift-Away?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions-0x4c979fe0c146380c	generated	gpt-4	none	savvy	implications	How do the prices compare between the two models?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x4c979fe0c146380c	generated	gpt-4	none	savvy	reasons	Is the decision between a lighter and heavier vacuum mainly based on personal preference or are there some universal advantages to one over the other?	1	1	1	0	0	0	1	0	
@@ -586,8 +550,6 @@ nudged-questions	nudged-questions--0x5087186f9ddbf34b	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x5087186f9ddbf34b	generated	gpt-4	none	naive	implications	Are there plans for other UBI trials in different countries?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x5087186f9ddbf34b	generated	gpt-4	none	naive	reasons	What were UNICEF's roles or contributions in the UBI trial in India in 2014?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions--0x5087186f9ddbf34b	generated	gpt-4	none	none	none	Did the trial also record any negative impacts of implementing UBI?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x5087186f9ddbf34b	generated	gpt-4	none	none	none	Did the trial also record any negative impacts of implementing UBI?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x5087186f9ddbf34b	generated	gpt-4	none	none	none	Did the trial also record any negative impacts of implementing UBI?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x5087186f9ddbf34b	generated	gpt-4	none	savvy	implications	Were there any impacts of UBI on men and other family members?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x5087186f9ddbf34b	generated	gpt-4	none	savvy	reasons	What changes were observed in women's access to food, health care, and education?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions--0x5087186f9ddbf34b	generated	Llama-2-13b-hf	inquisitive	naive	implications	How did the women participate more?	1	0	1	0	0	0	0	0	
@@ -617,8 +579,6 @@ nudged-questions	nudged-questions--0x52a1b1b52c4c8016	generated	alpaca-7b	nudged
 nudged-questions	nudged-questions--0x52a1b1b52c4c8016	generated	alpaca-7b	treccast	none	none	what are those disadvantages?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x52a1b1b52c4c8016	generated	gpt-4	none	naive	implications	How does UBI make retraining for unemployed individuals more efficient?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x52a1b1b52c4c8016	generated	gpt-4	none	naive	reasons	How does UBI aim to fix people's financial worries?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x52a1b1b52c4c8016	generated	gpt-4	none	none	none	How does UBI aim to fix financial worries?	1	1	1	0	0	0	0	0	
-nudged-questions	nudged-questions--0x52a1b1b52c4c8016	generated	gpt-4	none	none	none	How does UBI aim to fix financial worries?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions--0x52a1b1b52c4c8016	generated	gpt-4	none	none	none	How does UBI aim to fix financial worries?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x52a1b1b52c4c8016	generated	gpt-4	none	savvy	implications	Besides UBI, what are other proposed solutions to handle disruptions in the labor market?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x52a1b1b52c4c8016	generated	gpt-4	none	savvy	reasons	Are there any research studies or data that highlight the potential effectiveness of UBI in coping with job market disruptions?	1	1	1	1	0	0	0	1	
@@ -650,8 +610,6 @@ nudged-questions	nudged-questions--0x5346d9e1868ceab2	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x5346d9e1868ceab2	generated	gpt-4	none	naive	implications	Why was the director's office not completed in time for the 1923 Bauhaus exhibition?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x5346d9e1868ceab2	generated	gpt-4	none	naive	reasons	Who is Walter Gropius?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x5346d9e1868ceab2	generated	gpt-4	none	none	none	If so, when?	1	0	0	0	0	0	0	0	to discuss
-nudged-questions	nudged-questions--0x5346d9e1868ceab2	generated	gpt-4	none	none	none	If so, when?	1	0	0	0	0	0	0	0	to discuss
-nudged-questions	nudged-questions--0x5346d9e1868ceab2	generated	gpt-4	none	none	none	If so, when?	1	0	0	0	0	0	0	0	to discuss
 nudged-questions	nudged-questions--0x5346d9e1868ceab2	generated	gpt-4	none	savvy	implications	What made Walter Gropius's spatial concepts so ground-breaking in the era of modernism?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x5346d9e1868ceab2	generated	gpt-4	none	savvy	reasons	What elements make the director's office of Walter Gropius the first holistic spatial concept of modernism?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x5346d9e1868ceab2	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why was the concept not completed in time?	1	1	1	1	0	0	1	1	
@@ -681,8 +639,6 @@ nudged-questions	nudged-questions-0x585b4d772fc5444a	generated	alpaca-7b	nudged-
 nudged-questions	nudged-questions-0x585b4d772fc5444a	generated	alpaca-7b	treccast	none	none	What do you mean by “genre price?	1	0	0	0	0	0	0	0	
 nudged-questions	nudged-questions-0x585b4d772fc5444a	generated	gpt-4	none	naive	implications	How do you compare books by genre, price, and author popularity?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x585b4d772fc5444a	generated	gpt-4	none	naive	reasons	How can I compare books by genre, price, and author popularity?	1	0	0	0	0	0	0	0	to discuss
-nudged-questions	nudged-questions-0x585b4d772fc5444a	generated	gpt-4	none	none	none	Are these the only criteria that you use for comparing books or do you have other parameters as well?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x585b4d772fc5444a	generated	gpt-4	none	none	none	Are these the only criteria that you use for comparing books or do you have other parameters as well?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x585b4d772fc5444a	generated	gpt-4	none	none	none	Are these the only criteria that you use for comparing books or do you have other parameters as well?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x585b4d772fc5444a	generated	gpt-4	none	savvy	implications	Is Delia Owens a new author or has she written any other acclaimed books?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions-0x585b4d772fc5444a	generated	gpt-4	none	savvy	reasons	When you mention comparing by genre, does the New York Times bestseller list categorize its books by genre as well?	1	1	1	0	0	0	0	0	
@@ -714,8 +670,6 @@ nudged-questions	nudged-questions--0x591397f0c91e13a5	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x591397f0c91e13a5	generated	gpt-4	none	naive	implications	What are some examples of unfair labor practices that could be challenged with UBI?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x591397f0c91e13a5	generated	gpt-4	none	naive	reasons	Why would employers be pushed to provide better pay because of UBI?	1	1	1	0	0	0	1	0	
 nudged-questions	nudged-questions--0x591397f0c91e13a5	generated	gpt-4	none	none	none	What conditions are expected to improve in the workplace as a result of UBI?	1	1	1	0	0	0	0	0	
-nudged-questions	nudged-questions--0x591397f0c91e13a5	generated	gpt-4	none	none	none	What conditions are expected to improve in the workplace as a result of UBI?	1	1	1	0	0	0	0	0	
-nudged-questions	nudged-questions--0x591397f0c91e13a5	generated	gpt-4	none	none	none	What conditions are expected to improve in the workplace as a result of UBI?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions--0x591397f0c91e13a5	generated	gpt-4	none	savvy	implications	What specific unfair labor practices are expected to be most impacted by UBI?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions--0x591397f0c91e13a5	generated	gpt-4	none	savvy	reasons	Can you provide examples of how employers would be forced to reform the workplace with the implementation of UBI?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x591397f0c91e13a5	generated	Llama-2-13b-hf	inquisitive	naive	implications	How does UBI allow people to challenge unfair labor practices?	1	1	1	1	0	0	0	1	
@@ -745,8 +699,6 @@ nudged-questions	nudged-questions-0x5fae1618ca70a8d4	generated	alpaca-7b	nudged-
 nudged-questions	nudged-questions-0x5fae1618ca70a8d4	generated	alpaca-7b	treccast	none	none	How much RAM does it have?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x5fae1618ca70a8d4	generated	gpt-4	none	naive	implications	Can you provide more details about the MSI Creator and the Razer Blade 17 laptops?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x5fae1618ca70a8d4	generated	gpt-4	none	naive	reasons	Can you explain more about the importance of the operating system in a laptop?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x5fae1618ca70a8d4	generated	gpt-4	none	none	none	Why are the screen size, operating system, and battery life considered important features of laptops?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions-0x5fae1618ca70a8d4	generated	gpt-4	none	none	none	Why are the screen size, operating system, and battery life considered important features of laptops?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions-0x5fae1618ca70a8d4	generated	gpt-4	none	none	none	Why are the screen size, operating system, and battery life considered important features of laptops?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions-0x5fae1618ca70a8d4	generated	gpt-4	none	savvy	implications	How does the performance of 12th generation Core i9 CPUs compare to the M1 chip?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x5fae1618ca70a8d4	generated	gpt-4	none	savvy	reasons	How important is screen size in the overall performance of a laptop?	1	1	1	1	0	0	0	1	
@@ -778,8 +730,6 @@ nudged-questions	nudged-questions-0x653c6fe74e6c10ed	generated	alpaca-7b	treccas
 nudged-questions	nudged-questions-0x653c6fe74e6c10ed	generated	gpt-4	none	naive	implications	What kinds of works are produced in these workshops?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x653c6fe74e6c10ed	generated	gpt-4	none	naive	reasons	What kind of teachings were offered in the Bauhaus?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x653c6fe74e6c10ed	generated	gpt-4	none	none	none	How were these items used to aid in teaching at the Bauhaus?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x653c6fe74e6c10ed	generated	gpt-4	none	none	none	How were these items used to aid in teaching at the Bauhaus?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x653c6fe74e6c10ed	generated	gpt-4	none	none	none	How were these items used to aid in teaching at the Bauhaus?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x653c6fe74e6c10ed	generated	gpt-4	none	savvy	implications	What made them special or representative of the Bauhaus style?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions-0x653c6fe74e6c10ed	generated	gpt-4	none	savvy	reasons	How do these items reflect the teachings or philosophy of the Bauhaus?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x653c6fe74e6c10ed	generated	Llama-2-13b-hf	inquisitive	naive	implications	what is a wall hanging?	1	1	1	1	0	0	0	1	
@@ -809,8 +759,6 @@ nudged-questions	nudged-questions-0x72fbe5466345cb79	generated	alpaca-7b	nudged-
 nudged-questions	nudged-questions-0x72fbe5466345cb79	generated	alpaca-7b	treccast	none	none	What is the streaming metric?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x72fbe5466345cb79	generated	gpt-4	none	naive	implications	Do these criteria vary across different genres?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x72fbe5466345cb79	generated	gpt-4	none	naive	reasons	Why is the number of weeks in the charts considered in evaluating music quality?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions-0x72fbe5466345cb79	generated	gpt-4	none	none	none	Who determines these quality criteria for music?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0x72fbe5466345cb79	generated	gpt-4	none	none	none	Who determines these quality criteria for music?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x72fbe5466345cb79	generated	gpt-4	none	none	none	Who determines these quality criteria for music?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x72fbe5466345cb79	generated	gpt-4	none	savvy	implications	What factors could influence the number of records sold, weeks in the charts, and streams for a song?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0x72fbe5466345cb79	generated	gpt-4	none	savvy	reasons	Besides "Shape of You", "Blinding Lights", and "Dance Monkey", which other songs have top stream counts?	1	1	1	1	0	0	0	1	
@@ -842,8 +790,6 @@ nudged-questions	nudged-questions--0x7702042359701a7b	generated	alpaca-7b	trecca
 nudged-questions	nudged-questions--0x7702042359701a7b	generated	gpt-4	none	naive	implications	Where is Lincoln, Massachusetts?	1	1	1	1	0	0	0	1	asks for something beyond text
 nudged-questions	nudged-questions--0x7702042359701a7b	generated	gpt-4	none	naive	reasons	Who is Gropius and why is the desk associated with him?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x7702042359701a7b	generated	gpt-4	none	none	none	Why did Gropius design his own home, and what was unique about it?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x7702042359701a7b	generated	gpt-4	none	none	none	Why did Gropius design his own home, and what was unique about it?	1	1	1	1	0	0	1	1	
-nudged-questions	nudged-questions--0x7702042359701a7b	generated	gpt-4	none	none	none	Why did Gropius design his own home, and what was unique about it?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x7702042359701a7b	generated	gpt-4	none	savvy	implications	What is meant by "it accompanied Gropius throughout his life"?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x7702042359701a7b	generated	gpt-4	none	savvy	reasons	Could you provide more context on the location of Lincoln, Massachusetts?	1	1	1	1	0	0	0	1	asks for something beyond text
 nudged-questions	nudged-questions--0x7702042359701a7b	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why did Gropius bring the original to his self-designed home in Lincoln, Massachusetts?	1	0	1	0	0	0	0	0	
@@ -873,8 +819,6 @@ nudged-questions	nudged-questions--0x7ffa73e6a1534af7	generated	alpaca-7b	nudged
 nudged-questions	nudged-questions--0x7ffa73e6a1534af7	generated	alpaca-7b	treccast	none	none	Can you explain why that would be the case?	0	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions--0x7ffa73e6a1534af7	generated	gpt-4	none	naive	implications	Why do some people believe that UBI could solve disruptions?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x7ffa73e6a1534af7	generated	gpt-4	none	naive	reasons	What problem of disruptions is being referred to here?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x7ffa73e6a1534af7	generated	gpt-4	none	none	none	Who is Daniel Kahneman and what is his background?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions--0x7ffa73e6a1534af7	generated	gpt-4	none	none	none	Who is Daniel Kahneman and what is his background?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x7ffa73e6a1534af7	generated	gpt-4	none	none	none	Who is Daniel Kahneman and what is his background?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x7ffa73e6a1534af7	generated	gpt-4	none	savvy	implications	How might UBI implementation vary with respect to different economies and regions, according to the arguments presented by these opponents?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions--0x7ffa73e6a1534af7	generated	gpt-4	none	savvy	reasons	Why do they believe that UBI will not solve these disruptions?	1	1	1	1	0	0	1	1	
@@ -906,8 +850,6 @@ nudged-questions	nudged-questions-0xc4b514b1accbef2	generated	alpaca-7b	treccast
 nudged-questions	nudged-questions-0xc4b514b1accbef2	generated	gpt-4	none	naive	implications	Why do politicians think the costs of UBI are unaffordable for their governments?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions-0xc4b514b1accbef2	generated	gpt-4	none	naive	reasons	How can the UBI potentially save the government money?	1	1	1	0	0	0	0	0	
 nudged-questions	nudged-questions-0xc4b514b1accbef2	generated	gpt-4	none	none	none	What does UBI stand for?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0xc4b514b1accbef2	generated	gpt-4	none	none	none	What does UBI stand for?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0xc4b514b1accbef2	generated	gpt-4	none	none	none	What does UBI stand for?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0xc4b514b1accbef2	generated	gpt-4	none	savvy	implications	How does the UBI reduce bureaucracy and how does that lead to cost savings?	1	1	0	0	0	0	0	0	
 nudged-questions	nudged-questions-0xc4b514b1accbef2	generated	gpt-4	none	savvy	reasons	How would the elimination of these agencies affect those who are currently employed in them?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0xc4b514b1accbef2	generated	Llama-2-13b-hf	inquisitive	naive	implications	How would the government save money by reducing bureaucracy?	1	1	1	1	0	0	0	1	
@@ -937,8 +879,6 @@ nudged-questions	nudged-questions-0xec3547135617766	generated	alpaca-7b	nudged-q
 nudged-questions	nudged-questions-0xec3547135617766	generated	alpaca-7b	treccast	none	none	How do I know which are the originals?	1	0	1	1	0	0	0	1	asks for something beyond text
 nudged-questions	nudged-questions-0xec3547135617766	generated	gpt-4	none	naive	implications	What contributions did Wilhelm Wagenfeld make to industrial design?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0xec3547135617766	generated	gpt-4	none	naive	reasons	What contributions did Wagenfeld make to the industrial design industry?	1	1	1	1	0	0	0	1	
-nudged-questions	nudged-questions-0xec3547135617766	generated	gpt-4	none	none	none	What makes him an important figure in German product design?	1	1	1	0	0	0	0	0	
-nudged-questions	nudged-questions-0xec3547135617766	generated	gpt-4	none	none	none	What makes him an important figure in German product design?	1	1	1	0	0	0	1	0	
 nudged-questions	nudged-questions-0xec3547135617766	generated	gpt-4	none	none	none	What makes him an important figure in German product design?	1	1	1	1	0	0	1	1	
 nudged-questions	nudged-questions-0xec3547135617766	generated	gpt-4	none	savvy	implications	How did Wagenfeld's designs evolve throughout his career?	1	1	1	1	0	0	0	1	
 nudged-questions	nudged-questions-0xec3547135617766	generated	gpt-4	none	savvy	reasons	What key contributions did Wilhelm Wagenfeld make to the field of product design?	1	1	1	1	0	0	0	1	
@@ -970,8 +910,6 @@ treccast	cast-132-1-3	generated	alpaca-7b	treccast	none	none	What’s the differ
 treccast	cast-132-1-3	generated	gpt-4	none	naive	implications	How long do the changes in temperature, rainfall, snow, or wind patterns last to be considered as "climate change"?	1	1	1	0	0	0	0	0	
 treccast	cast-132-1-3	generated	gpt-4	none	naive	reasons	What are the specific plans of countries in tackling climate change mentioned in the COP26 event?	1	1	1	1	0	0	0	1	
 treccast	cast-132-1-3	generated	gpt-4	none	none	none	According to the text, how long does the impact of "climate change" last?	1	1	1	0	0	0	0	0	
-treccast	cast-132-1-3	generated	gpt-4	none	none	none	According to the text, how long does the impact of "climate change" last?	1	1	1	0	0	0	0	0	
-treccast	cast-132-1-3	generated	gpt-4	none	none	none	According to the text, how long does the impact of "climate change" last?	1	1	1	0	0	0	0	0	
 treccast	cast-132-1-3	generated	gpt-4	none	savvy	implications	What are the other changes, besides rising temperatures, that the term "climate change" encompasses?	1	1	1	0	0	0	0	0	
 treccast	cast-132-1-3	generated	gpt-4	none	savvy	reasons	How have these major changes impacted nations globally so far and what potential impacts can be expected in the future?	1	1	1	1	0	0	0	1	
 treccast	cast-132-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	What are the other changes in addition to rising temperatures?	1	1	1	0	0	0	0	0	
@@ -1001,8 +939,6 @@ treccast	cast-132-1-5	generated	alpaca-7b	nudged-questions	none	none	What are th
 treccast	cast-132-1-5	generated	alpaca-7b	treccast	none	none	What are the main impacts on the developing world?	1	1	1	1	0	0	0	1	
 treccast	cast-132-1-5	generated	gpt-4	none	naive	implications	How does climate change contribute to rising sea levels and growing deserts?	1	1	1	1	0	0	0	1	
 treccast	cast-132-1-5	generated	gpt-4	none	naive	reasons	What kind of problems can rising seas, growing deserts, and more frequent droughts cause?	1	1	1	1	0	0	0	1	
-treccast	cast-132-1-5	generated	gpt-4	none	none	none	Are there specific regions or countries in the developing world that are predicted to be particularly impacted?	1	1	1	1	0	0	0	1	
-treccast	cast-132-1-5	generated	gpt-4	none	none	none	Are there specific regions or countries in the developing world that are predicted to be particularly impacted?	1	1	1	1	0	0	0	1	
 treccast	cast-132-1-5	generated	gpt-4	none	none	none	Are there specific regions or countries in the developing world that are predicted to be particularly impacted?	1	1	1	1	0	0	0	1	
 treccast	cast-132-1-5	generated	gpt-4	none	savvy	implications	Does the report discuss potential outcomes if these future problems are not addressed?	1	1	1	1	0	0	0	1	
 treccast	cast-132-1-5	generated	gpt-4	none	savvy	reasons	Does the study propose any measures to curb the growth of deserts and reduce the frequency of droughts caused by climate change?	1	1	1	1	0	0	0	1	
@@ -1034,8 +970,6 @@ treccast	cast-132-1-7	generated	alpaca-7b	treccast	none	none	Is there anything w
 treccast	cast-132-1-7	generated	gpt-4	none	naive	implications	What are the implications of melting ice caps, ice sheets, and glaciers on human populations?	1	1	1	1	0	0	0	1	
 treccast	cast-132-1-7	generated	gpt-4	none	naive	reasons	What causes ice caps, ice sheets and glaciers to melt?	1	1	1	0	0	0	1	0	
 treccast	cast-132-1-7	generated	gpt-4	none	none	none	Are there any potential solutions or preventative measures that could be implemented to minimize these effects of climate change on human health?	1	1	1	1	0	0	0	1	
-treccast	cast-132-1-7	generated	gpt-4	none	none	none	Are there any potential solutions or preventative measures that could be implemented to minimize these effects of climate change on human health?	1	1	1	1	0	0	0	1	
-treccast	cast-132-1-7	generated	gpt-4	none	none	none	Are there any potential solutions or preventative measures that could be implemented to minimize these effects of climate change on human health?	1	1	1	1	0	0	0	1	
 treccast	cast-132-1-7	generated	gpt-4	none	savvy	implications	How does water pollution tie into the effects of climate change, and could you detail the "more problems" it could lead to?	1	1	1	1	0	0	1	1	
 treccast	cast-132-1-7	generated	gpt-4	none	savvy	reasons	What is the connection between burning fossil fuels and climate change?	1	1	0	1	0	0	0	1	
 treccast	cast-132-1-7	generated	Llama-2-13b-hf	inquisitive	naive	implications	How does water pollution lead to other problems?	1	1	1	1	0	0	0	1	
@@ -1065,8 +999,6 @@ treccast	cast-132-2-11	generated	alpaca-7b	nudged-questions	none	none	Who was th
 treccast	cast-132-2-11	generated	alpaca-7b	treccast	none	none	How much has the US contributed?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-11	generated	gpt-4	none	naive	implications	What does it mean that 186 have become party to it?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-11	generated	gpt-4	none	naive	reasons	What is the main purpose of the Paris Agreement?	1	1	1	0	0	0	0	0	
-treccast	cast-132-2-11	generated	gpt-4	none	none	none	What does it mean for a country to withdraw from the agreement?	1	1	1	1	0	0	0	1	
-treccast	cast-132-2-11	generated	gpt-4	none	none	none	What does it mean for a country to withdraw from the agreement?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-11	generated	gpt-4	none	none	none	What does it mean for a country to withdraw from the agreement?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-11	generated	gpt-4	none	savvy	implications	What are the implications or potential penalties for a country withdrawing from the agreement, as in the case of the United States under President Donald Trump?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-11	generated	gpt-4	none	savvy	reasons	What motivated the creation of the Paris Agreement, and what specific issues about climate change does it intend to address?	1	1	1	1	0	0	1	1	
@@ -1098,8 +1030,6 @@ treccast	cast-132-2-13	generated	alpaca-7b	treccast	none	none	What happened with
 treccast	cast-132-2-13	generated	gpt-4	none	naive	implications	When and where was the first conference (COP1) held?	1	1	1	0	0	0	0	0	
 treccast	cast-132-2-13	generated	gpt-4	none	naive	reasons	What is the Kyoto Protocol and what is its role in dealing with climate change?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-13	generated	gpt-4	none	none	none	What does UNFCCC stand for and what is its main function?	1	1	1	1	0	0	0	1	
-treccast	cast-132-2-13	generated	gpt-4	none	none	none	What does UNFCCC stand for and what is its main function?	1	1	1	1	0	0	0	1	
-treccast	cast-132-2-13	generated	gpt-4	none	none	none	What does UNFCCC stand for and what is its main function?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-13	generated	gpt-4	none	savvy	implications	Considering the first conference was held in 1995, why did it take until the mid-1990s to begin the Kyoto Protocol negotiations?	1	1	1	1	0	0	1	1	
 treccast	cast-132-2-13	generated	gpt-4	none	savvy	reasons	How does the UNFCCC Party assess progress in dealing with climate change?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-13	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the UNFCCC?	1	1	1	1	0	0	0	1	
@@ -1130,8 +1060,6 @@ treccast	cast-132-2-3	generated	alpaca-7b	treccast	none	none	How is this differe
 treccast	cast-132-2-3	generated	gpt-4	none	naive	implications	How are rich countries supposed to support these developing nations?	1	1	1	0	0	0	0	0	
 treccast	cast-132-2-3	generated	gpt-4	none	naive	reasons	What is the rationale behind the stance that industrialized nations have historically emitted more greenhouse gas emissions?	1	1	1	1	0	0	1	1	
 treccast	cast-132-2-3	generated	gpt-4	none	none	none	Can you give specific examples of how industrialized nations have emitted more greenhouse gases?	1	1	1	1	0	0	1	1	
-treccast	cast-132-2-3	generated	gpt-4	none	none	none	Can you give specific examples of how industrialized nations have emitted more greenhouse gases?	1	1	1	1	0	0	1	1	
-treccast	cast-132-2-3	generated	gpt-4	none	none	none	Can you give specific examples of how industrialized nations have emitted more greenhouse gases?	1	1	1	1	0	0	1	1	
 treccast	cast-132-2-3	generated	gpt-4	none	savvy	implications	How does the differentiation of responsibilities affect international relationships and climate change policy negotiations?	1	1	1	1	0	0	1	1	
 treccast	cast-132-2-3	generated	gpt-4	none	savvy	reasons	What is the basis for stating that industrialized nations have historically emitted more greenhouse gases?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why is it easy to blame China and India for failures in climate change mitigation?	1	1	1	1	0	0	1	1	
@@ -1161,8 +1089,6 @@ treccast	cast-132-2-5	generated	alpaca-7b	nudged-questions	none	none	How much we
 treccast	cast-132-2-5	generated	alpaca-7b	treccast	none	none	What is the international response?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-5	generated	gpt-4	none	naive	implications	Can you explain more about the study published in the journal Nature Climate Change?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-5	generated	gpt-4	none	naive	reasons	What are the common diseases caused by climate change in these countries?	1	1	1	1	0	0	0	1	
-treccast	cast-132-2-5	generated	gpt-4	none	none	none	How does the low level of wealth, technology, education, and limited resources in developing countries affect their ability to adapt to climate change?	1	1	1	1	0	0	0	1	
-treccast	cast-132-2-5	generated	gpt-4	none	none	none	How does the low level of wealth, technology, education, and limited resources in developing countries affect their ability to adapt to climate change?	1	1	1	1	0	0	1	1	
 treccast	cast-132-2-5	generated	gpt-4	none	none	none	How does the low level of wealth, technology, education, and limited resources in developing countries affect their ability to adapt to climate change?	1	1	1	1	0	0	1	1	
 treccast	cast-132-2-5	generated	gpt-4	none	savvy	implications	Has there been any noticeable improvement in the situation of these developing countries over time with regards to their ability to adapt to climate change?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-5	generated	gpt-4	none	savvy	reasons	Have these observed local changes in weather patterns in developing nations led to any action or policies on a local level?	1	1	1	1	0	0	0	1	
@@ -1194,8 +1120,6 @@ treccast	cast-132-2-7	generated	alpaca-7b	treccast	none	none	What if the money i
 treccast	cast-132-2-7	generated	gpt-4	none	naive	implications	Why is Brazil considering contributing to climate finance?	1	1	1	1	0	0	1	1	
 treccast	cast-132-2-7	generated	gpt-4	none	naive	reasons	How do these finances help developing countries mitigate and adapt to climate change?	1	1	1	1	0	0	1	1	
 treccast	cast-132-2-7	generated	gpt-4	none	none	none	Besides Brazil, what other developing countries contribute to climate finance?	1	1	1	1	0	0	0	1	
-treccast	cast-132-2-7	generated	gpt-4	none	none	none	Besides Brazil, what other developing countries contribute to climate finance?	1	1	1	1	0	0	0	1	
-treccast	cast-132-2-7	generated	gpt-4	none	none	none	Besides Brazil, what other developing countries contribute to climate finance?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-7	generated	gpt-4	none	savvy	implications	In the case of Brazil, what factors are they considering before deciding to contribute to climate finance?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-7	generated	gpt-4	none	savvy	reasons	How are the projected levels of public climate finance determined by the developed countries?	1	1	1	1	0	0	0	1	
 treccast	cast-132-2-7	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why are some developing countries contributing to climate finance?	1	1	1	1	0	0	1	1	
@@ -1225,8 +1149,6 @@ treccast	cast-132-3-7	generated	alpaca-7b	nudged-questions	none	none	What is the
 treccast	cast-132-3-7	generated	alpaca-7b	treccast	none	none	What is the current US target?	1	1	1	1	0	0	0	1	
 treccast	cast-132-3-7	generated	gpt-4	none	naive	implications	Why is the new 2030 emissions target significant for the Biden administration?	1	1	1	1	0	0	1	1	
 treccast	cast-132-3-7	generated	gpt-4	none	naive	reasons	What is the Paris agreement?	1	1	1	1	0	0	0	1	
-treccast	cast-132-3-7	generated	gpt-4	none	none	none	How is the Paris agreement operationalized every five years?	1	1	1	1	0	0	0	1	
-treccast	cast-132-3-7	generated	gpt-4	none	none	none	How is the Paris agreement operationalized every five years?	1	1	1	1	0	0	0	1	
 treccast	cast-132-3-7	generated	gpt-4	none	none	none	How is the Paris agreement operationalized every five years?	1	1	1	1	0	0	0	1	
 treccast	cast-132-3-7	generated	gpt-4	none	savvy	implications	How will the new 2030 target signal the international commitments of the Biden administration?	1	1	1	1	0	0	0	1	
 treccast	cast-132-3-7	generated	gpt-4	none	savvy	reasons	When can we expect to see the first signals of Biden administration's commitment towards climate change?	1	1	1	1	0	0	0	1	
@@ -1258,8 +1180,6 @@ treccast	cast-133-1-3	generated	alpaca-7b	treccast	none	none	How can I know what
 treccast	cast-133-1-3	generated	gpt-4	none	naive	implications	Are there any specific brands of beauty products that are particularly popular as gifts?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-3	generated	gpt-4	none	naive	reasons	How can I make the beauty products presentation more special, like in a basket for example?	1	1	1	1	0	0	0	1	models answers itself
 treccast	cast-133-1-3	generated	gpt-4	none	none	none	Are there any specific brands that are usually recommended for these types of gifts?	1	1	1	1	0	0	0	1	
-treccast	cast-133-1-3	generated	gpt-4	none	none	none	Are there any specific brands that are usually recommended for these types of gifts?	1	1	1	1	0	0	0	1	
-treccast	cast-133-1-3	generated	gpt-4	none	none	none	Are there any specific brands that are usually recommended for these types of gifts?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-3	generated	gpt-4	none	savvy	implications	What is the significance of choosing body cream and bubble baths as universal beauty gifts?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-3	generated	gpt-4	none	savvy	reasons	Are there alternatives to beauty products for a Mother's Day gift if a mom is not into using beauty products?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why is Mother's Day a day to encourage your mom to pamper herself?	1	1	1	1	0	0	1	1	
@@ -1289,8 +1209,6 @@ treccast	cast-133-1-5	generated	alpaca-7b	nudged-questions	none	none	Where are t
 treccast	cast-133-1-5	generated	alpaca-7b	treccast	none	none	What other products do you recommend?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-5	generated	gpt-4	none	naive	implications	Can I use other ingredients than brown sugar, honey and olive oil to make these body care products?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-5	generated	gpt-4	none	naive	reasons	What is the downside of using too much olive oil?	1	1	1	0	0	0	0	0	
-treccast	cast-133-1-5	generated	gpt-4	none	none	none	How much olive oil is considered "too much" when being used as a facial moisturizer?	1	1	1	1	0	0	0	1	
-treccast	cast-133-1-5	generated	gpt-4	none	none	none	How much olive oil is considered "too much" when being used as a facial moisturizer?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-5	generated	gpt-4	none	none	none	How much olive oil is considered "too much" when being used as a facial moisturizer?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-5	generated	gpt-4	none	savvy	implications	What are the step-by-step instructions for making a body scrub, moisturizer, and make-up remover at home using these ingredients?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-5	generated	gpt-4	none	savvy	reasons	What are potential side effects if someone used too much olive oil as a facial moisturizer?	1	1	1	0	0	0	0	0	
@@ -1322,8 +1240,6 @@ treccast	cast-133-1-7	generated	alpaca-7b	treccast	none	none	Can you recommend a
 treccast	cast-133-1-7	generated	gpt-4	none	naive	implications	Could I use other essential oils besides lavender for this recipe?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-7	generated	gpt-4	none	naive	reasons	Can I use other types of essential oil aside from lavender?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-7	generated	gpt-4	none	none	none	How long does it typically take for the deodorant to solidify at room temperature?	1	1	1	1	0	0	0	1	
-treccast	cast-133-1-7	generated	gpt-4	none	none	none	How long does it typically take for the deodorant to solidify at room temperature?	1	1	1	1	0	0	0	1	
-treccast	cast-133-1-7	generated	gpt-4	none	none	none	How long does it typically take for the deodorant to solidify at room temperature?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-7	generated	gpt-4	none	savvy	implications	Is it necessary to add Vitamin E Oil and what does it contribute to the deodorant?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-7	generated	gpt-4	none	savvy	reasons	Can the essential oil in the recipe be substituted with a different fragrance?	1	1	1	1	0	0	0	1	
 treccast	cast-133-1-7	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why is this the author's favorite recipe?	1	1	1	1	0	0	1	1	
@@ -1353,8 +1269,6 @@ treccast	cast-133-3-6	generated	alpaca-7b	nudged-questions	none	none	What type o
 treccast	cast-133-3-6	generated	alpaca-7b	treccast	none	none	What kind of fragrances or essential oils should I use?	1	1	1	1	0	0	0	1	
 treccast	cast-133-3-6	generated	gpt-4	none	naive	implications	Can I mix different essential oils for my lotion?	1	1	1	1	0	0	0	1	
 treccast	cast-133-3-6	generated	gpt-4	none	naive	reasons	Where can I purchase an unscented lotion base?	1	1	1	1	0	0	0	1	
-treccast	cast-133-3-6	generated	gpt-4	none	none	none	Are there any specific cleaning instructions before using them?	1	1	1	1	0	0	0	1	
-treccast	cast-133-3-6	generated	gpt-4	none	none	none	Are there any specific cleaning instructions before using them?	1	1	1	1	0	0	0	1	
 treccast	cast-133-3-6	generated	gpt-4	none	none	none	Are there any specific cleaning instructions before using them?	1	1	1	1	0	0	0	1	
 treccast	cast-133-3-6	generated	gpt-4	none	savvy	implications	What are the cost savings like when making my own lotion compared to buying pre-made products?	1	1	1	1	0	0	0	1	
 treccast	cast-133-3-6	generated	gpt-4	none	savvy	reasons	Why is it recommended to use a funnel when bottling the lotion?	1	1	1	1	0	0	1	1	
@@ -1386,8 +1300,6 @@ treccast	cast-134-1-11	generated	alpaca-7b	treccast	none	none	Is this phone stil
 treccast	cast-134-1-11	generated	gpt-4	none	naive	implications	How has the Galaxy A50 managed to outperform the Moto G7 despite being more expensive?	1	1	1	1	0	0	1	1	
 treccast	cast-134-1-11	generated	gpt-4	none	naive	reasons	Why do people still love the Moto G7?	1	1	1	1	0	0	1	1	
 treccast	cast-134-1-11	generated	gpt-4	none	none	none	What awards has the Moto G7 won and for what categories?	1	1	1	0	0	0	0	0	
-treccast	cast-134-1-11	generated	gpt-4	none	none	none	What awards has the Moto G7 won and for what categories?	1	1	1	0	0	0	0	0	
-treccast	cast-134-1-11	generated	gpt-4	none	none	none	What awards has the Moto G7 won and for what categories?	1	1	1	0	0	0	0	0	
 treccast	cast-134-1-11	generated	gpt-4	none	savvy	implications	How does the performance of the Moto G7 camera compare to that of other smartphones in its price range?	1	1	1	1	0	0	0	1	
 treccast	cast-134-1-11	generated	gpt-4	none	savvy	reasons	What specific features of the Moto G7 make it a favorite among users?	1	1	1	0	0	0	1	0	
 treccast	cast-134-1-11	generated	Llama-2-13b-hf	inquisitive	naive	implications	What awards did the Moto G7 earn?	1	1	1	0	0	0	0	0	
@@ -1417,8 +1329,6 @@ treccast	cast-134-1-3	generated	alpaca-7b	nudged-questions	none	none	How often d
 treccast	cast-134-1-3	generated	alpaca-7b	treccast	none	none	Is the design really important?	1	1	1	0	0	0	0	0	
 treccast	cast-134-1-3	generated	gpt-4	none	naive	implications	Should I be considering any specific phone manufacturers?	1	1	1	1	0	0	0	1	
 treccast	cast-134-1-3	generated	gpt-4	none	naive	reasons	Why is the design and overall look of the phone so important?	1	1	1	1	0	0	1	1	
-treccast	cast-134-1-3	generated	gpt-4	none	none	none	Why might I consider buying a phone from a different manufacturer than I’m used to?	1	1	1	1	0	0	1	1	
-treccast	cast-134-1-3	generated	gpt-4	none	none	none	Why might I consider buying a phone from a different manufacturer than I’m used to?	1	1	1	1	0	0	1	1	
 treccast	cast-134-1-3	generated	gpt-4	none	none	none	Why might I consider buying a phone from a different manufacturer than I’m used to?	1	1	1	1	0	0	1	1	
 treccast	cast-134-1-3	generated	gpt-4	none	savvy	implications	Can you elaborate on why comfort is given so much prominence when choosing a phone?	1	1	1	1	0	0	1	1	
 treccast	cast-134-1-3	generated	gpt-4	none	savvy	reasons	How can the look and feel of a phone impact usability or user experience?	1	1	1	1	0	0	1	1	
@@ -1450,8 +1360,6 @@ treccast	cast-134-1-5	generated	alpaca-7b	treccast	none	none	What about the Moto
 treccast	cast-134-1-5	generated	gpt-4	none	naive	implications	How does the Samsung Galaxy A10e compare to the Moto G7 Power in terms of features?	1	1	1	1	0	0	0	1	
 treccast	cast-134-1-5	generated	gpt-4	none	naive	reasons	Why does the text suggest that you don't have to buy an expensive phone even if it has advanced features?	1	1	1	1	0	0	1	1	
 treccast	cast-134-1-5	generated	gpt-4	none	none	none	How does a larger budget affect the options available in smartphone purchase?	1	1	1	1	0	0	0	1	
-treccast	cast-134-1-5	generated	gpt-4	none	none	none	How does a larger budget affect the options available in smartphone purchase?	1	1	1	1	0	0	0	1	
-treccast	cast-134-1-5	generated	gpt-4	none	none	none	How does a larger budget affect the options available in smartphone purchase?	1	1	1	1	0	0	0	1	
 treccast	cast-134-1-5	generated	gpt-4	none	savvy	implications	What specific features does the Motorola Moto G7 Power possess that make it an excellent phone to consider?	1	1	1	1	0	0	1	1	
 treccast	cast-134-1-5	generated	gpt-4	none	savvy	reasons	In your opinion, are affordability and latest Android features sufficient parameters to consider when purchasing a phone?	1	1	1	1	0	0	0	1	
 treccast	cast-134-1-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the price difference between the two phones?	1	1	1	1	0	0	0	1	
@@ -1481,8 +1389,6 @@ treccast	cast-134-1-9	generated	alpaca-7b	nudged-questions	none	none	Why is the 
 treccast	cast-134-1-9	generated	alpaca-7b	treccast	none	none	Are there any other good budget Androids?	1	1	1	1	0	0	0	1	
 treccast	cast-134-1-9	generated	gpt-4	none	naive	implications	What features does the Samsung Galaxy A10e have that justify its price?	1	1	1	1	0	0	1	1	
 treccast	cast-134-1-9	generated	gpt-4	none	naive	reasons	How often are these product details updated?	1	1	1	1	0	0	0	1	
-treccast	cast-134-1-9	generated	gpt-4	none	none	none	Are these the prices for new devices or for refurbished ones?	1	1	1	1	0	0	0	1	
-treccast	cast-134-1-9	generated	gpt-4	none	none	none	Are these the prices for new devices or for refurbished ones?	1	1	1	1	0	0	0	1	
 treccast	cast-134-1-9	generated	gpt-4	none	none	none	Are these the prices for new devices or for refurbished ones?	1	1	1	1	0	0	0	1	
 treccast	cast-134-1-9	generated	gpt-4	none	savvy	implications	Have there been any notable price drops or increases for these models since their initial launch?	1	1	1	1	0	0	0	1	
 treccast	cast-134-1-9	generated	gpt-4	none	savvy	reasons	Where were these prices found?	1	1	1	1	0	0	0	1	
@@ -1514,8 +1420,6 @@ treccast	cast-134-3-1	generated	alpaca-7b	treccast	none	none	Can you explain the
 treccast	cast-134-3-1	generated	gpt-4	none	naive	implications	Can you explain more about why iPhones are considered beautifully made?	1	1	1	1	0	0	1	1	
 treccast	cast-134-3-1	generated	gpt-4	none	naive	reasons	What factors cause people to think iPhones are more expensive than Android phones?	1	1	1	1	0	0	1	1	
 treccast	cast-134-3-1	generated	gpt-4	none	none	none	What are the price ranges of common Android phones and iPhones?	1	1	1	1	0	0	0	1	
-treccast	cast-134-3-1	generated	gpt-4	none	none	none	What are the price ranges of common Android phones and iPhones?	1	1	1	1	0	0	0	1	
-treccast	cast-134-3-1	generated	gpt-4	none	none	none	What are the price ranges of common Android phones and iPhones?	1	1	1	1	0	0	0	1	
 treccast	cast-134-3-1	generated	gpt-4	none	savvy	implications	How does the operating system of an iPhone differ from that of an Android phone and how does this impact the user experience and the cost of the phone?	1	1	1	1	0	0	0	1	
 treccast	cast-134-3-1	generated	gpt-4	none	savvy	reasons	Are there any other factors that make an iPhone more preferable to some buyers apart from the aesthetics and supposed reasonable pricing?	1	1	1	1	0	0	1	1	
 treccast	cast-134-3-1	generated	Llama-2-13b-hf	inquisitive	naive	implications	How much do the most expensive Android phones cost?	1	1	1	1	0	0	0	1	
@@ -1545,8 +1449,6 @@ treccast	cast-134-3-3	generated	alpaca-7b	nudged-questions	none	none	Is the rati
 treccast	cast-134-3-3	generated	alpaca-7b	treccast	none	none	What else is out there?	1	1	1	1	0	0	0	1	
 treccast	cast-134-3-3	generated	gpt-4	none	naive	implications	What does the author mean by 'penetration level'?	1	1	1	1	0	0	0	1	
 treccast	cast-134-3-3	generated	gpt-4	none	naive	reasons	What does it mean by these phones haven't hit the penetration level for people to pay that much attention to them?	1	1	1	1	0	0	0	1	
-treccast	cast-134-3-3	generated	gpt-4	none	none	none	Why do you think these phones haven't hit the penetration level to gain people's attention?	1	1	1	1	0	0	1	1	
-treccast	cast-134-3-3	generated	gpt-4	none	none	none	Why do you think these phones haven't hit the penetration level to gain people's attention?	1	1	1	1	0	0	1	1	
 treccast	cast-134-3-3	generated	gpt-4	none	none	none	Why do you think these phones haven't hit the penetration level to gain people's attention?	1	1	1	1	0	0	1	1	
 treccast	cast-134-3-3	generated	gpt-4	none	savvy	implications	Who might be the audiences for these fringe phones?	1	1	1	1	0	0	0	1	
 treccast	cast-134-3-3	generated	gpt-4	none	savvy	reasons	What are the implications of choosing a 'fringe' phone, such as a Windows Phone, Nokia, or Blackberry?	1	1	1	1	0	0	0	1	
@@ -1578,8 +1480,6 @@ treccast	cast-135-1-3	generated	alpaca-7b	treccast	none	none	Any advice for a be
 treccast	cast-135-1-3	generated	gpt-4	none	naive	implications	How much should I increase my mileage by if I'm feeling strong?	1	1	1	1	0	0	0	1	
 treccast	cast-135-1-3	generated	gpt-4	none	naive	reasons	What's the recommended running routine for the first few months?	1	1	1	1	0	0	0	1	
 treccast	cast-135-1-3	generated	gpt-4	none	none	none	What other precautions can be taken to avoid injuries when getting back to running?	1	1	1	1	0	0	0	1	
-treccast	cast-135-1-3	generated	gpt-4	none	none	none	What other precautions can be taken to avoid injuries when getting back to running?	1	1	1	1	0	0	0	1	
-treccast	cast-135-1-3	generated	gpt-4	none	none	none	What other precautions can be taken to avoid injuries when getting back to running?	1	1	1	1	0	0	0	1	
 treccast	cast-135-1-3	generated	gpt-4	none	savvy	implications	If I do sustain an injury, what measures should I take to recover and prevent further damage?	1	1	1	1	0	0	0	1	
 treccast	cast-135-1-3	generated	gpt-4	none	savvy	reasons	How do I understand if I'm feeling strong enough to increase my mileage?	1	1	1	1	0	0	0	1	
 treccast	cast-135-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the definition of \"long and hard runs\"?	1	1	1	1	0	0	0	1	
@@ -1609,8 +1509,6 @@ treccast	cast-135-2-11	generated	alpaca-7b	nudged-questions	none	none	What does 
 treccast	cast-135-2-11	generated	alpaca-7b	treccast	none	none	How would I go about doing that?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-11	generated	gpt-4	none	naive	implications	What is glycogen and why is its lack restricting training duration and intensity?	1	1	1	1	0	0	1	1	
 treccast	cast-135-2-11	generated	gpt-4	none	naive	reasons	Can you explain how the body learns to make do longer with the glycogen stored in the muscles?	1	1	1	1	0	0	1	1	
-treccast	cast-135-2-11	generated	gpt-4	none	none	none	What implications does improving the body's ability to use its glycogen stores have?	1	1	1	1	0	0	0	1	
-treccast	cast-135-2-11	generated	gpt-4	none	none	none	What implications does improving the body's ability to use its glycogen stores have?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-11	generated	gpt-4	none	none	none	What implications does improving the body's ability to use its glycogen stores have?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-11	generated	gpt-4	none	savvy	implications	How does this process help the body optimize and economize its fat metabolism?	1	1	1	1	0	0	1	1	
 treccast	cast-135-2-11	generated	gpt-4	none	savvy	reasons	In what ways can regular training with previously emptied glycogen stores adversely affect your health?	1	1	1	1	0	0	0	1	
@@ -1642,8 +1540,6 @@ treccast	cast-135-2-3	generated	alpaca-7b	treccast	none	none	What about other sn
 treccast	cast-135-2-3	generated	gpt-4	none	naive	implications	Can you suggest any specific diets to aid with my weight loss goals?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-3	generated	gpt-4	none	naive	reasons	How will eating more fruits and vegetables aid in weight loss?	1	1	1	1	0	0	1	1	
 treccast	cast-135-2-3	generated	gpt-4	none	none	none	Is there a recommended balance between the quantity of fruits and vegetables versus everything else in a diet?	1	1	1	1	0	0	0	1	
-treccast	cast-135-2-3	generated	gpt-4	none	none	none	Is there a recommended balance between the quantity of fruits and vegetables versus everything else in a diet?	1	1	1	1	0	0	0	1	
-treccast	cast-135-2-3	generated	gpt-4	none	none	none	Is there a recommended balance between the quantity of fruits and vegetables versus everything else in a diet?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-3	generated	gpt-4	none	savvy	implications	Are there any fruits or vegetables that are particularly beneficial for weight loss?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-3	generated	gpt-4	none	savvy	reasons	Does the time of day we eat fruits and vegetables affect the weight loss process?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	What are some examples of different running workouts?	1	1	1	1	0	0	0	1	
@@ -1673,8 +1569,6 @@ treccast	cast-135-2-7	generated	alpaca-7b	nudged-questions	none	none	Does this m
 treccast	cast-135-2-7	generated	alpaca-7b	treccast	none	none	how long does it take?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-7	generated	gpt-4	none	naive	implications	What is the decisive factor in losing weight if it's not running on an empty stomach?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-7	generated	gpt-4	none	naive	reasons	What does it mean to run on an empty stomach?	1	1	1	1	0	0	0	1	
-treccast	cast-135-2-7	generated	gpt-4	none	none	none	How does running on an empty stomach force the body to get its energy from free fatty acids?	1	1	1	1	0	0	1	1	
-treccast	cast-135-2-7	generated	gpt-4	none	none	none	How does running on an empty stomach force the body to get its energy from free fatty acids?	1	1	1	1	0	0	1	1	
 treccast	cast-135-2-7	generated	gpt-4	none	none	none	How does running on an empty stomach force the body to get its energy from free fatty acids?	1	1	1	1	0	0	1	1	
 treccast	cast-135-2-7	generated	gpt-4	none	savvy	implications	What constitutes the "right way" to run on an empty stomach in order to mobilize free fatty acids for energy?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-7	generated	gpt-4	none	savvy	reasons	What are the other factors involved in weight loss besides burning fat?	1	1	1	1	0	0	0	1	
@@ -1706,8 +1600,6 @@ treccast	cast-135-2-9	generated	alpaca-7b	treccast	none	none	How can I train for
 treccast	cast-135-2-9	generated	gpt-4	none	naive	implications	Can you elaborate on why workouts on an empty stomach are not good for leisure athletes looking to improve their performance?	1	1	1	1	0	0	1	1	
 treccast	cast-135-2-9	generated	gpt-4	none	naive	reasons	Why is the percentage of energy produced by burning fat significantly lower in high-intensity running sessions?	1	1	1	1	0	0	1	1	
 treccast	cast-135-2-9	generated	gpt-4	none	none	none	How does energy balance play a key role in weight loss?	1	1	1	1	0	0	0	1	
-treccast	cast-135-2-9	generated	gpt-4	none	none	none	How does energy balance play a key role in weight loss?	1	1	1	1	0	0	1	1	
-treccast	cast-135-2-9	generated	gpt-4	none	none	none	How does energy balance play a key role in weight loss?	1	1	1	1	0	0	1	1	
 treccast	cast-135-2-9	generated	gpt-4	none	savvy	implications	Can you expand on the concept of energy balance and why it's important in weight loss?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-9	generated	gpt-4	none	savvy	reasons	Are there any certain types of foods that would be more beneficial to consume before high-intensity workout sessions?	1	1	1	1	0	0	0	1	
 treccast	cast-135-2-9	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why is it preferable to run with food in your stomach?	1	1	1	1	0	0	1	1	
@@ -1737,8 +1629,6 @@ treccast	cast-135-3-3	generated	alpaca-7b	nudged-questions	none	none	To really c
 treccast	cast-135-3-3	generated	alpaca-7b	treccast	none	none	Could you explain the concept of HRMax?	1	1	0	0	0	0	0	0	
 treccast	cast-135-3-3	generated	gpt-4	none	naive	implications	How does a person's skiing experience affect the amount of calories they burn in cross-country skiing?	1	1	1	1	0	0	0	1	
 treccast	cast-135-3-3	generated	gpt-4	none	naive	reasons	Why did you compare running to other activities?	1	1	1	0	0	0	0	0	
-treccast	cast-135-3-3	generated	gpt-4	none	none	none	How many calories can one burn with indoor cycling and what should be the intensity level?	1	1	1	0	0	0	0	0	
-treccast	cast-135-3-3	generated	gpt-4	none	none	none	How many calories can one burn with indoor cycling and what should be the intensity level?	1	1	1	0	0	0	0	0	
 treccast	cast-135-3-3	generated	gpt-4	none	none	none	How many calories can one burn with indoor cycling and what should be the intensity level?	1	1	1	0	0	0	0	0	
 treccast	cast-135-3-3	generated	gpt-4	none	savvy	implications	Can an individual with lower body weight also achieve the same calorie burn rate with these exercises?	1	1	1	1	0	0	0	1	
 treccast	cast-135-3-3	generated	gpt-4	none	savvy	reasons	How do you determine the intensity in watts when indoor cycling and why is it important that it should be 200 watts or greater?	1	1	1	1	0	0	1	1	
@@ -1770,8 +1660,6 @@ treccast	cast-135-4-1	generated	alpaca-7b	treccast	none	none	Is there a signific
 treccast	cast-135-4-1	generated	gpt-4	none	naive	implications	Does an increased heart rate always mean more calories are being burned?	1	1	1	1	0	0	0	1	
 treccast	cast-135-4-1	generated	gpt-4	none	naive	reasons	Canother activities burn similar amounts of calories as kickboxing and Muay Thai?	1	1	1	1	0	0	0	1	
 treccast	cast-135-4-1	generated	gpt-4	none	none	none	What is classified under a "vigorous effort" in rowing?	1	0	1	1	0	0	0	1	
-treccast	cast-135-4-1	generated	gpt-4	none	none	none	What is classified under a "vigorous effort" in rowing?	1	1	1	1	0	0	0	1	
-treccast	cast-135-4-1	generated	gpt-4	none	none	none	What is classified under a "vigorous effort" in rowing?	1	1	1	1	0	0	0	1	
 treccast	cast-135-4-1	generated	gpt-4	none	savvy	implications	How do these activities compare to other forms of high-intensity workouts in terms of calorie burn?	1	1	1	1	0	0	0	1	
 treccast	cast-135-4-1	generated	gpt-4	none	savvy	reasons	How do these additional cardio exercises affect the overall calorie burn in a boxing class, and how significant is their effect on improving heart rate?	1	1	1	1	0	0	1	1	
 treccast	cast-135-4-1	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why do they incorporate other exercises?	1	1	1	1	0	0	1	1	
@@ -1801,8 +1689,6 @@ treccast	cast-136-1-11	generated	alpaca-7b	nudged-questions	none	none	What other
 treccast	cast-136-1-11	generated	alpaca-7b	treccast	none	none	How did people feel about it?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-11	generated	gpt-4	none	naive	implications	What is the significance of the Watergate scandal in history?	0	1	0	1	0	0	0	1	
 treccast	cast-136-1-11	generated	gpt-4	none	naive	reasons	Why did Nixon resign instead of fighting the charges?	1	1	1	1	0	0	1	1	
-treccast	cast-136-1-11	generated	gpt-4	none	none	none	How did the public react to Ford's decision to pardon Nixon?	1	1	1	1	0	0	0	1	
-treccast	cast-136-1-11	generated	gpt-4	none	none	none	How did the public react to Ford's decision to pardon Nixon?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-11	generated	gpt-4	none	none	none	How did the public react to Ford's decision to pardon Nixon?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-11	generated	gpt-4	none	savvy	implications	What were the motivations behind President Gerald Ford's decision to pardon Nixon?	1	1	1	1	0	0	1	1	
 treccast	cast-136-1-11	generated	gpt-4	none	savvy	reasons	How did Nixon’s resignation and subsequent pardon impact the overall state of US politics at that time?	1	1	1	1	0	0	0	1	
@@ -1834,8 +1720,6 @@ treccast	cast-136-1-3	generated	alpaca-7b	treccast	none	none	How did Nixon try t
 treccast	cast-136-1-3	generated	gpt-4	none	naive	implications	Who was involved in the break-in at the Democratic National Committee in 1972?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-3	generated	gpt-4	none	naive	reasons	How did the Watergate Scandal affect the Democratic National Committee and the 1972 elections?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-3	generated	gpt-4	none	none	none	How did Bob Woodward and Carl Bernstein's reporting contribute to the exposure of the event?	1	1	1	1	0	0	0	1	
-treccast	cast-136-1-3	generated	gpt-4	none	none	none	How did Bob Woodward and Carl Bernstein's reporting contribute to the exposure of the event?	1	1	1	1	0	0	0	1	
-treccast	cast-136-1-3	generated	gpt-4	none	none	none	How did Bob Woodward and Carl Bernstein's reporting contribute to the exposure of the event?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-3	generated	gpt-4	none	savvy	implications	Could you provide more details about other investigations prompted by the media aside from Woodward and Bernstein's work?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-3	generated	gpt-4	none	savvy	reasons	What were the reasons behind the Nixon administration's attempts to break into the DNC?	1	1	1	1	0	0	1	1	
 treccast	cast-136-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why was there a Watergate scandal?	1	1	1	0	0	0	1	0	
@@ -1865,8 +1749,6 @@ treccast	cast-136-1-5	generated	alpaca-7b	nudged-questions	none	none	How was Nix
 treccast	cast-136-1-5	generated	alpaca-7b	treccast	none	none	How was it finally uncovered?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-5	generated	gpt-4	none	naive	implications	How did the press, Congress, and legal experts react to Nixon's cover-up attempts?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-5	generated	gpt-4	none	naive	reasons	How did Nixon and his team use funds to ensure the silence and cooperation of the intruders?	1	1	1	1	0	0	0	1	
-treccast	cast-136-1-5	generated	gpt-4	none	none	none	How did the CIA convince the intelligence community that the break-in was a matter of national security?	1	1	1	1	0	0	0	1	
-treccast	cast-136-1-5	generated	gpt-4	none	none	none	How did the CIA convince the intelligence community that the break-in was a matter of national security?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-5	generated	gpt-4	none	none	none	How did the CIA convince the intelligence community that the break-in was a matter of national security?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-5	generated	gpt-4	none	savvy	implications	How did Nixon attempt to classify the Watergate incident as a matter of national security?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-5	generated	gpt-4	none	savvy	reasons	What was the role of the CIA in this incident and how did they actualize Nixon's directive of persuading the intelligence community?	1	1	1	1	0	0	0	1	
@@ -1898,8 +1780,6 @@ treccast	cast-136-1-7	generated	alpaca-7b	treccast	none	none	What other scandals
 treccast	cast-136-1-7	generated	gpt-4	none	naive	implications	What was significance of Nixon's taped conversations in the Oval Office to this case?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-7	generated	gpt-4	none	naive	reasons	What was the additional information revealed by the convicted intruder in May?	1	1	1	0	0	0	0	0	
 treccast	cast-136-1-7	generated	gpt-4	none	none	none	How did Judge Sirica increase the pressure on the Watergate intruders?	1	1	1	1	0	0	0	1	
-treccast	cast-136-1-7	generated	gpt-4	none	none	none	How did Judge Sirica increase the pressure on the Watergate intruders?	1	1	1	1	0	0	0	1	
-treccast	cast-136-1-7	generated	gpt-4	none	none	none	How did Judge Sirica increase the pressure on the Watergate intruders?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-7	generated	gpt-4	none	savvy	implications	What were the overall implications for both Nixon and the Nixon Administration once the connection to the Watergate event was revealed?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-7	generated	gpt-4	none	savvy	reasons	What information did the intruder release in March linking CREEP to the break-in?	1	1	1	0	0	0	0	0	
 treccast	cast-136-1-7	generated	Llama-2-13b-hf	inquisitive	naive	implications	How did they get the tapes?	1	1	1	1	0	0	0	1	
@@ -1930,8 +1810,6 @@ treccast	cast-136-1-9	generated	alpaca-7b	treccast	none	none	What happened to Ni
 treccast	cast-136-1-9	generated	gpt-4	none	naive	implications	Could you provide more information about the 'smoking gun' tape and its role in Nixon's impeachment?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-9	generated	gpt-4	none	naive	reasons	What was the Stennis Compromise and why would it involve a senator who was essentially deaf?	1	1	1	0	0	0	0	0	
 treccast	cast-136-1-9	generated	gpt-4	none	none	none	What were the contents of the 'sanitized' versions of tapes that Nixon attempted to release?	1	1	1	1	0	0	0	1	
-treccast	cast-136-1-9	generated	gpt-4	none	none	none	What were the contents of the 'sanitized' versions of tapes that Nixon attempted to release?	1	1	1	1	0	0	0	1	
-treccast	cast-136-1-9	generated	gpt-4	none	none	none	What were the contents of the 'sanitized' versions of tapes that Nixon attempted to release?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-9	generated	gpt-4	none	savvy	implications	What authority did Judge Sirica and Congress have in refusing the Stennis Compromise?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-9	generated	gpt-4	none	savvy	reasons	Nixon in more detail?	1	1	1	1	0	0	0	1	
 treccast	cast-136-1-9	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why did he refuse to turn over the tapes?	1	1	1	1	0	0	1	1	
@@ -1961,8 +1839,6 @@ treccast	cast-136-2-3	generated	alpaca-7b	nudged-questions	none	none	What is the
 treccast	cast-136-2-3	generated	alpaca-7b	treccast	none	none	How come Woodward never revealed the source?	1	1	1	1	0	0	1	1	
 treccast	cast-136-2-3	generated	gpt-4	none	naive	implications	How was the identity of Deep Throat eventually revealed?	1	1	1	1	0	0	0	1	
 treccast	cast-136-2-3	generated	gpt-4	none	naive	reasons	If so, how?	0	1	0	0	0	0	0	0	
-treccast	cast-136-2-3	generated	gpt-4	none	none	none	What is the context and significance of the Nixon administration's misdeeds mentioned in "All the President's Men"?	1	1	1	0	0	0	0	0	
-treccast	cast-136-2-3	generated	gpt-4	none	none	none	What is the context and significance of the Nixon administration's misdeeds mentioned in "All the President's Men"?	1	1	1	1	0	0	0	1	
 treccast	cast-136-2-3	generated	gpt-4	none	none	none	What is the context and significance of the Nixon administration's misdeeds mentioned in "All the President's Men"?	1	1	1	1	0	0	0	1	
 treccast	cast-136-2-3	generated	gpt-4	none	savvy	implications	Could you provide context as to what kind of misdeeds the Nixon administration was involved in that were reported by the "Post"?	1	1	1	1	0	0	0	1	
 treccast	cast-136-2-3	generated	gpt-4	none	savvy	reasons	How did the revelation of Deep Throat's information affect the Nixon administration?	1	1	1	1	0	0	0	1	
@@ -1994,8 +1870,6 @@ treccast	cast-136-2-5	generated	alpaca-7b	treccast	none	none	What was Mark Felt'
 treccast	cast-136-2-5	generated	gpt-4	none	naive	implications	Patrick Gray in this story?	1	0	1	0	0	0	0	0	
 treccast	cast-136-2-5	generated	gpt-4	none	naive	reasons	What is the significance of Mark Felt being "Deep Throat"?	1	1	1	1	0	0	0	1	
 treccast	cast-136-2-5	generated	gpt-4	none	none	none	Who was Mark Felt and why is his identity as Deep Throat significant?	1	1	1	1	0	0	0	1	
-treccast	cast-136-2-5	generated	gpt-4	none	none	none	Who was Mark Felt and why is his identity as Deep Throat significant?	1	1	1	1	0	0	0	1	
-treccast	cast-136-2-5	generated	gpt-4	none	none	none	Who was Mark Felt and why is his identity as Deep Throat significant?	1	1	1	1	0	0	0	1	
 treccast	cast-136-2-5	generated	gpt-4	none	savvy	implications	Patrick Gray present to dispute Felt's claim in his book "In Nixon's Web"?	1	0	1	1	0	0	0	1	
 treccast	cast-136-2-5	generated	gpt-4	none	savvy	reasons	What sparked the family attorney to reveal Mark Felt as Deep Throat in 2005?	1	1	1	1	0	0	1	1	
 treccast	cast-136-2-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why did they deny being Deep Throat?	1	1	1	1	0	0	0	1	
@@ -2025,8 +1899,6 @@ treccast	cast-137-1-3	generated	alpaca-7b	nudged-questions	none	none	How does he
 treccast	cast-137-1-3	generated	alpaca-7b	treccast	none	none	Is there any way we could find out which one?	1	1	1	1	0	0	0	1	
 treccast	cast-137-1-3	generated	gpt-4	none	naive	implications	Can you explain what a trilemma is?	1	1	1	1	0	0	0	1	
 treccast	cast-137-1-3	generated	gpt-4	none	naive	reasons	Could you clarify what high-fidelity ancestor simulations are?	1	1	1	1	0	0	0	1	
-treccast	cast-137-1-3	generated	gpt-4	none	none	none	What could be some reasons why posthuman civilizations might not be interested in running simulations of their evolutionary history?	1	1	1	1	0	0	1	1	
-treccast	cast-137-1-3	generated	gpt-4	none	none	none	What could be some reasons why posthuman civilizations might not be interested in running simulations of their evolutionary history?	1	1	1	1	0	0	1	1	
 treccast	cast-137-1-3	generated	gpt-4	none	none	none	What could be some reasons why posthuman civilizations might not be interested in running simulations of their evolutionary history?	1	1	1	1	0	0	1	1	
 treccast	cast-137-1-3	generated	gpt-4	none	savvy	implications	Could you elaborate on why Bostrom believes that the likelihood of civilizations reaching a posthuman stage or being interested in running simulations of their evolutionary history is very close to zero?	1	1	1	1	0	0	1	1	
 treccast	cast-137-1-3	generated	gpt-4	none	savvy	reasons	What does it mean to reach a posthuman stage in the context of the simulation argument?	1	1	1	1	0	0	0	1	
@@ -2058,8 +1930,6 @@ treccast	cast-137-1-5	generated	alpaca-7b	treccast	none	none	What makes you say 
 treccast	cast-137-1-5	generated	gpt-4	none	naive	implications	How does Bostrom's corollary relate to the three trilemma propositions?	1	1	1	0	0	0	0	0	
 treccast	cast-137-1-5	generated	gpt-4	none	naive	reasons	What does Bostrom mean by the term "trilemma propositions"?	1	1	1	1	0	0	0	1	
 treccast	cast-137-1-5	generated	gpt-4	none	none	none	What does Bostrom mean by 'the dark forest of our current ignorance'?	1	1	1	1	0	0	0	1	
-treccast	cast-137-1-5	generated	gpt-4	none	none	none	What does Bostrom mean by 'the dark forest of our current ignorance'?	1	1	1	1	0	0	0	1	
-treccast	cast-137-1-5	generated	gpt-4	none	none	none	What does Bostrom mean by 'the dark forest of our current ignorance'?	1	1	1	1	0	0	0	1	
 treccast	cast-137-1-5	generated	gpt-4	none	savvy	implications	Could you explain further on how proposition (2) makes the assumption of a strong convergence among advanced civilizations and what this entails?	1	1	1	1	0	0	0	1	
 treccast	cast-137-1-5	generated	gpt-4	none	savvy	reasons	How does the concept of ancestor-simulation play into the predictions or assumptions about the future of humanity?	1	1	1	1	0	0	0	1	
 treccast	cast-137-1-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	What does he mean by this?	1	1	1	1	0	0	0	1	
@@ -2089,8 +1959,6 @@ treccast	cast-138-1-11	generated	alpaca-7b	nudged-questions	none	none	How can we
 treccast	cast-138-1-11	generated	alpaca-7b	treccast	none	none	How can it be avoided?	1	1	1	1	0	0	0	1	
 treccast	cast-138-1-11	generated	gpt-4	none	naive	implications	What are some strategies to address this issue and educate teenagers about the potential negative impacts of social media?	1	1	1	1	0	0	0	1	
 treccast	cast-138-1-11	generated	gpt-4	none	naive	reasons	Are there any methods for teenagers to cope with this social media pressure?	1	1	1	1	0	0	0	1	
-treccast	cast-138-1-11	generated	gpt-4	none	none	none	Are there any particular factors or trends responsible for these changes?	1	1	1	1	0	0	1	1	
-treccast	cast-138-1-11	generated	gpt-4	none	none	none	Are there any particular factors or trends responsible for these changes?	1	1	1	1	0	0	1	1	
 treccast	cast-138-1-11	generated	gpt-4	none	none	none	Are there any particular factors or trends responsible for these changes?	1	1	1	1	0	0	1	1	
 treccast	cast-138-1-11	generated	gpt-4	none	savvy	implications	How does the need for "likes" or "comments" translate into the dictation of a teenager's self-esteem?	1	1	1	1	0	0	0	1	
 treccast	cast-138-1-11	generated	gpt-4	none	savvy	reasons	How does frequent posting on social media become an addiction for teenagers?	1	1	1	0	0	0	0	0	
@@ -2122,8 +1990,6 @@ treccast	cast-138-1-3	generated	alpaca-7b	treccast	none	none	What if they don’
 treccast	cast-138-1-3	generated	gpt-4	none	naive	implications	What are some examples of healthy praise for a teenager?	1	1	1	1	0	0	0	1	
 treccast	cast-138-1-3	generated	gpt-4	none	naive	reasons	How can praise boost a teenager's self-confidence?	1	1	1	1	0	0	1	1	
 treccast	cast-138-1-3	generated	gpt-4	none	none	none	Can you provide examples of praises that can boost a teenager's confidence?	1	1	1	1	0	0	0	1	
-treccast	cast-138-1-3	generated	gpt-4	none	none	none	Can you provide examples of praises that can boost a teenager's confidence?	1	1	1	1	0	0	0	1	
-treccast	cast-138-1-3	generated	gpt-4	none	none	none	Can you provide examples of praises that can boost a teenager's confidence?	1	1	1	1	0	0	0	1	
 treccast	cast-138-1-3	generated	gpt-4	none	savvy	implications	What kinds of things should parents praise their teenager for in order to boost their confidence?	1	1	1	1	0	0	0	1	
 treccast	cast-138-1-3	generated	gpt-4	none	savvy	reasons	Can you explain how parents' expressions of pride boost a teenager's self-confidence?	1	1	1	1	0	0	1	1	
 treccast	cast-138-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	How can criticism be detrimental?	1	1	1	0	0	0	1	0	
@@ -2154,8 +2020,6 @@ treccast	cast-139-1-3	generated	alpaca-7b	treccast	none	none	Are the lyrics to t
 treccast	cast-139-1-3	generated	gpt-4	none	naive	implications	What were the specific reasons Larry Newton disliked the song?	1	1	1	1	0	0	1	1	
 treccast	cast-139-1-3	generated	gpt-4	none	naive	reasons	What are the details about the song topping the pop charts in the United Kingdom?	1	1	1	1	0	0	0	1	
 treccast	cast-139-1-3	generated	gpt-4	none	none	none	What are some reasons Larry Newton disliked the song?	1	1	0	1	0	0	0	1	
-treccast	cast-139-1-3	generated	gpt-4	none	none	none	What are some reasons Larry Newton disliked the song?	1	1	1	1	0	0	1	1	
-treccast	cast-139-1-3	generated	gpt-4	none	none	none	What are some reasons Larry Newton disliked the song?	1	1	1	1	0	0	1	1	
 treccast	cast-139-1-3	generated	gpt-4	none	savvy	implications	Could you shed more light on the song's performance in the UK versus the US?	1	1	1	1	0	0	0	1	
 treccast	cast-139-1-3	generated	gpt-4	none	savvy	reasons	What was the inspiration or message behind the lyrics of "What a Wonderful World"?	1	1	1	1	0	0	1	1	
 treccast	cast-139-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the song about?	1	1	1	1	0	0	0	1	
@@ -2185,8 +2049,6 @@ treccast	cast-139-1-7	generated	alpaca-7b	nudged-questions	none	none	What other 
 treccast	cast-139-1-7	generated	alpaca-7b	treccast	none	none	How did that change the song’s reputation?	1	1	1	1	0	0	0	1	
 treccast	cast-139-1-7	generated	gpt-4	none	naive	implications		1	0	0	0	0	0	0	0	no question
 treccast	cast-139-1-7	generated	gpt-4	none	naive	reasons	in 1987?	1	1	1	0	0	0	0	0	
-treccast	cast-139-1-7	generated	gpt-4	none	none	none		1	0	0	0	0	0	0	0	no question
-treccast	cast-139-1-7	generated	gpt-4	none	none	none		1	0	0	0	0	0	0	0	no question
 treccast	cast-139-1-7	generated	gpt-4	none	none	none		1	0	0	0	0	0	0	0	no question
 treccast	cast-139-1-7	generated	gpt-4	none	savvy	implications		1	0	0	0	0	0	0	0	no question
 treccast	cast-139-1-7	generated	gpt-4	none	savvy	reasons		1	0	0	0	0	0	0	0	no question
@@ -2218,8 +2080,6 @@ treccast	cast-139-2-15	generated	alpaca-7b	treccast	none	none	What else do you r
 treccast	cast-139-2-15	generated	gpt-4	none	naive	implications	What makes the Great Barrier Reef the most beautiful coral reef in the world?	1	1	1	1	0	0	1	1	
 treccast	cast-139-2-15	generated	gpt-4	none	naive	reasons	What makes the Great Barrier Reef the most beautiful coral reef in the world?	1	1	1	1	0	0	1	1	
 treccast	cast-139-2-15	generated	gpt-4	none	none	none	Where exactly is the Coral Sea located?	1	1	1	1	0	0	0	1	
-treccast	cast-139-2-15	generated	gpt-4	none	none	none	Where exactly is the Coral Sea located?	1	1	1	1	0	0	0	1	
-treccast	cast-139-2-15	generated	gpt-4	none	none	none	Where exactly is the Coral Sea located?	1	1	1	1	0	0	0	1	
 treccast	cast-139-2-15	generated	gpt-4	none	savvy	implications	What makes the Great Barrier Reef the most beautiful among all the coral reefs in the world?	1	1	1	1	0	0	1	1	
 treccast	cast-139-2-15	generated	gpt-4	none	savvy	reasons	Why is it significant that the reef hosts hundreds of different animal species?	1	1	1	1	0	0	1	1	
 treccast	cast-139-2-15	generated	Llama-2-13b-hf	inquisitive	naive	implications	What are the other six wonders of the world?	1	1	1	1	0	0	0	1	
@@ -2250,8 +2110,6 @@ treccast	cast-139-2-3	generated	alpaca-7b	treccast	none	none	What are the most f
 treccast	cast-139-2-3	generated	gpt-4	none	naive	implications	Can you give examples of the natural wonders in Asia?	1	1	1	1	0	0	0	1	
 treccast	cast-139-2-3	generated	gpt-4	none	naive	reasons	Why do these particular natural wonders attract tourists from all parts of the globe?	1	1	1	1	0	0	1	1	
 treccast	cast-139-2-3	generated	gpt-4	none	none	none	Can you name some of the amazing monuments and structures found in Asia?	1	1	1	1	0	0	0	1	
-treccast	cast-139-2-3	generated	gpt-4	none	none	none	Can you name some of the amazing monuments and structures found in Asia?	1	1	1	1	0	0	0	1	
-treccast	cast-139-2-3	generated	gpt-4	none	none	none	Can you name some of the amazing monuments and structures found in Asia?	1	1	1	1	0	0	0	1	
 treccast	cast-139-2-3	generated	gpt-4	none	savvy	implications	What are some examples of the varied geography found across Asia?	1	1	1	1	0	0	0	1	
 treccast	cast-139-2-3	generated	gpt-4	none	savvy	reasons	Can you further explain how Asia's long history has influenced its present state?	1	1	1	1	0	0	1	1	
 treccast	cast-139-2-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	What are the natural wonders?	1	1	1	1	0	0	0	1	
@@ -2281,8 +2139,6 @@ treccast	cast-139-2-7	generated	alpaca-7b	nudged-questions	none	none	How long di
 treccast	cast-139-2-7	generated	alpaca-7b	treccast	none	none	How long would that take?	1	1	0	0	0	0	0	0	
 treccast	cast-139-2-7	generated	gpt-4	none	naive	implications	How was the Great Wall of China able to become the world’s longest man-made structure?	1	1	1	1	0	0	1	1	
 treccast	cast-139-2-7	generated	gpt-4	none	naive	reasons	What happened 2,000 years ago that prompted the construction of the oldest section of the Great Wall?	1	1	1	1	0	0	1	1	
-treccast	cast-139-2-7	generated	gpt-4	none	none	none	Why is the Great Wall of China also known as the world's longest cemetery?	1	1	1	0	0	0	0	0	
-treccast	cast-139-2-7	generated	gpt-4	none	none	none	Why is the Great Wall of China also known as the world's longest cemetery?	1	1	1	0	0	0	1	0	
 treccast	cast-139-2-7	generated	gpt-4	none	none	none	Why is the Great Wall of China also known as the world's longest cemetery?	1	1	1	0	0	0	1	0	
 treccast	cast-139-2-7	generated	gpt-4	none	savvy	implications	What specific factors made the Great Wall of China one of the Seven Wonders of the Medieval World?	1	1	1	1	0	0	0	1	
 treccast	cast-139-2-7	generated	gpt-4	none	savvy	reasons	How did UNESCO go about adding the Great Wall of China to the list of the Great National and Historical Sites of the World in 1987?	1	1	1	1	0	0	0	1	
@@ -2314,8 +2170,6 @@ treccast	cast-139-2-9	generated	alpaca-7b	treccast	none	none	How did it become a
 treccast	cast-139-2-9	generated	gpt-4	none	naive	implications	Are there any other structures in India that reflect similar architecture as the Taj Mahal?	1	1	1	1	0	0	0	1	
 treccast	cast-139-2-9	generated	gpt-4	none	naive	reasons	Where exactly is Agra located in India?	1	1	1	1	0	0	0	1	
 treccast	cast-139-2-9	generated	gpt-4	none	none	none	Can you provide more descriptions of the Taj Mahal's architecture, particularly the Muslim, Indian, and Persian influences?	1	1	1	1	0	0	0	1	
-treccast	cast-139-2-9	generated	gpt-4	none	none	none	Can you provide more descriptions of the Taj Mahal's architecture, particularly the Muslim, Indian, and Persian influences?	1	1	1	1	0	0	0	1	
-treccast	cast-139-2-9	generated	gpt-4	none	none	none	Can you provide more descriptions of the Taj Mahal's architecture, particularly the Muslim, Indian, and Persian influences?	1	1	1	1	0	0	0	1	
 treccast	cast-139-2-9	generated	gpt-4	none	savvy	implications	What role does the Taj Mahal play in present day Indian culture and tourism?	1	1	1	1	0	0	0	1	
 treccast	cast-139-2-9	generated	gpt-4	none	savvy	reasons	Was it a common practice in the Mughal Empire for rulers to construct significant buildings like the Taj Mahal in memory of their loved ones?	1	1	1	1	0	0	0	1	
 treccast	cast-139-2-9	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the history of the Mughal Empire?	1	1	1	1	0	0	0	1	
@@ -2345,8 +2199,6 @@ treccast	cast-140-1-11	generated	alpaca-7b	nudged-questions	none	none	What were 
 treccast	cast-140-1-11	generated	alpaca-7b	treccast	none	none	Can you summarize the impact?	0	1	1	1	0	0	0	1	nice example
 treccast	cast-140-1-11	generated	gpt-4	none	naive	implications	Why were most of the slave ships that transported slaves from Calabar English?	1	1	1	1	0	0	1	1	
 treccast	cast-140-1-11	generated	gpt-4	none	naive	reasons	Could you elaborate more on the brutal conditions mentioned?	1	1	1	1	0	0	0	1	
-treccast	cast-140-1-11	generated	gpt-4	none	none	none	Can you elaborate on the brutality of the conditions mentioned?	1	1	1	1	0	0	0	1	
-treccast	cast-140-1-11	generated	gpt-4	none	none	none	Can you elaborate on the brutality of the conditions mentioned?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-11	generated	gpt-4	none	none	none	Can you elaborate on the brutality of the conditions mentioned?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-11	generated	gpt-4	none	savvy	implications	Were there any repercussions from this event?	0	1	0	1	0	0	0	1	
 treccast	cast-140-1-11	generated	gpt-4	none	savvy	reasons	Did any form of reparation or justice come about for the victims of this incident in the years that followed?	1	1	1	1	0	0	0	1	
@@ -2378,8 +2230,6 @@ treccast	cast-140-1-3	generated	alpaca-7b	treccast	none	none	Can you tell me abo
 treccast	cast-140-1-3	generated	gpt-4	none	naive	implications	Can you describe more about Abuja, why is it one of the fastest-growing urban areas in the world?	1	1	1	1	0	0	1	1	
 treccast	cast-140-1-3	generated	gpt-4	none	naive	reasons	Can you elaborate more on how size might matter in West Africa?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-3	generated	gpt-4	none	none	none	How does Nigeria's diverse geographical features reflect its diverse cultural background?	1	1	1	1	0	0	0	1	
-treccast	cast-140-1-3	generated	gpt-4	none	none	none	How does Nigeria's diverse geographical features reflect its diverse cultural background?	1	1	1	1	0	0	0	1	
-treccast	cast-140-1-3	generated	gpt-4	none	none	none	How does Nigeria's diverse geographical features reflect its diverse cultural background?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-3	generated	gpt-4	none	savvy	implications	Can you elaborate on the contrasts between city life and rural life in Nigeria?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-3	generated	gpt-4	none	savvy	reasons	Can you describe more about the rural side of Nigeria, particularly the Gashaka Gumti area?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	How is Nigeria huge?	1	1	1	1	0	0	0	1	
@@ -2409,8 +2259,6 @@ treccast	cast-140-1-7	generated	alpaca-7b	nudged-questions	none	none	What other 
 treccast	cast-140-1-7	generated	alpaca-7b	treccast	none	none	What were some of the challenges faced when setting this place up?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-7	generated	gpt-4	none	naive	implications	Who was Hugh Jones and what was his role in developing the resort?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-7	generated	gpt-4	none	naive	reasons	McCaughley and why was he exploring the mountain ranges?	1	0	1	1	0	0	1	1	
-treccast	cast-140-1-7	generated	gpt-4	none	none	none	What makes Obudu Mountain Resort unique compared to other resorts in Nigeria or Africa?	1	1	0	0	0	0	0	0	
-treccast	cast-140-1-7	generated	gpt-4	none	none	none	What makes Obudu Mountain Resort unique compared to other resorts in Nigeria or Africa?	1	1	1	1	0	0	1	1	
 treccast	cast-140-1-7	generated	gpt-4	none	none	none	What makes Obudu Mountain Resort unique compared to other resorts in Nigeria or Africa?	1	1	1	1	0	0	1	1	
 treccast	cast-140-1-7	generated	gpt-4	none	savvy	implications	How has the resort impacted the economy or tourism in Cross River State, Nigeria since its development?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-7	generated	gpt-4	none	savvy	reasons	Why was the name changed from Obudu Cattle Ranch to Obudu Mountain Resort, and what impact did this have on it in terms of its reputation or attractions?	1	1	1	1	0	0	1	1	
@@ -2442,8 +2290,6 @@ treccast	cast-140-1-9	generated	alpaca-7b	treccast	none	none	Are there any good 
 treccast	cast-140-1-9	generated	gpt-4	none	naive	implications	What exactly is covered in the Calabar Museum, is it a museum dedicated solely to the slave trade?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-9	generated	gpt-4	none	naive	reasons	What are some of the attractions at the reserves of the Cross River?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-9	generated	gpt-4	none	none	none	What is the significance of the Duke Town chapel in Nigerian history?	1	1	1	1	0	0	0	1	
-treccast	cast-140-1-9	generated	gpt-4	none	none	none	What is the significance of the Duke Town chapel in Nigerian history?	1	1	1	1	0	0	0	1	
-treccast	cast-140-1-9	generated	gpt-4	none	none	none	What is the significance of the Duke Town chapel in Nigerian history?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-9	generated	gpt-4	none	savvy	implications	Given Calabar's history, what learning experiences, outside of museums, are available for tourists interested in understanding the effects of slave trading in West Africa?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-9	generated	gpt-4	none	savvy	reasons	What kind of wildlife, specifically, can a traveler expect to encounter in the Afi Mountains?	1	1	1	1	0	0	0	1	
 treccast	cast-140-1-9	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the history of the town of Calabar?	1	1	1	1	0	0	0	1	
@@ -2473,8 +2319,6 @@ treccast	cast-140-2-3	generated	alpaca-7b	nudged-questions	none	none	Does the Wo
 treccast	cast-140-2-3	generated	alpaca-7b	treccast	none	none	So, what are some of these events?	1	1	1	1	0	0	0	1	
 treccast	cast-140-2-3	generated	gpt-4	none	naive	implications	How does the revenue from tourism in Nigeria compare to other countries in Africa?	1	1	1	1	0	0	0	1	
 treccast	cast-140-2-3	generated	gpt-4	none	naive	reasons	How do these natural and event attractions impact the local communities?	1	1	1	1	0	0	0	1	
-treccast	cast-140-2-3	generated	gpt-4	none	none	none	What percentage of Nigeria's gross domestic product was contributed by tourism in recent years?	1	1	1	1	0	0	0	1	
-treccast	cast-140-2-3	generated	gpt-4	none	none	none	What percentage of Nigeria's gross domestic product was contributed by tourism in recent years?	1	1	1	1	0	0	0	1	
 treccast	cast-140-2-3	generated	gpt-4	none	none	none	What percentage of Nigeria's gross domestic product was contributed by tourism in recent years?	1	1	1	1	0	0	0	1	
 treccast	cast-140-2-3	generated	gpt-4	none	savvy	implications	Did it increase or decrease, and what factors could have contributed to this change?	0	1	0	1	0	0	1	1	
 treccast	cast-140-2-3	generated	gpt-4	none	savvy	reasons	How does the 6% contribution of tourism to Nigeria's GDP compare to other countries?	1	1	1	1	0	0	0	1	
@@ -2506,8 +2350,6 @@ treccast	cast-140-2-5	generated	alpaca-7b	treccast	none	none	Can you explain the
 treccast	cast-140-2-5	generated	gpt-4	none	naive	implications	What kind of improvements or changes has the NTDC brought about in Nigeria's tourism industry?	1	1	1	1	0	0	0	1	
 treccast	cast-140-2-5	generated	gpt-4	none	naive	reasons	How does the Nigerian Tourism Development Corporation contribute to the development of the country's tourism?	1	1	1	1	0	0	0	1	
 treccast	cast-140-2-5	generated	gpt-4	none	none	none	How does NTDC work with the Ministry of Culture, Tourism, and National Orientation?	1	1	1	0	0	0	0	0	
-treccast	cast-140-2-5	generated	gpt-4	none	none	none	How does NTDC work with the Ministry of Culture, Tourism, and National Orientation?	1	1	1	0	0	0	0	0	
-treccast	cast-140-2-5	generated	gpt-4	none	none	none	How does NTDC work with the Ministry of Culture, Tourism, and National Orientation?	1	1	1	0	0	0	0	0	
 treccast	cast-140-2-5	generated	gpt-4	none	savvy	implications	What kind of support or cooperation does NTDC receive from the local communities and other stakeholders in promoting tourism?	1	1	1	1	0	0	0	1	
 treccast	cast-140-2-5	generated	gpt-4	none	savvy	reasons	Can you provide any examples of successful tourism projects that the NTDC has been involved in?	1	1	1	1	0	0	0	1	
 treccast	cast-140-2-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	What does the Nigerian Tourism Development Corporation do?	1	1	1	1	0	0	0	1	
@@ -2537,8 +2379,6 @@ treccast	cast-140-4-10	generated	alpaca-7b	nudged-questions	none	none	How do peo
 treccast	cast-140-4-10	generated	alpaca-7b	treccast	none	none	Tell me about the history of Jollof rice?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-10	generated	gpt-4	none	naive	implications	Can you share more about the incident in 2016 with Facebook owner Mark Zuckerberg?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-10	generated	gpt-4	none	naive	reasons	Why is there a Jollof Rice Day on August 22?	1	1	1	1	0	0	1	1	
-treccast	cast-140-4-10	generated	gpt-4	none	none	none	Are any other West African countries involved in the Jollof rice debate?	1	1	1	1	0	0	0	1	
-treccast	cast-140-4-10	generated	gpt-4	none	none	none	Are any other West African countries involved in the Jollof rice debate?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-10	generated	gpt-4	none	none	none	Are any other West African countries involved in the Jollof rice debate?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-10	generated	gpt-4	none	savvy	implications	How did the debate between the two jollof rice variations start and how has it evolved over time?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-10	generated	gpt-4	none	savvy	reasons	Could you elaborate more on the ingredients and cooking process used in Nigerian and Ghanian Jollof rice?	1	1	1	1	0	0	0	1	
@@ -2570,8 +2410,6 @@ treccast	cast-140-4-12	generated	alpaca-7b	treccast	none	none	How is it traditio
 treccast	cast-140-4-12	generated	gpt-4	none	naive	implications	How does the bay leaf contribute to the rich smoky flavor of Nigerian Jollof?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-12	generated	gpt-4	none	naive	reasons	Why is Basmati rice aka Thai Jasmine rice, used for Ghanian Jollof instead of a native Ghanian rice?	1	1	1	1	0	0	1	1	
 treccast	cast-140-4-12	generated	gpt-4	none	none	none	What is shito and what are its ingredients?	1	1	1	0	0	0	0	0	
-treccast	cast-140-4-12	generated	gpt-4	none	none	none	What is shito and what are its ingredients?	1	1	1	0	0	0	0	0	
-treccast	cast-140-4-12	generated	gpt-4	none	none	none	What is shito and what are its ingredients?	1	1	1	0	0	0	0	0	
 treccast	cast-140-4-12	generated	gpt-4	none	savvy	implications	What other characteristics do basmati rice have, apart from its higher starch content and aromatic smell?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-12	generated	gpt-4	none	savvy	reasons	How does the absence of parboiling in Ghanian Jollof rice preparation affect the overall cooking time compared to the Nigerian method?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-12	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the significance of the bay leaf?	1	1	1	1	0	0	1	1	
@@ -2601,8 +2439,6 @@ treccast	cast-140-4-16	generated	alpaca-7b	nudged-questions	none	none	What are y
 treccast	cast-140-4-16	generated	alpaca-7b	treccast	none	none	What is it?	0	1	1	1	0	0	0	1	
 treccast	cast-140-4-16	generated	gpt-4	none	naive	implications	Does it refer only to dishes made from yam?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-16	generated	gpt-4	none	naive	reasons	What does the term "fufu" mean?	1	1	1	1	0	0	0	1	
-treccast	cast-140-4-16	generated	gpt-4	none	none	none	Is yam flour significantly different from actual yams in terms of taste or texture when used in dishes?	1	1	1	1	0	0	0	1	
-treccast	cast-140-4-16	generated	gpt-4	none	none	none	Is yam flour significantly different from actual yams in terms of taste or texture when used in dishes?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-16	generated	gpt-4	none	none	none	Is yam flour significantly different from actual yams in terms of taste or texture when used in dishes?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-16	generated	gpt-4	none	savvy	implications	How does the taste of pounded yam vary with the use of a hand mixer, blender or yam flour?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-16	generated	gpt-4	none	savvy	reasons	Could you clarify how comparing pounded yams to mashed potatoes may be considered a disservice to the dish?	1	1	1	1	0	0	0	1	
@@ -2634,8 +2470,6 @@ treccast	cast-140-4-4	generated	alpaca-7b	treccast	none	none	I'm sure this is al
 treccast	cast-140-4-4	generated	gpt-4	none	naive	implications	What are some common Nigerian Soups recipes that these foods are eaten with?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-4	generated	gpt-4	none	naive	reasons	What are some typical Nigerian Soups recipes that accompany these foods?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-4	generated	gpt-4	none	none	none	Are there any special utensils or cooking methods used in the preparation of these foods?	1	1	1	1	0	0	0	1	
-treccast	cast-140-4-4	generated	gpt-4	none	none	none	Are there any special utensils or cooking methods used in the preparation of these foods?	1	1	1	1	0	0	0	1	
-treccast	cast-140-4-4	generated	gpt-4	none	none	none	Are there any special utensils or cooking methods used in the preparation of these foods?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-4	generated	gpt-4	none	savvy	implications	How are these meals typically served and eaten, considering most of them seem to be eaten in a specific way?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-4	generated	gpt-4	none	savvy	reasons	Can you illustrate with examples?	0	1	1	1	0	0	0	1	
 treccast	cast-140-4-4	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is Garri (Eba)?	1	1	1	1	0	0	0	1	
@@ -2665,8 +2499,6 @@ treccast	cast-140-4-8	generated	alpaca-7b	nudged-questions	none	none	What is it?
 treccast	cast-140-4-8	generated	alpaca-7b	treccast	none	none	What is it?	0	1	1	0	0	0	0	0	
 treccast	cast-140-4-8	generated	gpt-4	none	naive	implications	Where can I find some of these ingredients like tomatoes, onions, scotch bonnets, and chili peppers, are they easily available in grocery stores?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-8	generated	gpt-4	none	naive	reasons	What are some of the most commonly used spices in Nigerian dishes?	1	1	1	1	0	0	0	1	
-treccast	cast-140-4-8	generated	gpt-4	none	none	none	What other ingredients can be added to Jollof rice?	1	1	1	1	0	0	0	1	
-treccast	cast-140-4-8	generated	gpt-4	none	none	none	What other ingredients can be added to Jollof rice?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-8	generated	gpt-4	none	none	none	What other ingredients can be added to Jollof rice?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-8	generated	gpt-4	none	savvy	implications	What are some of the aromatic spices frequently used in Nigerian dishes?	1	1	1	1	0	0	0	1	
 treccast	cast-140-4-8	generated	gpt-4	none	savvy	reasons	What are some of the variations of the Jollof rice recipe mentioned?	1	1	1	1	0	0	0	1	
@@ -2698,8 +2530,6 @@ treccast	cast-141-1-3	generated	alpaca-7b	treccast	none	none	How can one differe
 treccast	cast-141-1-3	generated	gpt-4	none	naive	implications	Is it possible for anyone to predict the future in investment scenarios?	1	1	1	1	0	0	0	1	
 treccast	cast-141-1-3	generated	gpt-4	none	naive	reasons	What are some other red flags to look out for in scams?	1	1	1	1	0	0	0	1	
 treccast	cast-141-1-3	generated	gpt-4	none	none	none	What are other red flags that a request might be a scam?	1	1	1	1	0	0	0	1	
-treccast	cast-141-1-3	generated	gpt-4	none	none	none	What are other red flags that a request might be a scam?	1	1	1	1	0	0	0	1	
-treccast	cast-141-1-3	generated	gpt-4	none	none	none	What are other red flags that a request might be a scam?	1	1	1	1	0	0	0	1	
 treccast	cast-141-1-3	generated	gpt-4	none	savvy	implications	Can you offer further examples of these "guaranteed returns" that might be too good to be true?	1	1	1	1	0	0	0	1	
 treccast	cast-141-1-3	generated	gpt-4	none	savvy	reasons	Can you explain in detail how scams prey on human greed and desperation?	1	1	1	1	0	0	0	1	
 treccast	cast-141-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	How do they pitch it?	1	1	1	0	0	0	0	0	
@@ -2729,8 +2559,6 @@ treccast	cast-141-1-5	generated	alpaca-7b	nudged-questions	none	none	What are th
 treccast	cast-141-1-5	generated	alpaca-7b	treccast	none	none	Any advice for how to proceed?	1	1	1	1	0	0	0	1	
 treccast	cast-141-1-5	generated	gpt-4	none	naive	implications	What could be other red flags to look out for when assessing an investment strategy?	1	1	1	1	0	0	0	1	
 treccast	cast-141-1-5	generated	gpt-4	none	naive	reasons	Why should investors be able to explain how they make money?	1	1	1	1	0	0	1	1	
-treccast	cast-141-1-5	generated	gpt-4	none	none	none	What does "significantly better than market rate" mean, and why is it considered suspicious?	1	1	1	1	0	0	0	1	
-treccast	cast-141-1-5	generated	gpt-4	none	none	none	What does "significantly better than market rate" mean, and why is it considered suspicious?	1	1	1	1	0	0	0	1	
 treccast	cast-141-1-5	generated	gpt-4	none	none	none	What does "significantly better than market rate" mean, and why is it considered suspicious?	1	1	1	1	0	0	0	1	
 treccast	cast-141-1-5	generated	gpt-4	none	savvy	implications	What specific factors should I consider if an investment claims to perform better than the market?	1	1	1	1	0	0	0	1	
 treccast	cast-141-1-5	generated	gpt-4	none	savvy	reasons	Could you explain more about the terms "significantly better than market rate" and "zero risk"?	1	1	1	1	0	0	0	1	
@@ -2762,8 +2590,6 @@ treccast	cast-141-2-11	generated	alpaca-7b	treccast	none	none	Can you explain th
 treccast	cast-141-2-11	generated	gpt-4	none	naive	implications	What is a pyramid scheme considered fraudulent?	1	0	1	1	0	0	0	1	
 treccast	cast-141-2-11	generated	gpt-4	none	naive	reasons	What differentiates a Ponzi scheme from a pyramid scheme?	1	1	1	0	0	0	0	0	
 treccast	cast-141-2-11	generated	gpt-4	none	none	none	Can you provide a simple definition of a pyramid scheme and how it works?	1	1	1	1	0	0	0	1	
-treccast	cast-141-2-11	generated	gpt-4	none	none	none	Can you provide a simple definition of a pyramid scheme and how it works?	1	1	1	1	0	0	0	1	
-treccast	cast-141-2-11	generated	gpt-4	none	none	none	Can you provide a simple definition of a pyramid scheme and how it works?	1	1	1	1	0	0	0	1	
 treccast	cast-141-2-11	generated	gpt-4	none	savvy	implications	How are the operators of pyramid and Ponzi schemes typically caught and prosecuted?	1	1	1	0	0	0	0	0	
 treccast	cast-141-2-11	generated	gpt-4	none	savvy	reasons	How does a Ponzi scheme usually attract well-to-do investors?	1	1	1	1	0	0	1	1	
 treccast	cast-141-2-11	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is a Ponzi scheme?	1	1	1	0	0	0	0	0	
@@ -2793,8 +2619,6 @@ treccast	cast-141-2-3	generated	alpaca-7b	nudged-questions	none	none	What is the
 treccast	cast-141-2-3	generated	alpaca-7b	treccast	none	none	What are other investments with good returns?	1	1	1	1	0	0	0	1	
 treccast	cast-141-2-3	generated	gpt-4	none	naive	implications	What usually leads to the collapse of a Ponzi scheme?	1	1	1	0	0	0	1	0	
 treccast	cast-141-2-3	generated	gpt-4	none	naive	reasons	How much of the money are they able to steal for themselves?	1	1	1	1	0	0	0	1	
-treccast	cast-141-2-3	generated	gpt-4	none	none	none	What steps can potential investors take to avoid falling victim to Ponzi schemes?	1	1	1	1	0	0	0	1	
-treccast	cast-141-2-3	generated	gpt-4	none	none	none	What steps can potential investors take to avoid falling victim to Ponzi schemes?	1	1	1	1	0	0	0	1	
 treccast	cast-141-2-3	generated	gpt-4	none	none	none	What steps can potential investors take to avoid falling victim to Ponzi schemes?	1	1	1	1	0	0	0	1	
 treccast	cast-141-2-3	generated	gpt-4	none	savvy	implications	Are there any legal protections or remedies for investors who fall victim to Ponzi schemes?	1	1	1	1	0	0	0	1	
 treccast	cast-141-2-3	generated	gpt-4	none	savvy	reasons	What are the signs or indicators of a Ponzi scheme?	1	1	1	1	0	0	0	1	
@@ -2826,8 +2650,6 @@ treccast	cast-142-1-3	generated	alpaca-7b	treccast	none	none	Do you want to chec
 treccast	cast-142-1-3	generated	gpt-4	none	naive	implications	Can you expand on Argentina's experience with dictatorships and economic crises?	1	1	1	1	0	0	0	1	
 treccast	cast-142-1-3	generated	gpt-4	none	naive	reasons	Why is Patagonia mentioned in both the south and north of Argentina?	1	1	1	1	0	0	1	1	
 treccast	cast-142-1-3	generated	gpt-4	none	none	none	What outdoor activities does Argentina offer to visitors?	1	1	1	0	0	0	0	0	
-treccast	cast-142-1-3	generated	gpt-4	none	none	none	What outdoor activities does Argentina offer to visitors?	1	1	1	0	0	0	0	0	
-treccast	cast-142-1-3	generated	gpt-4	none	none	none	What outdoor activities does Argentina offer to visitors?	1	1	1	0	0	0	0	0	
 treccast	cast-142-1-3	generated	gpt-4	none	savvy	implications	What are some of the key factors to consider when planning a trip to Argentina given its vastness and diverse geographical and cultural attractions?	1	1	1	1	0	0	0	1	
 treccast	cast-142-1-3	generated	gpt-4	none	savvy	reasons	Can you elaborate further on the locations in the north including the Iguazu Falls, Salta, and Jujuy and why they are known for their amazing rock formations?	1	1	1	1	0	0	1	1	
 treccast	cast-142-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	Do you want to check out southern Patagonia and the Perito Moreno glacier and go trekking in El Calafate?	1	1	1	0	0	0	0	0	
@@ -2857,8 +2679,6 @@ treccast	cast-142-3-1	generated	alpaca-7b	nudged-questions	none	none	What is the
 treccast	cast-142-3-1	generated	alpaca-7b	treccast	none	none	What kind of cuisines?	1	1	0	1	0	0	0	1	
 treccast	cast-142-3-1	generated	gpt-4	none	naive	implications	What other significant figures are from Buenos Aires, Argentina besides Pope Francis?	1	1	1	1	0	0	0	1	
 treccast	cast-142-3-1	generated	gpt-4	none	naive	reasons	What is the Tango?	1	1	1	1	0	0	0	1	
-treccast	cast-142-3-1	generated	gpt-4	none	none	none	Who is Pope Francis and what is his significance to Argentina?	1	1	1	1	0	0	0	1	
-treccast	cast-142-3-1	generated	gpt-4	none	none	none	Who is Pope Francis and what is his significance to Argentina?	1	1	1	1	0	0	0	1	
 treccast	cast-142-3-1	generated	gpt-4	none	none	none	Who is Pope Francis and what is his significance to Argentina?	1	1	1	1	0	0	0	1	
 treccast	cast-142-3-1	generated	gpt-4	none	savvy	implications	How does Argentina's high literacy rate correlate with its cultural richness and diversity?	1	1	1	1	0	0	0	1	
 treccast	cast-142-3-1	generated	gpt-4	none	savvy	reasons	How does Argentina maintain such high literacy rates, especially among women?	1	1	1	1	0	0	0	1	
@@ -2890,8 +2710,6 @@ treccast	cast-142-5-5	generated	alpaca-7b	treccast	none	none	Any tips in choosin
 treccast	cast-142-5-5	generated	gpt-4	none	naive	implications	What is sandwiches de miga?	1	1	1	1	0	0	0	1	
 treccast	cast-142-5-5	generated	gpt-4	none	naive	reasons	Why is it named as such?	1	1	1	1	0	0	1	1	
 treccast	cast-142-5-5	generated	gpt-4	none	none	none	What are the nationalities whose product blending contributed to the tradition of bread, pastry, and dessert-making mentioned in the text?	1	1	1	1	0	0	0	1	
-treccast	cast-142-5-5	generated	gpt-4	none	none	none	What are the nationalities whose product blending contributed to the tradition of bread, pastry, and dessert-making mentioned in the text?	1	1	1	1	0	0	0	1	
-treccast	cast-142-5-5	generated	gpt-4	none	none	none	What are the nationalities whose product blending contributed to the tradition of bread, pastry, and dessert-making mentioned in the text?	1	1	1	1	0	0	0	1	
 treccast	cast-142-5-5	generated	gpt-4	none	savvy	implications	How is it prepared and what makes it so popular in the dessert scene?	1	1	1	1	0	0	1	1	
 treccast	cast-142-5-5	generated	gpt-4	none	savvy	reasons	What makes the medialunas type of pastry popularly used?	1	1	1	1	0	0	1	1	
 treccast	cast-142-5-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is flan de leche?	1	1	1	1	0	0	0	1	
@@ -2921,8 +2739,6 @@ treccast	cast-142-5-7	generated	alpaca-7b	nudged-questions	none	none	What is the
 treccast	cast-142-5-7	generated	alpaca-7b	treccast	none	none	Can you elaborate more on the asado?	1	1	1	1	0	0	0	1	
 treccast	cast-142-5-7	generated	gpt-4	none	naive	implications	What exactly is an asado?	1	1	1	1	0	0	0	1	
 treccast	cast-142-5-7	generated	gpt-4	none	naive	reasons	What variety of toppings are commonly used on Argentine pizzas?	1	1	1	1	0	0	0	1	
-treccast	cast-142-5-7	generated	gpt-4	none	none	none	What is "matambre" and how is it prepared?	1	1	1	1	0	0	0	1	
-treccast	cast-142-5-7	generated	gpt-4	none	none	none	What is "matambre" and how is it prepared?	1	1	1	1	0	0	0	1	
 treccast	cast-142-5-7	generated	gpt-4	none	none	none	What is "matambre" and how is it prepared?	1	1	1	1	0	0	0	1	
 treccast	cast-142-5-7	generated	gpt-4	none	savvy	implications	Are there any dietary or health considerations in the Argentinean diet due to their high consumption of meat?	1	1	1	1	0	0	0	1	
 treccast	cast-142-5-7	generated	gpt-4	none	savvy	reasons	Can you explain more about "asado"?	1	1	1	1	0	0	0	1	
@@ -2954,8 +2770,6 @@ treccast	cast-142-6-1	generated	alpaca-7b	treccast	none	none	I mean, why do you 
 treccast	cast-142-6-1	generated	gpt-4	none	naive	implications	What is dulce de leche?	1	1	1	1	0	0	0	1	
 treccast	cast-142-6-1	generated	gpt-4	none	naive	reasons	What are some of the typical foods or snacks that are part of a merienda?	1	1	1	0	0	0	0	0	
 treccast	cast-142-6-1	generated	gpt-4	none	none	none	What are some of the most common snacks or foods served during Merienda?	1	1	1	0	0	0	0	0	
-treccast	cast-142-6-1	generated	gpt-4	none	none	none	What are some of the most common snacks or foods served during Merienda?	1	1	1	0	0	0	0	0	
-treccast	cast-142-6-1	generated	gpt-4	none	none	none	What are some of the most common snacks or foods served during Merienda?	1	1	1	0	0	0	0	0	
 treccast	cast-142-6-1	generated	gpt-4	none	savvy	implications	You mentioned that different snacks are eaten during Merienda, are there snacks that are most preferred or traditional to this meal?	1	1	1	1	0	0	0	1	
 treccast	cast-142-6-1	generated	gpt-4	none	savvy	reasons	How does the contents of a typical Merienda vary from country to country?	1	1	1	1	0	0	0	1	
 treccast	cast-142-6-1	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the difference between a snack and a meal?	1	1	1	1	0	0	0	1	
@@ -2985,8 +2799,6 @@ treccast	cast-143-1-15	generated	alpaca-7b	nudged-questions	none	none	What do th
 treccast	cast-143-1-15	generated	alpaca-7b	treccast	none	none	What other examples of successful fintech startups would you mention?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-15	generated	gpt-4	none	naive	implications	How does automation revolutionize the financial industry?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-15	generated	gpt-4	none	naive	reasons	What exactly is fintech and how does it revolutionize automation within the financial industry?	1	1	1	1	0	0	0	1	
-treccast	cast-143-1-15	generated	gpt-4	none	none	none	How is the valuation of a fintech company like Coinbase determined?	1	1	1	1	0	0	0	1	
-treccast	cast-143-1-15	generated	gpt-4	none	none	none	How is the valuation of a fintech company like Coinbase determined?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-15	generated	gpt-4	none	none	none	How is the valuation of a fintech company like Coinbase determined?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-15	generated	gpt-4	none	savvy	implications	What potential impacts can the rise of fintech startups have on traditional financial industry practices and companies?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-15	generated	gpt-4	none	savvy	reasons	Can you elaborate on how these fintech companies strive to create a more seamless and streamlined user system?	1	1	1	1	0	0	0	1	
@@ -3018,8 +2830,6 @@ treccast	cast-143-1-17	generated	alpaca-7b	treccast	none	none	So why does all th
 treccast	cast-143-1-17	generated	gpt-4	none	naive	implications	What is the SEC and what is its role in relation to cryptocurrencies?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-17	generated	gpt-4	none	naive	reasons	Are there specific reasons for the delay in creating regulations for Bitcoin and cryptocurrencies?	1	1	1	1	0	0	1	1	
 treccast	cast-143-1-17	generated	gpt-4	none	none	none	Is the lack of a policy from the Federal Reserve in line with the approach of other similar institutions globally?	1	1	1	1	0	0	0	1	
-treccast	cast-143-1-17	generated	gpt-4	none	none	none	Is the lack of a policy from the Federal Reserve in line with the approach of other similar institutions globally?	1	1	1	1	0	0	0	1	
-treccast	cast-143-1-17	generated	gpt-4	none	none	none	Is the lack of a policy from the Federal Reserve in line with the approach of other similar institutions globally?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-17	generated	gpt-4	none	savvy	implications	What guidelines has the Financial Crimes Enforcement Network published about cryptocurrencies in 2013?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-17	generated	gpt-4	none	savvy	reasons	What are the possible implications of the SEC not yet issuing any regulations on Bitcoin or cryptocurrencies?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-17	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the Federal Reserve's policy toward the regulation of Bitcoin?	1	1	1	0	0	0	0	0	
@@ -3049,8 +2859,6 @@ treccast	cast-143-1-19	generated	alpaca-7b	nudged-questions	none	none	What regul
 treccast	cast-143-1-19	generated	alpaca-7b	treccast	none	none	How does Europe differ from the US in terms of cryptocurrency regulation?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-19	generated	gpt-4	none	naive	implications	What is the current status of these regulations and have they been effective so far?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-19	generated	gpt-4	none	naive	reasons	How do cryptocurrencies contribute to money laundering and terrorism financing?	1	1	1	1	0	0	0	1	
-treccast	cast-143-1-19	generated	gpt-4	none	none	none	In what ways do the regulations tackle the anonymity of digital coins?	1	1	1	1	0	0	0	1	
-treccast	cast-143-1-19	generated	gpt-4	none	none	none	In what ways do the regulations tackle the anonymity of digital coins?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-19	generated	gpt-4	none	none	none	In what ways do the regulations tackle the anonymity of digital coins?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-19	generated	gpt-4	none	savvy	implications	Are there any notable objections or challenges to these regulations from any of the stakeholders within the cryptocurrency industry?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-19	generated	gpt-4	none	savvy	reasons	What specific regulations did the EU Parliament introduce for cryptocurrencies in April 2018?	1	1	1	1	0	0	0	1	
@@ -3082,8 +2890,6 @@ treccast	cast-143-1-3	generated	alpaca-7b	treccast	none	none	How does this affec
 treccast	cast-143-1-3	generated	gpt-4	none	naive	implications	How did banks hold a monopoly on banking data before the regulation?	1	1	1	1	0	0	1	1	
 treccast	cast-143-1-3	generated	gpt-4	none	naive	reasons	How does this regulation affect the monopoly of banks on banking data?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-3	generated	gpt-4	none	none	none	What was the aim of the UK Government in introducing the Open Banking regulation?	1	1	1	1	0	0	1	1	
-treccast	cast-143-1-3	generated	gpt-4	none	none	none	What was the aim of the UK Government in introducing the Open Banking regulation?	1	1	1	1	0	0	1	1	
-treccast	cast-143-1-3	generated	gpt-4	none	none	none	What was the aim of the UK Government in introducing the Open Banking regulation?	1	1	1	1	0	0	1	1	
 treccast	cast-143-1-3	generated	gpt-4	none	savvy	implications	In what ways could this regulation potentially break down the monopoly banks currently have on banking data?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-3	generated	gpt-4	none	savvy	reasons	Are there pre-existing models or regulations in other countries that the UK’s Open Banking regulation was based on?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	How is the information secured?	1	1	1	1	0	0	0	1	
@@ -3113,8 +2919,6 @@ treccast	cast-143-1-5	generated	alpaca-7b	nudged-questions	none	none	What other 
 treccast	cast-143-1-5	generated	alpaca-7b	treccast	none	none		1	0	0	0	0	0	0	0	no question
 treccast	cast-143-1-5	generated	gpt-4	none	naive	implications	What is Open Banking and how does it work in the UK?	1	1	1	0	0	0	0	0	
 treccast	cast-143-1-5	generated	gpt-4	none	naive	reasons	What does it mean that PSD2 does not standardize the API?	1	1	1	1	0	0	0	1	
-treccast	cast-143-1-5	generated	gpt-4	none	none	none	Does PSD2 apply to payment providers outside of Europe?	1	1	1	1	0	0	0	1	
-treccast	cast-143-1-5	generated	gpt-4	none	none	none	Does PSD2 apply to payment providers outside of Europe?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-5	generated	gpt-4	none	none	none	Does PSD2 apply to payment providers outside of Europe?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-5	generated	gpt-4	none	savvy	implications	What benefits, if any, has the banking industry seen or is expected to see from the implementation of these legislations?	1	1	1	1	0	0	0	1	
 treccast	cast-143-1-5	generated	gpt-4	none	savvy	reasons	Does it affect them uniformly or are there specific provisions for different types of providers?	1	1	1	1	0	0	0	1	
@@ -3146,8 +2950,6 @@ treccast	cast-144-1-3	generated	alpaca-7b	treccast	none	none	Can they reuse the 
 treccast	cast-144-1-3	generated	gpt-4	none	naive	implications	What kind of maintenance might be needed for the reused components?	1	1	1	1	0	0	0	1	
 treccast	cast-144-1-3	generated	gpt-4	none	naive	reasons	Are there any risks or downsides involved in reusing rocket components?	1	1	1	1	0	0	0	1	
 treccast	cast-144-1-3	generated	gpt-4	none	none	none	Is there a limit to how many times a component can be reused?	1	1	1	1	0	0	0	1	
-treccast	cast-144-1-3	generated	gpt-4	none	none	none	Is there a limit to how many times a component can be reused?	1	1	1	1	0	0	0	1	
-treccast	cast-144-1-3	generated	gpt-4	none	none	none	Is there a limit to how many times a component can be reused?	1	1	1	1	0	0	0	1	
 treccast	cast-144-1-3	generated	gpt-4	none	savvy	implications	Are there any examples of companies who have successfully implemented this concept of reusability in their space flights?	1	1	1	1	0	0	0	1	
 treccast	cast-144-1-3	generated	gpt-4	none	savvy	reasons	Are there any examples of successful reuse of rocket components in past missions?	1	1	1	1	0	0	0	1	
 treccast	cast-144-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the cost of a launch?	1	1	1	1	0	0	0	1	
@@ -3178,8 +2980,6 @@ treccast	cast-144-1-5	generated	alpaca-7b	treccast	none	none	How does the cost c
 treccast	cast-144-1-5	generated	gpt-4	none	naive	implications	How does the frequency of launches impact the cost-effectiveness of reusable rockets?	1	1	1	1	0	0	1	1	
 treccast	cast-144-1-5	generated	gpt-4	none	naive	reasons	Why is rocket reusability important in driving down costs?	1	1	1	1	0	0	1	1	
 treccast	cast-144-1-5	generated	gpt-4	none	none	none	How can we measure if the frequency of launches is enough to outweigh the costs of reusable rockets?	1	1	1	1	0	0	0	1	
-treccast	cast-144-1-5	generated	gpt-4	none	none	none	How can we measure if the frequency of launches is enough to outweigh the costs of reusable rockets?	1	1	1	1	0	0	0	1	
-treccast	cast-144-1-5	generated	gpt-4	none	none	none	How can we measure if the frequency of launches is enough to outweigh the costs of reusable rockets?	1	1	1	1	0	0	0	1	
 treccast	cast-144-1-5	generated	gpt-4	none	savvy	implications	Is there ongoing research or recent advancements pertaining to reusable rocket technology?	1	1	1	1	0	0	0	1	
 treccast	cast-144-1-5	generated	gpt-4	none	savvy	reasons	Why was NASA's Space Shuttle decommissioned and what impact did this have on the focus on reusable rockets?	1	1	1	1	0	0	1	1	
 treccast	cast-144-1-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why was the Space Shuttle decommissioned?	1	1	1	1	0	0	1	1	
@@ -3209,8 +3009,6 @@ treccast	cast-144-2-11	generated	alpaca-7b	nudged-questions	none	none	How many g
 treccast	cast-144-2-11	generated	alpaca-7b	treccast	none	none	Why are they called "Liquid Engines"?	1	1	1	0	0	0	0	0	
 treccast	cast-144-2-11	generated	gpt-4	none	naive	implications	How is it possible to store large amounts of hydrogen in the fuel tank?	1	1	1	0	0	0	0	0	
 treccast	cast-144-2-11	generated	gpt-4	none	naive	reasons	Why would a large combustion reaction require such a large tank to hold the low-density hydrogen?	1	1	1	0	0	0	1	0	
-treccast	cast-144-2-11	generated	gpt-4	none	none	none	Why is liquid hydrogen used as the fuel for these engines?	1	1	1	0	0	0	1	0	
-treccast	cast-144-2-11	generated	gpt-4	none	none	none	Why is liquid hydrogen used as the fuel for these engines?	1	1	1	1	0	0	1	1	
 treccast	cast-144-2-11	generated	gpt-4	none	none	none	Why is liquid hydrogen used as the fuel for these engines?	1	1	1	1	0	0	1	1	
 treccast	cast-144-2-11	generated	gpt-4	none	savvy	implications	What role does liquid oxygen play as the oxidizer in the functioning of these engines?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-11	generated	gpt-4	none	savvy	reasons	How is the oxidizer, liquid oxygen, used in the combustion process of these engines?	1	1	1	1	0	0	0	1	
@@ -3242,8 +3040,6 @@ treccast	cast-144-2-15	generated	alpaca-7b	treccast	none	none	What type is used 
 treccast	cast-144-2-15	generated	gpt-4	none	naive	implications	How does complexity and efficiency factor into a rocket engine's power cycle?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-15	generated	gpt-4	none	naive	reasons	Can you elaborate on thrust production in a rocket engine and how the power cycles contribute to it?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-15	generated	gpt-4	none	none	none	Can you explain the process of fuel pressurization and feeding in a rocket engine?	1	1	1	1	0	0	0	1	
-treccast	cast-144-2-15	generated	gpt-4	none	none	none	Can you explain the process of fuel pressurization and feeding in a rocket engine?	1	1	1	1	0	0	0	1	
-treccast	cast-144-2-15	generated	gpt-4	none	none	none	Can you explain the process of fuel pressurization and feeding in a rocket engine?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-15	generated	gpt-4	none	savvy	implications	What factors influence the choice of power cycle for a particular rocket engine?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-15	generated	gpt-4	none	savvy	reasons	What exactly does 'tradeoff weight' mean in the context of different types of power cycles?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-15	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the difference between these cycles?	1	1	1	1	0	0	0	1	
@@ -3273,8 +3069,6 @@ treccast	cast-144-2-17	generated	alpaca-7b	nudged-questions	none	none	What is th
 treccast	cast-144-2-17	generated	alpaca-7b	treccast	none	none	Are they used in space?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-17	generated	gpt-4	none	naive	implications	What are the implications of using pressure-fed engines in terms of weight?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-17	generated	gpt-4	none	naive	reasons	Can you explain more about how the RD-270 and Raptor engines work?	1	1	1	1	0	0	0	1	
-treccast	cast-144-2-17	generated	gpt-4	none	none	none	What are the complexities involved in achieving higher efficiency for different engine types?	1	1	1	1	0	0	0	1	
-treccast	cast-144-2-17	generated	gpt-4	none	none	none	What are the complexities involved in achieving higher efficiency for different engine types?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-17	generated	gpt-4	none	none	none	What are the complexities involved in achieving higher efficiency for different engine types?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-17	generated	gpt-4	none	savvy	implications	How does the pressure-fed engine operate and why does it require an external tank for pressurizing the components?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-17	generated	gpt-4	none	savvy	reasons	Could you provide more information on the RD-270 engine pioneered by the Soviets?	1	1	1	1	0	0	0	1	
@@ -3306,8 +3100,6 @@ treccast	cast-144-2-3	generated	alpaca-7b	treccast	none	none	What would be the a
 treccast	cast-144-2-3	generated	gpt-4	none	naive	implications	What changes are being made to allow for the reuse of both stages in Starship?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-3	generated	gpt-4	none	naive	reasons	What are the differences between Starship and SpaceX's existing fleet?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-3	generated	gpt-4	none	none	none	What impact would the Starship have on future space exploration missions?	1	1	1	1	0	0	0	1	
-treccast	cast-144-2-3	generated	gpt-4	none	none	none	What impact would the Starship have on future space exploration missions?	1	1	1	1	0	0	0	1	
-treccast	cast-144-2-3	generated	gpt-4	none	none	none	What impact would the Starship have on future space exploration missions?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-3	generated	gpt-4	none	savvy	implications	How close is SpaceX to achieving the goal of human flights to the Moon and Mars?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-3	generated	gpt-4	none	savvy	reasons	What makes Starship more suitable than SpaceX's current fleet for satellite delivery and human transport?	1	1	1	1	0	0	1	1	
 treccast	cast-144-2-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	How will they reuse both stages?	1	1	1	1	0	0	0	1	
@@ -3337,8 +3129,6 @@ treccast	cast-144-2-5	generated	alpaca-7b	nudged-questions	none	none	What is hyp
 treccast	cast-144-2-5	generated	alpaca-7b	treccast	none	none	What are the advantages?	0	1	1	1	0	0	0	1	
 treccast	cast-144-2-5	generated	gpt-4	none	naive	implications	What are hypergolic propellants?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-5	generated	gpt-4	none	naive	reasons	What are the specific benefits of SpaceX working on methane-based engines?	1	1	1	1	0	0	1	1	
-treccast	cast-144-2-5	generated	gpt-4	none	none	none	When did SpaceX start working on these methane-based engines and what is their progress so far?	1	1	1	1	0	0	0	1	
-treccast	cast-144-2-5	generated	gpt-4	none	none	none	When did SpaceX start working on these methane-based engines and what is their progress so far?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-5	generated	gpt-4	none	none	none	When did SpaceX start working on these methane-based engines and what is their progress so far?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-5	generated	gpt-4	none	savvy	implications	What challenges might SpaceX face in transitioning from kerosene-based engines to methane-based engines?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-5	generated	gpt-4	none	savvy	reasons	What specific improvements or advancements has SpaceX made in rocket engine development over the years?	1	1	1	1	0	0	0	1	
@@ -3370,8 +3160,6 @@ treccast	cast-144-2-7	generated	alpaca-7b	treccast	none	none	How about in terms 
 treccast	cast-144-2-7	generated	gpt-4	none	naive	implications	When you say Methane does not leak, in what contexts is this point relevant?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-7	generated	gpt-4	none	naive	reasons	How does the usage of Methane simplify the rocket design compared to Hydrogen-powered rockets?	1	1	1	1	0	0	1	1	
 treccast	cast-144-2-7	generated	gpt-4	none	none	none	In what ways is Methane denser than Hydrogen?	1	1	1	1	0	0	0	1	
-treccast	cast-144-2-7	generated	gpt-4	none	none	none	In what ways is Methane denser than Hydrogen?	1	1	1	1	0	0	0	1	
-treccast	cast-144-2-7	generated	gpt-4	none	none	none	In what ways is Methane denser than Hydrogen?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-7	generated	gpt-4	none	savvy	implications	How significant is the density difference between liquid methane and hydrogen?	1	1	1	1	0	0	0	1	
 treccast	cast-144-2-7	generated	gpt-4	none	savvy	reasons	What allows Methane to be stored for a more extended period?	1	1	1	1	0	0	1	1	
 treccast	cast-144-2-7	generated	Llama-2-13b-hf	inquisitive	naive	implications	How is Methane more commonly available on other planets?	1	1	1	1	0	0	1	1	
@@ -3402,8 +3190,6 @@ treccast	cast-145-1-3	generated	alpaca-7b	treccast	none	none	How are they being 
 treccast	cast-145-1-3	generated	gpt-4	none	naive	implications	What types of threats are faced by coral ecosystems?	1	1	1	0	0	0	0	0	
 treccast	cast-145-1-3	generated	gpt-4	none	naive	reasons	Could you elaborate more about the impact of diseases on coral reefs?	1	1	1	1	0	0	0	1	
 treccast	cast-145-1-3	generated	gpt-4	none	none	none	How much of the world's reefs has already been destroyed or severely damaged?	1	1	1	1	0	0	0	1	
-treccast	cast-145-1-3	generated	gpt-4	none	none	none	How much of the world's reefs has already been destroyed or severely damaged?	1	1	1	1	0	0	0	1	
-treccast	cast-145-1-3	generated	gpt-4	none	none	none	How much of the world's reefs has already been destroyed or severely damaged?	1	1	1	1	0	0	0	1	
 treccast	cast-145-1-3	generated	gpt-4	none	savvy	implications	Are there any international regulations that help protect reefs from these human activities?	1	1	1	1	0	0	0	1	
 treccast	cast-145-1-3	generated	gpt-4	none	savvy	reasons	Has any coral reef managed to recover after being severely damaged?	1	1	1	1	0	0	0	1	
 treccast	cast-145-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	How are the reefs being threatened?	1	1	1	0	0	0	0	0	
@@ -3433,8 +3219,6 @@ treccast	cast-145-1-5	generated	alpaca-7b	nudged-questions	none	none	How murky w
 treccast	cast-145-1-5	generated	alpaca-7b	treccast	none	none	How long would it take for this to happen?	1	1	1	1	0	0	0	1	
 treccast	cast-145-1-5	generated	gpt-4	none	naive	implications	Would the disappearance of the reefs impact human activities and industries like fishing and tourism?	1	1	1	0	0	0	0	0	
 treccast	cast-145-1-5	generated	gpt-4	none	naive	reasons	Why would marine biodiversity suffer huge losses if the reefs disappeared?	1	1	1	1	0	0	1	1	
-treccast	cast-145-1-5	generated	gpt-4	none	none	none	What are some reasons that might lead to an increase in jellyfish population if the reefs disappear?	1	1	1	1	0	0	0	1	
-treccast	cast-145-1-5	generated	gpt-4	none	none	none	What are some reasons that might lead to an increase in jellyfish population if the reefs disappear?	1	1	1	1	0	0	1	1	
 treccast	cast-145-1-5	generated	gpt-4	none	none	none	What are some reasons that might lead to an increase in jellyfish population if the reefs disappear?	1	1	1	1	0	0	1	1	
 treccast	cast-145-1-5	generated	gpt-4	none	savvy	implications	What are the potential hazards of very murky waters for sea species like dolphins?	1	1	1	1	0	0	0	1	
 treccast	cast-145-1-5	generated	gpt-4	none	savvy	reasons	Would there be any potential methods for helping save the sea turtles, or is their fate tied directly to the corals?	1	1	1	1	0	0	0	1	
@@ -3466,8 +3250,6 @@ treccast	cast-145-2-3	generated	alpaca-7b	treccast	none	none	How long does the p
 treccast	cast-145-2-3	generated	gpt-4	none	naive	implications	How does a degraded reef become less productive?	1	1	1	1	0	0	0	1	
 treccast	cast-145-2-3	generated	gpt-4	none	naive	reasons	How do large shifts in fish communities affect food supply and associated economic activities?	1	1	1	1	0	0	0	1	
 treccast	cast-145-2-3	generated	gpt-4	none	none	none	How would the reduction of tourist activity because of coral bleaching affect the livelihoods of local communities?	1	1	1	1	0	0	0	1	
-treccast	cast-145-2-3	generated	gpt-4	none	none	none	How would the reduction of tourist activity because of coral bleaching affect the livelihoods of local communities?	1	1	1	1	0	0	0	1	
-treccast	cast-145-2-3	generated	gpt-4	none	none	none	How would the reduction of tourist activity because of coral bleaching affect the livelihoods of local communities?	1	1	1	1	0	0	0	1	
 treccast	cast-145-2-3	generated	gpt-4	none	savvy	implications	What kind of cultural values are tied to healthy coral reef ecosystems?	1	1	1	1	0	0	0	1	
 treccast	cast-145-2-3	generated	gpt-4	none	savvy	reasons	How might religious sites and traditional uses of marine resources be affected by coral bleaching?	1	1	1	1	0	0	0	1	
 treccast	cast-145-2-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	What are the religious sites?	1	1	1	1	0	0	0	1	
@@ -3497,8 +3279,6 @@ treccast	cast-146-1-3	generated	alpaca-7b	nudged-questions	none	none	Are bike pa
 treccast	cast-146-1-3	generated	alpaca-7b	treccast	none	none	Can you show me a good example of each?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-3	generated	gpt-4	none	naive	implications	Is one style generally preferred over the other?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-3	generated	gpt-4	none	naive	reasons	Is there any specific gear required for these different setups?	1	1	1	1	0	0	0	1	
-treccast	cast-146-1-3	generated	gpt-4	none	none	none	How has bike travel evolved over the years?	1	1	1	1	0	0	0	1	
-treccast	cast-146-1-3	generated	gpt-4	none	none	none	How has bike travel evolved over the years?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-3	generated	gpt-4	none	none	none	How has bike travel evolved over the years?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-3	generated	gpt-4	none	savvy	implications	Are there specific brands known for their quality in gear for either of these bike travel setups?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-3	generated	gpt-4	none	savvy	reasons	Are these bags specifically designed for bike packing, or can any bag be utilized?	1	1	1	1	0	0	0	1	
@@ -3530,8 +3310,6 @@ treccast	cast-146-1-5	generated	alpaca-7b	treccast	none	none	What other gear do 
 treccast	cast-146-1-5	generated	gpt-4	none	naive	implications	How do the different types and sizes of bikes influence the variation in bike packing bags?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-5	generated	gpt-4	none	naive	reasons	Could you tell me more about the frame bag and top tube bag for small items?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-5	generated	gpt-4	none	none	none	Can bikepacking bags be used on any type of bike or are they specific to certain models?	1	1	1	1	0	0	0	1	
-treccast	cast-146-1-5	generated	gpt-4	none	none	none	Can bikepacking bags be used on any type of bike or are they specific to certain models?	1	1	1	1	0	0	0	1	
-treccast	cast-146-1-5	generated	gpt-4	none	none	none	Can bikepacking bags be used on any type of bike or are they specific to certain models?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-5	generated	gpt-4	none	savvy	implications	Are there specific types of materials and designs recommended for bikepacking bags to withstand different weather conditions or road terrains?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-5	generated	gpt-4	none	savvy	reasons	What are the benefits of attaching bikepacking bags directly to the bike, rather than using a rack?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is a feed bag?	1	1	1	1	0	0	0	1	
@@ -3562,8 +3340,6 @@ treccast	cast-146-1-7	generated	alpaca-7b	treccast	none	none	Can you explain how
 treccast	cast-146-1-7	generated	gpt-4	none	naive	implications	What are the most common upgrades made to maximize comfort on a bike?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-7	generated	gpt-4	none	naive	reasons	What types of bikes can support the installation of racks and storage bags?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-7	generated	gpt-4	none	none	none	How can a bike be tailored for a specific riding style or terrain?	1	1	1	1	0	0	0	1	
-treccast	cast-146-1-7	generated	gpt-4	none	none	none	How can a bike be tailored for a specific riding style or terrain?	1	1	1	1	0	0	0	1	
-treccast	cast-146-1-7	generated	gpt-4	none	none	none	How can a bike be tailored for a specific riding style or terrain?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-7	generated	gpt-4	none	savvy	implications	What specific types of bikes are suitable for mounting racks and storage bags?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-7	generated	gpt-4	none	savvy	reasons	In terms of maximising comfort, are there other upgrades for bikes other than new handlebar grips or bar ends?	1	1	1	1	0	0	0	1	
 treccast	cast-146-1-7	generated	Llama-2-13b-hf	inquisitive	naive	implications	What are the upgrades that are used to maximize comfort?	1	1	1	1	0	0	0	1	
@@ -3593,8 +3369,6 @@ treccast	cast-147-1-13	generated	alpaca-7b	nudged-questions	none	none	Would Namo
 treccast	cast-147-1-13	generated	alpaca-7b	treccast	none	none	Can I get a breakdown of how it'd happen?	1	0	0	1	0	0	0	1	
 treccast	cast-147-1-13	generated	gpt-4	none	naive	implications	What does it mean that Namor is the son of a human man and an Atlantean princess?	1	0	1	0	0	0	0	0	
 treccast	cast-147-1-13	generated	gpt-4	none	naive	reasons	How does he predate DC's Aquaman by two years?	1	0	1	0	0	0	1	0	
-treccast	cast-147-1-13	generated	gpt-4	none	none	none	How does Namor the Sub-Mariner's background compare to Aquaman’s?	1	1	1	0	0	0	0	0	
-treccast	cast-147-1-13	generated	gpt-4	none	none	none	How does Namor the Sub-Mariner's background compare to Aquaman’s?	1	1	1	0	0	0	0	0	
 treccast	cast-147-1-13	generated	gpt-4	none	none	none	How does Namor the Sub-Mariner's background compare to Aquaman’s?	1	1	1	1	0	0	0	1	
 treccast	cast-147-1-13	generated	gpt-4	none	savvy	implications	Why is the comparison between Namor and DC’s Aquaman made, besides the connection with their inception dates?	1	1	1	0	0	0	1	0	
 treccast	cast-147-1-13	generated	gpt-4	none	savvy	reasons	What makes the future of the MCU potentially more fun and fantastical with the addition of Namor the Sub-Mariner?	1	1	1	0	0	0	0	0	
@@ -3626,8 +3400,6 @@ treccast	cast-147-1-15	generated	alpaca-7b	treccast	none	none	Why are they so vo
 treccast	cast-147-1-15	generated	gpt-4	none	naive	implications	Who are the other female leads of color in the past four Marvel Cinematic Universe films?	1	1	1	1	0	0	0	1	
 treccast	cast-147-1-15	generated	gpt-4	none	naive	reasons	What kind of diversity are the fans pushing for in creators and characters?	1	1	1	1	0	0	0	1	
 treccast	cast-147-1-15	generated	gpt-4	none	none	none	Who is Justin Gilbert Alba?	1	1	1	0	0	0	0	0	
-treccast	cast-147-1-15	generated	gpt-4	none	none	none	Who is Justin Gilbert Alba?	1	1	1	0	0	0	0	0	
-treccast	cast-147-1-15	generated	gpt-4	none	none	none	Who is Justin Gilbert Alba?	1	1	1	0	0	0	0	0	
 treccast	cast-147-1-15	generated	gpt-4	none	savvy	implications	How have Marvel fans reacted to the increased representation of female leads of color?	1	1	1	1	0	0	0	1	
 treccast	cast-147-1-15	generated	gpt-4	none	savvy	reasons	Is there any evidence that shows a change in diversity representation within Marvel films over the years?	1	1	1	1	0	0	0	1	
 treccast	cast-147-1-15	generated	Llama-2-13b-hf	inquisitive	naive	implications	Why is the push for diversity only a loud minority?	1	1	1	1	0	0	1	1	
@@ -3658,8 +3430,6 @@ treccast	cast-147-1-3	generated	alpaca-7b	treccast	none	none	What other movies w
 treccast	cast-147-1-3	generated	gpt-4	none	naive	implications	What new precedent did The Winter Soldier set for the MCU?	1	0	1	0	0	0	0	0	
 treccast	cast-147-1-3	generated	gpt-4	none	naive	reasons	Why is "Captain America: The Winter Soldier" considered the best Marvel movie?	1	1	1	0	0	0	1	0	
 treccast	cast-147-1-3	generated	gpt-4	none	none	none	What is the significance of the '70s Cold War thriller style in this sequel?	1	1	1	0	0	0	0	0	
-treccast	cast-147-1-3	generated	gpt-4	none	none	none	What is the significance of the '70s Cold War thriller style in this sequel?	1	1	1	1	0	0	0	1	
-treccast	cast-147-1-3	generated	gpt-4	none	none	none	What is the significance of the '70s Cold War thriller style in this sequel?	1	1	1	1	0	0	0	1	
 treccast	cast-147-1-3	generated	gpt-4	none	savvy	implications	In what ways does The Winter Soldier establish the resurrected Bucky Barnes as a major character in the Marvel universe?	1	1	1	1	0	0	0	1	
 treccast	cast-147-1-3	generated	gpt-4	none	savvy	reasons	Can you elaborate on how "The Winter Soldier" set a new precedent for the Marvel Cinematic Universe (MCU)?	1	1	1	1	0	0	1	1	
 treccast	cast-147-1-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is the elevator scene?	1	1	1	1	0	0	0	1	
@@ -3689,8 +3459,6 @@ treccast	cast-147-2-3	generated	alpaca-7b	nudged-questions	none	none	Why do you 
 treccast	cast-147-2-3	generated	alpaca-7b	treccast	none	none	Did they apologize?	1	1	0	0	0	0	0	0	
 treccast	cast-147-2-3	generated	gpt-4	none	naive	implications	How significant is the increase of female and minority characters in Marvel Comics?	1	1	1	1	0	0	0	1	
 treccast	cast-147-2-3	generated	gpt-4	none	naive	reasons	Why would diversity cause sales to slide in comic books?	1	1	1	1	0	0	1	1	
-treccast	cast-147-2-3	generated	gpt-4	none	none	none	What demographic usually purchases Marvel comics, and could this be a reason why sales are sliding?	1	1	1	1	0	0	1	1	
-treccast	cast-147-2-3	generated	gpt-4	none	none	none	What demographic usually purchases Marvel comics, and could this be a reason why sales are sliding?	1	1	1	1	0	0	1	1	
 treccast	cast-147-2-3	generated	gpt-4	none	none	none	What demographic usually purchases Marvel comics, and could this be a reason why sales are sliding?	1	1	1	1	0	0	1	1	
 treccast	cast-147-2-3	generated	gpt-4	none	savvy	implications	What was the nature of the backlash that the company faced following the vice president's suggestion?	1	1	1	1	0	0	0	1	
 treccast	cast-147-2-3	generated	gpt-4	none	savvy	reasons	Can you provide examples of the new female and minority characters that Marvel Comics has introduced?	1	1	1	1	0	0	0	1	
@@ -3722,8 +3490,6 @@ treccast	cast-147-2-5	generated	alpaca-7b	treccast	none	none	What did they do in
 treccast	cast-147-2-5	generated	gpt-4	none	naive	implications	Can you provide examples of the diverse or female characters that weren't received well?	1	1	1	1	0	0	0	1	
 treccast	cast-147-2-5	generated	gpt-4	none	naive	reasons	In what ways did this resistance to diversity impact your new character development plans?	1	0	1	1	0	0	0	1	
 treccast	cast-147-2-5	generated	gpt-4	none	none	none	What examples did David Gabriel give regarding the new characters that people were not interested in?	1	1	1	0	0	0	0	0	
-treccast	cast-147-2-5	generated	gpt-4	none	none	none	What examples did David Gabriel give regarding the new characters that people were not interested in?	1	1	1	0	0	0	0	0	
-treccast	cast-147-2-5	generated	gpt-4	none	none	none	What examples did David Gabriel give regarding the new characters that people were not interested in?	1	1	1	0	0	0	0	0	
 treccast	cast-147-2-5	generated	gpt-4	none	savvy	implications	How did Marvel interpret a decrease in sales for diverse or female characters?	1	1	1	1	0	0	0	1	
 treccast	cast-147-2-5	generated	gpt-4	none	savvy	reasons	How did Marvel gather feedback stating that people did not want more diversity or female characters?	1	1	1	1	0	0	0	1	
 treccast	cast-147-2-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	Who are the people that don't want any more diversity?	1	1	1	1	0	0	0	1	
@@ -3753,8 +3519,6 @@ treccast	cast-148-1-3	generated	alpaca-7b	nudged-questions	none	none	Text: Are y
 treccast	cast-148-1-3	generated	alpaca-7b	treccast	none	none	What are some tips for advancing your own skills?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-3	generated	gpt-4	none	naive	implications	Could you explain what is meant by mindset, personality, and capacity to learn in the context of landing a tech or engineering job?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-3	generated	gpt-4	none	naive	reasons	Can you give more details about the mindset, personality, and capacity to learn that would make a candidate favorable for a tech or engineering job?	1	1	1	1	0	0	0	1	
-treccast	cast-148-1-3	generated	gpt-4	none	none	none	What are some examples of relevant qualifications and experience for a career in technology or engineering?	1	1	1	1	0	0	0	1	
-treccast	cast-148-1-3	generated	gpt-4	none	none	none	What are some examples of relevant qualifications and experience for a career in technology or engineering?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-3	generated	gpt-4	none	none	none	What are some examples of relevant qualifications and experience for a career in technology or engineering?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-3	generated	gpt-4	none	savvy	implications	Are there specific personality traits that are particularly favorable for a career in technology or engineering according to Mark Ridley or other industry leaders?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-3	generated	gpt-4	none	savvy	reasons	Could you further explain what is implied by the "mindset" required for landing a job in the tech or engineering industry?	1	1	1	1	0	0	0	1	
@@ -3786,8 +3550,6 @@ treccast	cast-148-1-5	generated	alpaca-7b	treccast	none	none	What if I’m not a
 treccast	cast-148-1-5	generated	gpt-4	none	naive	implications	Are there options available for those who can't afford to work part-time whilst studying?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-5	generated	gpt-4	none	naive	reasons	Are there any online learning options for those looking to get into the tech and engineering industries?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-5	generated	gpt-4	none	none	none	Could you expand on what it means to work part-time while studying?	1	1	1	1	0	0	0	1	
-treccast	cast-148-1-5	generated	gpt-4	none	none	none	Could you expand on what it means to work part-time while studying?	1	1	1	1	0	0	0	1	
-treccast	cast-148-1-5	generated	gpt-4	none	none	none	Could you expand on what it means to work part-time while studying?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-5	generated	gpt-4	none	savvy	implications	Can you provide examples of the types of work experience that would be beneficial within the tech and engineering sectors?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-5	generated	gpt-4	none	savvy	reasons	Could you provide more detail regarding the format or structure of evening or weekend classes in technology or engineering?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	Alternatively, study at college whilst working as an apprentice at a local company?	1	1	1	0	0	0	0	0	
@@ -3817,8 +3579,6 @@ treccast	cast-148-1-9	generated	alpaca-7b	nudged-questions	none	none	How importa
 treccast	cast-148-1-9	generated	alpaca-7b	treccast	none	none	What do I do if I don’t have these skills?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-9	generated	gpt-4	none	naive	implications		1	0	0	0	0	0	0	0	no question 
 treccast	cast-148-1-9	generated	gpt-4	none	naive	reasons	What are some examples of physical proofs that can be used to show expertise in tech?	1	1	1	0	0	0	0	0	
-treccast	cast-148-1-9	generated	gpt-4	none	none	none	Can you suggest any specific tech or engineering professions where connecting on LinkedIn could be especially beneficial?	1	1	1	1	0	0	0	1	
-treccast	cast-148-1-9	generated	gpt-4	none	none	none	Can you suggest any specific tech or engineering professions where connecting on LinkedIn could be especially beneficial?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-9	generated	gpt-4	none	none	none	Can you suggest any specific tech or engineering professions where connecting on LinkedIn could be especially beneficial?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-9	generated	gpt-4	none	savvy	implications	Besides learning HTML, writing a program or building a website, what other activities can effectively demonstrate my enthusiasm and willingness to learn in the tech field?	1	1	1	1	0	0	0	1	
 treccast	cast-148-1-9	generated	gpt-4	none	savvy	reasons	How will social media platforms help one to build their personal profile in the tech or engineering industry?	1	1	1	0	0	0	0	0	
@@ -3850,8 +3610,6 @@ treccast	cast-148-2-3	generated	alpaca-7b	treccast	none	none	How do I start?	1	1
 treccast	cast-148-2-3	generated	gpt-4	none	naive	implications	Can these online resources completely replace the need for a formal degree in tech fields?	1	1	1	1	0	0	0	1	
 treccast	cast-148-2-3	generated	gpt-4	none	naive	reasons	How accurate is the assertion that jobs don't require college degrees anymore?	1	1	1	1	0	0	0	1	
 treccast	cast-148-2-3	generated	gpt-4	none	none	none	How can someone build a foundation of technical knowledge?	1	1	1	0	0	0	0	0	
-treccast	cast-148-2-3	generated	gpt-4	none	none	none	How can someone build a foundation of technical knowledge?	1	1	1	0	0	0	0	0	
-treccast	cast-148-2-3	generated	gpt-4	none	none	none	How can someone build a foundation of technical knowledge?	1	1	1	0	0	0	0	0	
 treccast	cast-148-2-3	generated	gpt-4	none	savvy	implications	What kind of jobs are now available without the need for a college degree?	1	1	1	0	0	0	0	0	
 treccast	cast-148-2-3	generated	gpt-4	none	savvy	reasons	Do these resources for learning technical skills also help with obtaining certifications or credentials?	1	1	1	1	0	0	0	1	
 treccast	cast-148-2-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	How can you learn technical skills?	1	1	1	0	0	0	0	0	
@@ -3881,8 +3639,6 @@ treccast	cast-148-2-5	generated	alpaca-7b	nudged-questions	none	none	How does on
 treccast	cast-148-2-5	generated	alpaca-7b	treccast	none	none	What if my project isn't complete?	1	1	1	1	0	0	0	1	
 treccast	cast-148-2-5	generated	gpt-4	none	naive	implications	What does it mean to be "centered around a common goal or cause" in a hackathon context?	1	0	1	1	0	0	0	1	
 treccast	cast-148-2-5	generated	gpt-4	none	naive	reasons	What is a local hackathon and how could it help in team project building?	1	1	1	0	0	0	0	0	
-treccast	cast-148-2-5	generated	gpt-4	none	none	none	What is the Udacity Nanodegree program and what does it offer?	1	1	1	0	0	0	0	0	
-treccast	cast-148-2-5	generated	gpt-4	none	none	none	What is the Udacity Nanodegree program and what does it offer?	1	1	1	0	0	0	0	0	
 treccast	cast-148-2-5	generated	gpt-4	none	none	none	What is the Udacity Nanodegree program and what does it offer?	1	1	1	1	0	0	0	1	
 treccast	cast-148-2-5	generated	gpt-4	none	savvy	implications	How can I decide which type of project (scripts, mobile apps, websites) would best show off my tech skills?	1	1	1	1	0	0	0	1	
 treccast	cast-148-2-5	generated	gpt-4	none	savvy	reasons	How does creating scripts, mobile apps, and websites help to market oneself?	1	1	1	1	0	0	1	1	
@@ -3913,8 +3669,6 @@ treccast	cast-149-1-3	generated	alpaca-7b	nudged-questions	none	none	How can we 
 treccast	cast-149-1-3	generated	alpaca-7b	treccast	none	none	Given a few examples, what can be done to mitigate them?	1	1	1	1	0	0	0	1	
 treccast	cast-149-1-3	generated	gpt-4	none	naive	implications	How do major search engines respond to criticisms about the biases in their algorithms?	1	0	1	1	0	0	0	1	
 treccast	cast-149-1-3	generated	gpt-4	none	naive	reasons	How can search engines improve their algorithms to ensure impartiality and accuracy in search results?	1	0	1	1	0	0	0	1	
-treccast	cast-149-1-3	generated	gpt-4	none	none	none	How can a search engine ensure it is providing objective and neutral results?	1	1	1	0	0	0	0	0	
-treccast	cast-149-1-3	generated	gpt-4	none	none	none	How can a search engine ensure it is providing objective and neutral results?	1	1	1	1	0	0	0	1	
 treccast	cast-149-1-3	generated	gpt-4	none	none	none	How can a search engine ensure it is providing objective and neutral results?	1	1	1	1	0	0	0	1	
 treccast	cast-149-1-3	generated	gpt-4	none	savvy	implications	What can be the implications of major search engines favoring certain sites over others in response to user search queries?	1	1	1	1	0	0	0	1	
 treccast	cast-149-1-3	generated	gpt-4	none	savvy	reasons	Can you explain why search engines have a big responsibility to deliver a complete and accurate representation of information?	1	1	1	0	0	0	1	0	
@@ -3946,8 +3700,6 @@ treccast	cast-149-1-5	generated	alpaca-7b	treccast	none	none	How do I make sure 
 treccast	cast-149-1-5	generated	gpt-4	none	naive	implications	Can you suggest how one might determine if a search engine is displaying any of these biases?	1	1	1	1	0	0	0	1	
 treccast	cast-149-1-5	generated	gpt-4	none	naive	reasons	What does ideological bias look like in the context of a search engine?	1	1	1	0	0	0	0	0	
 treccast	cast-149-1-5	generated	gpt-4	none	none	none	Can users do anything to counteract these biases in their search results?	1	1	1	1	0	0	0	1	
-treccast	cast-149-1-5	generated	gpt-4	none	none	none	Can users do anything to counteract these biases in their search results?	1	1	1	1	0	0	0	1	
-treccast	cast-149-1-5	generated	gpt-4	none	none	none	Can users do anything to counteract these biases in their search results?	1	1	1	1	0	0	0	1	
 treccast	cast-149-1-5	generated	gpt-4	none	savvy	implications	Can you provide examples of how search engines show bias in the areas you mentioned like financial, political and ideological ways?	1	1	1	1	0	0	0	1	
 treccast	cast-149-1-5	generated	gpt-4	none	savvy	reasons	If so, how?	0	0	0	0	0	0	0	0	
 treccast	cast-149-1-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	What are some examples of bias?	1	1	1	1	0	0	0	1	
@@ -3977,8 +3729,6 @@ treccast	cast-149-2-3	generated	alpaca-7b	nudged-questions	none	none	Is the book
 treccast	cast-149-2-3	generated	alpaca-7b	treccast	none	none	Can you provide an example of how this has happened?	1	0	0	0	0	0	0	0	
 treccast	cast-149-2-3	generated	gpt-4	none	naive	implications	Can you provide more examples of how algorithms perpetuate oppression and discrimination against People of Color, specifically women of color?	1	1	1	1	0	0	0	1	
 treccast	cast-149-2-3	generated	gpt-4	none	naive	reasons	Can you provide specific examples of how search results for "white girls" and "Black girls" differ?	1	1	1	1	0	0	0	1	
-treccast	cast-149-2-3	generated	gpt-4	none	none	none	Can you elaborate more on how search algorithms reflect the negative biases in society?	1	1	1	1	0	0	0	1	
-treccast	cast-149-2-3	generated	gpt-4	none	none	none	Can you elaborate more on how search algorithms reflect the negative biases in society?	1	1	1	1	0	0	0	1	
 treccast	cast-149-2-3	generated	gpt-4	none	none	none	Can you elaborate more on how search algorithms reflect the negative biases in society?	1	1	1	1	0	0	0	1	
 treccast	cast-149-2-3	generated	gpt-4	none	savvy	implications	Can you provide a more detailed explanation on the differences between the search results of "Black girls" and "white girls" that Noble uses as her main example?	1	1	1	1	0	0	0	1	
 treccast	cast-149-2-3	generated	gpt-4	none	savvy	reasons	Could you explain more about how Noble dismantles the belief that search engines are inherently neutral?	1	1	1	1	0	0	0	1	
@@ -4010,8 +3760,6 @@ treccast	cast-149-2-5	generated	alpaca-7b	treccast	none	none	Is there an algorit
 treccast	cast-149-2-5	generated	gpt-4	none	naive	implications	Noble and what is her book "Algorithms of Oppression" about?	1	0	1	0	0	0	0	0	
 treccast	cast-149-2-5	generated	gpt-4	none	naive	reasons	Does the search engine's result pattern tie in with public search behaviors or does Google's algorithm have flaws?	1	1	1	0	0	0	1	0	
 treccast	cast-149-2-5	generated	gpt-4	none	none	none	According to Google, how did the search results define "black girls"?	1	1	1	1	0	0	0	1	
-treccast	cast-149-2-5	generated	gpt-4	none	none	none	According to Google, how did the search results define "black girls"?	1	1	1	1	0	0	0	1	
-treccast	cast-149-2-5	generated	gpt-4	none	none	none	According to Google, how did the search results define "black girls"?	1	1	1	1	0	0	0	1	
 treccast	cast-149-2-5	generated	gpt-4	none	savvy	implications	In "Algorithms of Oppression", does Noble include any other examples of racially or sexually biased search results?	1	1	1	1	0	0	0	1	
 treccast	cast-149-2-5	generated	gpt-4	none	savvy	reasons	How can algorithmic bias and discrimination be reduced in search engines?	1	1	1	1	0	0	0	1	
 treccast	cast-149-2-5	generated	Llama-2-13b-hf	inquisitive	naive	implications	What accounts for such racist, sexist search results?	1	0	0	0	0	0	0	0	
@@ -4041,8 +3789,6 @@ treccast	cast-149-2-7	generated	alpaca-7b	nudged-questions	none	none	How do you 
 treccast	cast-149-2-7	generated	alpaca-7b	treccast	none	none	How can we test for these biases?	1	1	1	1	0	0	0	1	
 treccast	cast-149-2-7	generated	gpt-4	none	naive	implications	Can you provide more examples of algorithms incorporating racially biased data sets?	1	1	1	1	0	0	0	1	
 treccast	cast-149-2-7	generated	gpt-4	none	naive	reasons	Can you explain how racial bias can seep into algorithms in both subtle and not-so-subtle ways?	1	1	1	0	0	0	1	0	
-treccast	cast-149-2-7	generated	gpt-4	none	none	none	What is the neural net tank experiment and how does it illustrate the limitations of algorithms?	1	1	1	0	0	0	0	0	
-treccast	cast-149-2-7	generated	gpt-4	none	none	none	What is the neural net tank experiment and how does it illustrate the limitations of algorithms?	1	1	1	0	0	0	0	0	
 treccast	cast-149-2-7	generated	gpt-4	none	none	none	What is the neural net tank experiment and how does it illustrate the limitations of algorithms?	1	1	1	0	0	0	0	0	
 treccast	cast-149-2-7	generated	gpt-4	none	savvy	implications	Can you describe the potential long term societal implications of biased algorithms?	1	1	1	1	0	0	0	1	
 treccast	cast-149-2-7	generated	gpt-4	none	savvy	reasons	How does automation pose dangers when the data being used is imperfect, messy, or biased?	1	1	1	0	0	0	0	0	
@@ -4074,8 +3820,6 @@ treccast	cast-149-3-3	generated	alpaca-7b	treccast	none	none	How do I know if my
 treccast	cast-149-3-3	generated	gpt-4	none	naive	implications	Can you explain what is meant by "search neutrality"?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-3	generated	gpt-4	none	naive	reasons	Why is search neutrality being mentioned?	1	1	1	1	0	0	1	1	
 treccast	cast-149-3-3	generated	gpt-4	none	none	none	How is search neutrality different from net neutrality?	1	1	1	1	0	0	0	1	
-treccast	cast-149-3-3	generated	gpt-4	none	none	none	How is search neutrality different from net neutrality?	1	1	1	1	0	0	0	1	
-treccast	cast-149-3-3	generated	gpt-4	none	none	none	How is search neutrality different from net neutrality?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-3	generated	gpt-4	none	savvy	implications	What exactly is meant by the term 'search neutrality'?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-3	generated	gpt-4	none	savvy	reasons	How does it differ from net neutrality?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-3	generated	Llama-2-13b-hf	inquisitive	naive	implications	What is search neutrality?	1	1	1	1	0	0	0	1	
@@ -4106,8 +3850,6 @@ treccast	cast-149-3-7	generated	alpaca-7b	treccast	none	none	How often do you us
 treccast	cast-149-3-7	generated	gpt-4	none	naive	implications	How do these search engines provide more unbiased results?	1	1	1	1	0	0	1	1	
 treccast	cast-149-3-7	generated	gpt-4	none	naive	reasons	What makes these alternative search engines more unbiased?	1	1	1	1	0	0	1	1	
 treccast	cast-149-3-7	generated	gpt-4	none	none	none	What is the process to switch to these alternative search engines?	1	1	1	1	0	0	0	1	
-treccast	cast-149-3-7	generated	gpt-4	none	none	none	What is the process to switch to these alternative search engines?	1	1	1	1	0	0	0	1	
-treccast	cast-149-3-7	generated	gpt-4	none	none	none	What is the process to switch to these alternative search engines?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-7	generated	gpt-4	none	savvy	implications	Are there any limitations or drawbacks using these alternative search engines?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-7	generated	gpt-4	none	savvy	reasons	What are some examples of these alternative search engines?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-7	generated	Llama-2-13b-hf	inquisitive	naive	implications	Would you like to know about them?	1	0	0	0	0	0	0	0	
@@ -4137,8 +3879,6 @@ treccast	cast-149-3-9	generated	alpaca-7b	nudged-questions	none	none	How can you
 treccast	cast-149-3-9	generated	alpaca-7b	treccast	none	none	What about the others?	0	1	1	1	0	0	0	1	
 treccast	cast-149-3-9	generated	gpt-4	none	naive	implications	What makes Ecosia different from the others?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-9	generated	gpt-4	none	naive	reasons	How do I determine which one is the best for my needs?	1	1	1	1	0	0	0	1	
-treccast	cast-149-3-9	generated	gpt-4	none	none	none	How does each search engine rank results?	1	1	1	1	0	0	0	1	
-treccast	cast-149-3-9	generated	gpt-4	none	none	none	How does each search engine rank results?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-9	generated	gpt-4	none	none	none	How does each search engine rank results?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-9	generated	gpt-4	none	savvy	implications	Are there any performance differences between these search engines?	1	1	1	1	0	0	0	1	
 treccast	cast-149-3-9	generated	gpt-4	none	savvy	reasons	Can you elaborate on the unique features of each of these search engines?	1	1	1	1	0	0	0	1	
