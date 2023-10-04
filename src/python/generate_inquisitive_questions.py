@@ -67,19 +67,19 @@ def main(datasets, models, simulate_user, config):
     if simulate_user:
         for user in USER_TYPES:
             for question_type in QUESTION_TYPES:
-                user_conditions.append((user, question_type))
+                user_conditions.append((user, USER_TYPES[user], question_type))
 
         prompt_template = USER_SIM_PROMPT
     else:
-        user_conditions.append((None, None))
+        user_conditions.append((None, None, None))
         prompt_template = load_prompt_template("prompt-template.txt")
 
     start_timestamp = datetime.now().isoformat()
     runtime_log_file = open(f"data/runtime-log-{start_timestamp}.jsonl", "w")
     inference_log_file = open(f"data/inference-log-{start_timestamp}.jsonl", "w")
 
-    for user_condition in user_conditions:
-        for model in models:
+    for model in models:
+        for user_type, question_mod, question_type in user_conditions:
             llm = MODELS[model]()
 
             for dataset in datasets:
@@ -98,7 +98,7 @@ def main(datasets, models, simulate_user, config):
                         prompts = []
                         for turn in turns:
                             if simulate_user:
-                                prompt = prompt_template.format(user_condition[0], QUESTION_TYPES[user_condition[1]],
+                                prompt = prompt_template.format(user_type, question_mod, question_type,
                                                                 turn.system)
                             else:
                                 prompt = prompt_template.format(turn.system)
@@ -138,7 +138,7 @@ def main(datasets, models, simulate_user, config):
                             llm_name = re.sub(r'[0-9]+$', '', llm_name)
 
                         if simulate_user:
-                            file_name = f"corpus-{dataset.lower()}-{fold}-{llm_name}-{user_condition[0]}-{user_condition[1]}-run{run}.jsonl"
+                            file_name = f"corpus-{dataset.lower()}-{fold}-{llm_name}-{user_type}-{question_type}-run{run}.jsonl"
                         else:
                             file_name = f"corpus-{dataset.lower()}-{fold}-{llm_name}-run{run}.jsonl"
                         with (open(f"data/conversational-questions/{file_name}", "w+") as out_file):

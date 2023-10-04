@@ -20,20 +20,18 @@ MODELS = {
     "alpaca-7b-inquisitive": Alpaca7BInquisitive,
     "alpaca-7b-nudged-questions": Alpaca7BNudgedQuestions,
     "alpaca-7b-treccast": Alpaca7BTreccast,
-    "GPT4": GPT4,
+    "gpt-4": GPT4,
 }
 
-USER_TYPES = ["savvy", "naive"]
-QUESTION_TYPES = {
-    "background": "You ask questions that involve definitions, causes, background information, and details.",
-    "effect": "You ask questions that involve elaborations, predictions, effects, or concretizations and exemplifications."}
+USER_TYPES = {"savvy": "elaborate", "naive": "simple"}
+QUESTION_TYPES = ["reasons", "implications"]
 
-USER_SIM_PROMPT = """### Instruction: Follow-up questions are the questions elicited from readers as they naturally read through text. You are a {} user. {} Given the text below, write follow-up questions that you would ask if you were reading this text for the first time.
+USER_SIM_PROMPT = """### Instruction: Follow-up questions are the questions elicited from readers as they naturally read through text. You are a {} user. You ask {} questions about the {} of what was being said. Given the text below, write follow-up questions that you would ask if you were reading this text for the first time.
 
 ### Text: {}
 
 ### Follow-up questions:"""
 
-NUM_REPETITIONS = 10
+NUM_REPETITIONS = 1
 
 NUM_FOLDS = 3

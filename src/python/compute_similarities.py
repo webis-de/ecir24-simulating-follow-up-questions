@@ -38,11 +38,10 @@ def main():
     bleu = Bleu()
     st = SentenceTransformerScore()
 
-    # models = {re.sub(r"-run[0-9]+\.jsonl$", "", re.sub(r"^corpus-.*?-[0-9]+-", "", file)) for file in
-    #           os.listdir(runs_path) if file.startswith("corpus")}
     printed_header = False
+    model_names = list(MODELS.keys())
 
-    for model in MODELS.keys():
+    for model in sorted(model_names, key=str.casefold):
         sims = {"bleu": {}, "sentence_bert": {}}
         for dataset in DATASETS:
             if dataset == "inquisitive":

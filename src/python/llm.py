@@ -90,6 +90,7 @@ class CrossValModel(LLM):
             else:
                 self.model_params["tuning"] += train_folds
 
+        del self.model_instance
         self.model_instance = self.base_model(**self.model_params)
 
     def generate(self, prompt: str) -> str:
@@ -115,11 +116,13 @@ class HFModel(LLM):
             self.model_name,
             torch_dtype=torch.float16,
             device_map="auto",
+            return_dict=True,
             low_cpu_mem_usage=True
         )
 
         self.tokenizer = AutoTokenizer.from_pretrained(
-            self.model_name
+            self.model_name,
+            trust_remote_code=True
         )
 
         self.tokenizer.pad_token = self.tokenizer.bos_token
@@ -136,7 +139,6 @@ class HFModel(LLM):
             "text-generation",
             model=self.model,
             tokenizer=self.tokenizer,
-            torch_dtype=torch.float16,
             device_map="auto",
         )
 
@@ -147,7 +149,8 @@ class HFModel(LLM):
             top_k=10,
             num_return_sequences=1,
             eos_token_id=self.tokenizer.eos_token_id,
-            max_new_tokens=150
+            max_new_tokens=150,
+            # temperature=0.9
         )
 
         for seq in sequences:
@@ -361,16 +364,17 @@ class OpenAIModel(LLM):
 
     def generate(self, prompt: str) -> str:
         import openai
+        e = None
         for _ in range(10):
             try:
                 response = openai.ChatCompletion.create(model=self.model_name,
                                                         messages=[{"role": "user", "content": prompt}])
                 return response.choices[0].message.content
-            except TimeoutError:
+            except Exception as e:
                 time.sleep(60)
                 continue
 
-        raise TimeoutError
+        raise e
 
     def name(self) -> str:
         return self.model_name
