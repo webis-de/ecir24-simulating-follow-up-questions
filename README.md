@@ -110,6 +110,7 @@ cat data/human-assessment.json.gz \
   | gunzip \
   | python3 src/python/parse-label-studio-human-assessment-for-kappa.py /dev/stdin \
   > data/human-assessment-single-annotations.tsv
+./src/r/kappa.R data/human-assessment-single-annotations.tsv 
 ```
 
 ### Compute top-k most-frequent leading bigrams
