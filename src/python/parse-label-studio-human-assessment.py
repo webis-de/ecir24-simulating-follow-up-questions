@@ -1,6 +1,6 @@
 import sys, json
 
-sys.stdout.write("dataset\tturn_id\tresponse_type\tbase_model\ttuning\tuser_experience\tuser_direction\tuser_response\tnot_generic\tvalid\trelated\tinformative\tnaive\tsavvy\treasons\tinformative\tcomment\n")
+sys.stdout.write("dataset\tturn_id\tresponse_type\tbase_model\ttuning\tuser_experience\tuser_direction\tuser_response\tnot_generic\tvalid\trelated\tinformative\tnaive\tsavvy\treasons\timplications\tcomment\n")
 with open(sys.argv[1]) as assessment_file:
     for assessment in json.load(assessment_file):
         data = assessment["data"]
@@ -27,7 +27,7 @@ with open(sys.argv[1]) as assessment_file:
                 else:
                     sys.stderr.write("Unknown value for " + turn_id + " direction" + target + ": " + str(result["value"]["number"]) + "\n")
                     exit(1)
-            elif result["from_name"] == ("experience" + target):
+            elif result["from_name"] == ("expertise" + target):
                 if result["value"]["number"] == -1:
                     labels[target].append("naive")
                 elif result["value"]["number"] == 1:
@@ -67,7 +67,7 @@ with open(sys.argv[1]) as assessment_file:
             naive = "0"
             savvy = "0"
             reasons = "0"
-            informative = "0"
+            implications = "0"
             if target in labels:
                 if "generic" in labels[target]:
                     not_generic = "0"
@@ -83,8 +83,8 @@ with open(sys.argv[1]) as assessment_file:
                     savvy = "1"
                 if "reasons" in labels[target]:
                     reasons = "1"
-                if "informative" in labels[target]:
-                    informative = "1"
+                if "implications" in labels[target]:
+                    implications = "1"
             comment = ""
             if target in comments:
                 comment = comments[target]
@@ -96,6 +96,6 @@ with open(sys.argv[1]) as assessment_file:
                 else:
                     had_gpt_none_none_none = True
             if not skip:
-                sys.stdout.write(f"{dataset}\t{turn_id}\t{response_type}\t{base_model}\t{tuning}\t{user_experience}\t{user_direction}\t{user_response}\t{not_generic}\t{valid}\t{related}\t{informative}\t{naive}\t{savvy}\t{reasons}\t{informative}\t{comment}\n")
+                sys.stdout.write(f"{dataset}\t{turn_id}\t{response_type}\t{base_model}\t{tuning}\t{user_experience}\t{user_direction}\t{user_response}\t{not_generic}\t{valid}\t{related}\t{informative}\t{naive}\t{savvy}\t{reasons}\t{implications}\t{comment}\n")
 
 

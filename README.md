@@ -103,6 +103,15 @@ cat data/human-assessment.json.gz \
   > data/human-assessment.tsv
 ```
 
+### Calculate Kappa
+
+```
+cat data/human-assessment.json.gz \
+  | gunzip \
+  | python3 src/python/parse-label-studio-human-assessment-for-kappa.py /dev/stdin \
+  > data/human-assessment-single-annotations.tsv
+```
+
 ### Compute top-k most-frequent leading bigrams
 
 ```bash
