@@ -1,4 +1,4 @@
-# ecir24-simulation-by-question-under-discussion
+# Simulating Follow-up Questions in Conversational Search
 
 ## Data formats
 
