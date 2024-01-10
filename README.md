@@ -60,48 +60,7 @@
    python src/python/generate_inquisitive_questions.py
    ```
 
-## Deploy experiment on gammaweb
-
-1. Configure models and datasets for the experiment.
-   ```bash
-   make configure
-   ```
-2. Build and push docker image to the registry.
-   ```bash
-   make deploy
-   ```
-3. Login to [ssh.webis.de]()
-4. Submit job to Slurm
-   ```bash
-   sbatch generate-inquisitive-questions.slurm.sh
-   ```
-
 ## Reproduction
-
-### Parsing TREC CAsT
-
-```bash
-./src/bash/parse-label-studio.sh cast-question-target-annotation-at-2023-09-17-22-04-f5e8d8a3.json \
-  | awk -F'-' '$2 >= 132' \
-  | sort -g \
-  > data/treccast22-question-targets.jsonl
-
-git clone git@github.com:daltonj/treccastweb.git
-python src/python/parse-treccast.py \
-  treccastweb/2022/2022_evaluation_topics_flattened_duplicated_v1.0.json \
-  data/treccast22-question-targets.jsonl \
-  > data/conversational-questions/corpus-treccast22.jsonl 
-```
-
-### Parsing Human Annotations from Label Studio
-
-```bash
-cat data/human-assessment.json.gz \
-  | gunzip \
-  | python3 src/python/parse-label-studio-human-assessment.py /dev/stdin \
-  | sort -g \
-  > data/human-assessment.tsv
-```
 
 ### Calculate Kappa
 

@@ -26,7 +26,7 @@ class Param(Enum):
 
 
 class LLM(metaclass=abc.ABCMeta):
-    TUNED_BASE_PATH = "/mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/kfolds/models"
+    TUNED_BASE_PATH = "data/kfolds/models"
 
     def __init__(self):
         self.logger = logging.getLogger(self.__class__.__name__)
@@ -337,22 +337,22 @@ class ChatnoirAPIModel(LLM):
 
 class Alpaca7B(HFModel):
     def __init__(self):
-        super().__init__("nailiamirzakhmedova/alpaca-7b")
+        super().__init__("webis/alpaca-7b")
 
 
 class Alpaca7BInquisitive(HFModel):
     def __init__(self):
-        super().__init__("nailiamirzakhmedova/alpaca-7b", "inquisitive")
+        super().__init__("webis/alpaca-7b", "inquisitive")
 
 
 class Alpaca7BNudgedQuestions(CrossValModel):
     def __init__(self):
-        super().__init__(HFModel, model_name="nailiamirzakhmedova/alpaca-7b", tuning="nudged-questions")
+        super().__init__(HFModel, model_name="webis/alpaca-7b", tuning="nudged-questions")
 
 
 class Alpaca7BTreccast(CrossValModel):
     def __init__(self):
-        super().__init__(HFModel, model_name="nailiamirzakhmedova/alpaca-7b", tuning="treccast")
+        super().__init__(HFModel, model_name="webis/alpaca-7b", tuning="treccast")
 
 
 class OpenAIModel(LLM):

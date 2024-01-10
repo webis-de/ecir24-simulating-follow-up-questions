@@ -7,8 +7,7 @@ from generate_inquisitive_questions import load_config
 
 
 def main():
-    out_path = ("/mnt/ceph/storage/data-in-progress/data-research"
-                "/conversational-search/ecir24-simulation-by-question-under-discussion")
+    out_path = ("data/")
     data_conf = load_config("datasets.yml")
     parser = {"inquisitive": InquisitiveCorpus, "nudged_questions": NudgedQuestionsCorpus}
 

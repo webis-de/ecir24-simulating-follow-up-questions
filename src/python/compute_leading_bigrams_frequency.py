@@ -18,7 +18,7 @@ from generate_inquisitive_questions import load_config
 def main(dataset, model, k):
     dataset_conf = load_config("datasets.yml")
 
-    run_path = "/mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/kfolds/runs"
+    run_path = "data/kfolds/runs"
 
     files = []
 

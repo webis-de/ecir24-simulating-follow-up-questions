@@ -30,8 +30,7 @@ def compute_sim(turn_orig: ConversationTurn, turn_gen: ConversationTurn,
 
 
 def main():
-    runs_path = ("/mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question"
-                 "-under-discussion/kfolds/runs")
+    runs_path = ("data/kfolds/runs")
 
     data_conf = load_config("datasets.yml")
 
