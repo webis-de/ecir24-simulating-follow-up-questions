@@ -23,16 +23,6 @@
 }
 ```
 
-## Models
-
-| Model       | Params | Requirements            |
-|-------------|--------|-------------------------|
-| Alpaca      | 7B     | Chatnoir API Token      |
-| GODEL       | 2.7B?  | -                       |
-| LLama2      | 7B     | GPU, Hugging Face Token | 
-| LLama2      | 13B    | GPU, Hugging Face Token | 
-| LLama2-Chat | 7B     | GPU, Hugging Face Token | 
-| LLama2-Chat | 13B    | GPU, Hugging Face Token |  
 
 ## Authentication
 
@@ -92,9 +82,9 @@ cat data/human-assessment.json.gz \
 
 ### Compute top-k most-frequent leading bigrams (Appendix)
 
-TODO: Adjust to downloaded corpus, what is number_of_k
+TODO: Adjust to downloaded corpus
 
 ```bash
 source venv/bin/activate
-python src/python/compute_leading_bigrams_frequency -f <path_to_dataset> -k <number_of_k>
+python src/python/compute_leading_bigrams_frequency -f <path_to_dataset> -k <number_of_bigrams>
 ```
