@@ -60,9 +60,27 @@
    python src/python/generate_inquisitive_questions.py
    ```
 
+### Tuning Models
+
+TODO
+
 ## Reproduction
 
+### Automated Comparison (Table 1)
+
+TODO
+
+### Human Comparison (Table 2)
+
+TODO
+
+### User Modeling (Table 3)
+
+TODO
+
 ### Calculate Kappa
+
+TODO: does it calculate both? Adjust to downloaded corpus
 
 ```
 cat data/human-assessment.json.gz \
@@ -72,7 +90,9 @@ cat data/human-assessment.json.gz \
 ./src/r/kappa.R data/human-assessment-single-annotations.tsv 
 ```
 
-### Compute top-k most-frequent leading bigrams
+### Compute top-k most-frequent leading bigrams (Appendix)
+
+TODO: Adjust to downloaded corpus, what is number_of_k
 
 ```bash
 source venv/bin/activate
