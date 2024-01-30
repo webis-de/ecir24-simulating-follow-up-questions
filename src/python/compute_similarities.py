@@ -30,7 +30,7 @@ def compute_sim(turn_orig: ConversationTurn, turn_gen: ConversationTurn,
 
 
 def main():
-    runs_path = ("data/kfolds/runs")
+    runs_path = "data/kfolds/runs"
 
     data_conf = load_config("datasets.yml")
 

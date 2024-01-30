@@ -58,7 +58,12 @@ TODO
 
 ### Automated Comparison (Table 1)
 
-TODO
+This computation may take a while depending on your hardware. A GPU is preferred for this experiment.
+
+```bash
+source venv/bin/activate
+python src/python/compute_similarities.py
+```
 
 ### Human Comparison (Table 2)
 
@@ -72,7 +77,7 @@ TODO
 
 TODO: does it calculate both? Adjust to downloaded corpus
 
-```
+```bash
 cat data/human-assessment.json.gz \
   | gunzip \
   | python3 src/python/parse-label-studio-human-assessment-for-kappa.py /dev/stdin \
@@ -86,5 +91,5 @@ TODO: Adjust to downloaded corpus
 
 ```bash
 source venv/bin/activate
-python src/python/compute_leading_bigrams_frequency [-d nudged-questions|treccast] [-k <number_of_bigrams>]
+python src/python/compute_leading_bigrams_frequency.py [-d nudged-questions|treccast] [-k <number_of_bigrams>]
 ```
