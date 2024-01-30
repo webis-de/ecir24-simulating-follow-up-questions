@@ -30,7 +30,7 @@ def main():
             if tuning == "none":
                 tuning = ""
 
-            user_cond = f"{user_exp} / {user_direction}"
+            user_cond = f"{user_exp}+{user_direction}"
             if user_cond not in frequencies:
                 frequencies[user_cond] = {}
 
@@ -58,21 +58,25 @@ def main():
             if comp[reasons_idx] == "1":
                 values["reasons"] += 1
 
+    print("".join(["-"] * 143))
+    print(f"{'MODEL':<78s}    {'NAIVE':^12s}    {'SAVVY':^12s}    {'IMPLICATIONS':^12s}    {'REASONS':^12s}")
+    print(f"{'Base':<30s}    {'Tuning':<20s}    {'Prompt':<20s}    {'cast':^4s}    {'wnq':^4s}    {'cast':^4s}    "
+          f"{'wnq':^4s}    {'cast':^4s}    {'wnq':^4s}    {'cast':^4s}    {'wnq':^4s}")
+    print("".join(["-"] * 143))
     for user_cond in sorted(frequencies):
-        print()
-        print(user_cond)
         for base_model in sorted(frequencies[user_cond], key=str.casefold):
             for tuning in sorted(frequencies[user_cond][base_model]):
                 values = frequencies[user_cond][base_model][tuning]
-                print(f"{base_model:<40s} & {tuning:<20s} & "
-                      f"{values['treccast']['naive'] / values['treccast']['total']:0.2f} & "
-                      f"{values['nudged-questions']['naive'] / values['nudged-questions']['total']:0.2f} & "
-                      f"{values['treccast']['savvy'] / values['treccast']['total']:0.2f} & "
-                      f"{values['nudged-questions']['savvy'] / values['nudged-questions']['total']:0.2f} & "
-                      f"{values['treccast']['implications'] / values['treccast']['total']:0.2f} & "
-                      f"{values['nudged-questions']['implications'] / values['nudged-questions']['total']:0.2f} & "
-                      f"{values['treccast']['reasons'] / values['treccast']['total']:0.2f} & "
+                print(f"{base_model:<30s}    {tuning:<20s}    {user_cond:<20s}    "
+                      f"{values['treccast']['naive'] / values['treccast']['total']:0.2f}    "
+                      f"{values['nudged-questions']['naive'] / values['nudged-questions']['total']:0.2f}    "
+                      f"{values['treccast']['savvy'] / values['treccast']['total']:0.2f}    "
+                      f"{values['nudged-questions']['savvy'] / values['nudged-questions']['total']:0.2f}    "
+                      f"{values['treccast']['implications'] / values['treccast']['total']:0.2f}    "
+                      f"{values['nudged-questions']['implications'] / values['nudged-questions']['total']:0.2f}    "
+                      f"{values['treccast']['reasons'] / values['treccast']['total']:0.2f}    "
                       f"{values['nudged-questions']['reasons'] / values['nudged-questions']['total']:0.2f}")
+    print("".join(["-"] * 143))
 
 
 if __name__ == '__main__':

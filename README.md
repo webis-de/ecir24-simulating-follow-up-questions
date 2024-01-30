@@ -74,7 +74,10 @@ python src/python/compute_human_assessment.py
 
 ### User Modeling (Table 3)
 
-TODO
+```bash
+source venv/bin/activate
+python src/python/compute_user_model.py
+```
 
 ### Calculate Kappa
 
