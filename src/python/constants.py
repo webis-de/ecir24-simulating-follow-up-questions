@@ -32,6 +32,6 @@ USER_SIM_PROMPT = """### Instruction: Follow-up questions are the questions elic
 
 ### Follow-up questions:"""
 
-NUM_REPETITIONS = 1
+NUM_REPETITIONS = 10
 
 NUM_FOLDS = 3

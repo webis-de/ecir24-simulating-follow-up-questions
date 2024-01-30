@@ -86,5 +86,5 @@ TODO: Adjust to downloaded corpus
 
 ```bash
 source venv/bin/activate
-python src/python/compute_leading_bigrams_frequency -f <path_to_dataset> -k <number_of_bigrams>
+python src/python/compute_leading_bigrams_frequency [-d nudged-questions|treccast] [-k <number_of_bigrams>]
 ```
