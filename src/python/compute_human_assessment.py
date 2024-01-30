@@ -56,18 +56,28 @@ def main():
                         if comp[not_generic_idx] == "1":
                             values["not_generic"] += 1
 
+    print("".join(["-"] * 120))
+    print(f"{'MODEL':<54s}    {'VALID':^12s}    {'RELATED':^12s}    {'INFORMATIVE':^12s}    {'SPECIFIC':^12s}")
+    print(
+        f"{'Base':<30s}    {'Tuning':<20s}    {'cast':4s}    {'wnq':4s}    {'cast':4s}    {'wnq':4s}    {'cast':4s}    {'wnq':4s}    {'cast':4s}    {'wnq':4s}")
+    print("".join(["-"] * 120))
     for base_model in sorted(frequencies, key=str.casefold):
         for tuning in sorted(frequencies[base_model]):
             values = frequencies[base_model][tuning]
-            print(f"{base_model:<40s} & {tuning:<20s} & "
-                  f"{values['treccast']['valid'] / values['treccast']['total']:0.2f} & "
-                  f"{values['nudged-questions']['valid'] / values['nudged-questions']['total']:0.2f} & "
-                  f"{values['treccast']['related'] / values['treccast']['total']:0.2f} & "
-                  f"{values['nudged-questions']['related'] / values['nudged-questions']['total']:0.2f} & "
-                  f"{values['treccast']['informative'] / values['treccast']['total']:0.2f} & "
-                  f"{values['nudged-questions']['informative'] / values['nudged-questions']['total']:0.2f} & "
-                  f"{values['treccast']['not_generic'] / values['treccast']['total']:0.2f} & "
+
+            if base_model == "none":
+                base_model = "original"
+            print(f"{base_model:<30s}    {tuning:<20s}    "
+                  f"{values['treccast']['valid'] / values['treccast']['total']:0.2f}    "
+                  f"{values['nudged-questions']['valid'] / values['nudged-questions']['total']:0.2f}    "
+                  f"{values['treccast']['related'] / values['treccast']['total']:0.2f}    "
+                  f"{values['nudged-questions']['related'] / values['nudged-questions']['total']:0.2f}    "
+                  f"{values['treccast']['informative'] / values['treccast']['total']:0.2f}    "
+                  f"{values['nudged-questions']['informative'] / values['nudged-questions']['total']:0.2f}    "
+                  f"{values['treccast']['not_generic'] / values['treccast']['total']:0.2f}    "
                   f"{values['nudged-questions']['not_generic'] / values['nudged-questions']['total']:0.2f}")
+
+    print("".join(["-"] * 120))
 
 
 if __name__ == '__main__':

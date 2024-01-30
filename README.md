@@ -62,12 +62,15 @@ This computation may take a while depending on your hardware. A GPU is preferred
 
 ```bash
 source venv/bin/activate
-python src/python/compute_similarities.py
+python src/python/compute_automatic_comparison.py
 ```
 
-### Human Comparison (Table 2)
+### Human Assessment (Table 2)
 
-TODO
+```bash
+source venv/bin/activate
+python src/python/compute_human_assessment.py
+```
 
 ### User Modeling (Table 3)
 
