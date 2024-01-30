@@ -6,7 +6,7 @@ import dacite
 
 from constants import DATASETS, NUM_FOLDS, NUM_REPETITIONS, MODELS
 from corpora import ConversationTurn
-from generate_inquisitive_questions import load_config
+from generate_followup_questions import load_config
 from similarities import Bleu, SentenceTransformerScore
 
 

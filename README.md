@@ -44,10 +44,17 @@
    ```bash
    make clean install
    ```
-3. Activate the virtual environment and run the experiment.
+
+### Generate Follow-up Questions
+
+1. Configure which dataset, model and prompt type should be used
+   ```bash
+   make configure
+   ```
+2. Activate the virtual environment and run the experiment.
    ```bash
    source venv/bin/activate
-   python src/python/generate_inquisitive_questions.py
+   python src/python/generate_followup_questions.py
    ```
 
 ### Tuning Models

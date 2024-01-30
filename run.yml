@@ -1,8 +1,5 @@
 datasets:
-- nudged-questions
 - treccast
 models:
-- Llama-2-13b-hf
-- Llama-2-13b-hf-inquisitive
 - alpaca-7b
-simulate_user: true
+simulate_user: false

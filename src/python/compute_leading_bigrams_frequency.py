@@ -6,7 +6,7 @@ import contractions
 import spacy
 
 from constants import DATASETS, NUM_FOLDS, NUM_REPETITIONS
-from generate_inquisitive_questions import load_config
+from generate_followup_questions import load_config
 
 
 @click.command()

@@ -5,7 +5,7 @@ import random
 import dacite
 
 from corpora import ConversationTurn
-from generate_inquisitive_questions import load_config
+from generate_followup_questions import load_config
 
 
 def main():

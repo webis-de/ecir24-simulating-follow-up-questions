@@ -3,7 +3,7 @@ import json
 import os.path
 
 from corpora import InquisitiveCorpus, NudgedQuestionsCorpus
-from generate_inquisitive_questions import load_config
+from generate_followup_questions import load_config
 
 
 def main():
