@@ -1,13 +1,11 @@
 inquisitive:
-  original_path: /mnt/ceph/storage/corpora/corpora-thirdparty/corpus-inquisitive/
-  formatted_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/corpus-inquisitive.jsonl
-  folds_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/kfolds/corpus-inquisitive-{k}.jsonl
+  formatted_path: data/corpus-webis-follow-up-questions-24/conversations/conversations/inquisitive.jsonl
+  folds_path: data/corpus-webis-follow-up-questions-24/conversations/conversations-folds/inquisitive-fold{k}.jsonl
 
-nudged-questions:
-  original_path: /mnt/ceph/storage/corpora/corpora-webis/corpus-webis-nudged-questions-23
-  formatted_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/corpus-nudged-questions-sampled.jsonl
-  folds_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/kfolds/corpus-nudged-questions-{k}.jsonl
+webis-nudged-questions23:
+  formatted_path: data/corpus-webis-follow-up-questions-24/conversations/conversations/webis-nudged-questions23.jsonl
+  folds_path: data/corpus-webis-follow-up-questions-24/conversations/conversations-folds/webis-nudged-questions23-fold{k}.jsonl
 
-treccast:
-  formatted_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/corpus-treccast22.jsonl
-  folds_path: /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/kfolds/corpus-treccast22-{k}.jsonl
+trec-cast22:
+  formatted_path: data/corpus-webis-follow-up-questions-24/conversations/conversations/trec-cast22.jsonl
+  folds_path: data/corpus-webis-follow-up-questions-24/conversations/conversations-folds/trec-cast22-fold{k}.jsonl

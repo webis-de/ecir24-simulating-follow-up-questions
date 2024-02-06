@@ -4,7 +4,7 @@ from typing import List
 
 import dacite
 
-from constants import DATASETS, NUM_FOLDS, NUM_REPETITIONS, MODELS
+from constants import DATASETS, NUM_FOLDS, NUM_REPETITIONS, MODELS, DATASET_DIR
 from corpora import ConversationTurn
 from generate_followup_questions import load_config
 from similarities import Bleu, SentenceTransformerScore
@@ -30,8 +30,7 @@ def compute_sim(turn_orig: ConversationTurn, turn_gen: ConversationTurn,
 
 
 def main():
-    runs_path = "data/kfolds/runs"
-
+    runs_path = os.path.join(DATASET_DIR, "simulations")
     data_conf = load_config("datasets.yml")
 
     bleu = Bleu()
@@ -62,7 +61,7 @@ def main():
                 for run in range(NUM_REPETITIONS):
                     bleu_scores = []
                     st_scores = []
-                    model_file = f"corpus-{dataset}-{fold}-{model}-run{run}.jsonl"
+                    model_file = f"simulations-for-{dataset}-fold{fold}-with-{model}-run{run}.jsonl"
                     generated_path = os.path.join(runs_path, model_file)
 
                     if not os.path.exists(generated_path):
@@ -76,7 +75,6 @@ def main():
 
                             bleu_scores.extend(compute_sim(dataset_turn, generated_turn, bleu))
                             st_scores.extend(compute_sim(dataset_turn, generated_turn, st))
-                            # st_scores.append(1.0)
 
                     if len(bleu_scores) == 0:
                         continue

@@ -100,9 +100,7 @@ cat data/human-assessment.json.gz \
 
 ### Compute top-k most-frequent leading bigrams (Appendix)
 
-TODO: Adjust to downloaded corpus
-
 ```bash
 source venv/bin/activate
-python src/python/compute_leading_bigrams_frequency.py [-d nudged-questions|treccast] [-k <number_of_bigrams>]
+python src/python/compute_leading_bigrams_frequency.py [-d webis-nudged-questions23|trec-cast22] [-k <number_of_bigrams>]
 ```

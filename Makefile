@@ -14,7 +14,7 @@ auth_chatnoir:
 configure:
 	source venv/bin/activate && python src/python/configure.py
 
-install: install_venv huggingface_login
+install: download install_venv huggingface_login
 
 install_venv:
 	@if [ ! -d "venv" ]; then\
@@ -55,6 +55,11 @@ deploy:
 	sudo cp src/bash/generate-inquisitive-questions.slurm.sh /mnt/ceph/storage/data-tmp/current/${USER}/
 	sudo cp -R src /mnt/ceph/storage/data-tmp/current/${USER}/generate-inquisitive-questions/
 	sudo cp run.yml /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/
+
+download:
+	wget -P data https://zenodo.org/records/10623106/files/corpus-webis-follow-up-questions-24.zip
+	unzip data/corpus-webis-follow-up-questions-24.zip -d data/corpus-webis-follow-up-questions-24
+
 
 clean:
 	rm -rf venv dist

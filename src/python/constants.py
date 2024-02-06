@@ -2,24 +2,23 @@ from llm import *
 
 DATASETS = {
     "inquisitive",
-    "nudged-questions",
-    "treccast"
+    "webis-nudged-questions23",
+    "trec-cast22"
 }
 
 MODELS = {
     "Llama-2-7b-hf": LLama27B,
-    "Llama-2-7b-hf-inquisitive": LLama27BInquisitive,
-    "Llama-2-7b-hf-nudged-questions": LLama27BNudgedQuestion,
-    "Llama-2-7b-hf-treccast": LLama27BTreccast,
+    "Llama-2-7b-hf-tuned-on-inquisitive": LLama27BInquisitive,
+    "Llama-2-7b-tuned-on-webis-nudged-questions23": LLama27BNudgedQuestion,
+    "Llama-2-7b-hf-tuned-on-trec-cast22": LLama27BTreccast,
     "Llama-2-13b-hf": LLama213B,
-    "Llama-2-13b-hf-inquisitive": LLama213BInquisitive,
-    "Llama-2-13b-hf-nudged-questions": LLama213BNudgedQuestion,
-    "Llama-2-13b-hf-treccast": LLama213BTreccast,
-    "GODEL": GODEL,
+    "Llama-2-13b-hf-tuned-on-inquisitive": LLama213BInquisitive,
+    "Llama-2-13b-tuned-on-webis-nudged-questions23": LLama213BNudgedQuestion,
+    "Llama-2-13b-hf-tuned-on-trec-cast22": LLama213BTreccast,
     "alpaca-7b": Alpaca7B,
-    "alpaca-7b-inquisitive": Alpaca7BInquisitive,
-    "alpaca-7b-nudged-questions": Alpaca7BNudgedQuestions,
-    "alpaca-7b-treccast": Alpaca7BTreccast,
+    "alpaca-7b-tuned-on-inquisitive": Alpaca7BInquisitive,
+    "alpaca-7b-tuned-on-webis-nudged-questions23": Alpaca7BNudgedQuestions,
+    "alpaca-7b-tuned-on-trec-cast22": Alpaca7BTreccast,
     "gpt-4": GPT4,
 }
 
@@ -35,3 +34,5 @@ USER_SIM_PROMPT = """### Instruction: Follow-up questions are the questions elic
 NUM_REPETITIONS = 10
 
 NUM_FOLDS = 3
+
+DATASET_DIR = "data/corpus-webis-follow-up-questions-24"
