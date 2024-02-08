@@ -1,5 +1,0 @@
-datasets:
-- treccast
-models:
-- alpaca-7b
-simulate_user: false
