@@ -98,7 +98,7 @@ def main():
             sims["bleu"][dataset] = sum(sims["bleu"][dataset]) / len(sims["bleu"][dataset])
             sims["sentence_bert"][dataset] = sum(sims["sentence_bert"][dataset]) / len(sims["sentence_bert"][dataset])
 
-        if isinstance(sims["bleu"]["treccast"], list):
+        if isinstance(sims["bleu"]["trec-cast22"], list):
             continue
 
         print(

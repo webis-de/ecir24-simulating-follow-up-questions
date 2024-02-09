@@ -58,7 +58,7 @@ deploy:
 	sudo cp run.yml /mnt/ceph/storage/data-in-progress/data-research/conversational-search/ecir24-simulation-by-question-under-discussion/
 
 download:
-	wget -P data https://zenodo.org/records/10623106/files/corpus-webis-follow-up-questions-24.zip
+	wget -P data https://zenodo.org/records/10640348/files/corpus-webis-follow-up-questions-24.zip
 	unzip data/corpus-webis-follow-up-questions-24.zip -d data/corpus-webis-follow-up-questions-24
 
 
