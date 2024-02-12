@@ -42,7 +42,7 @@ def load_dataset(path: str) -> List[ConversationTurn]:
 
 
 @click.command()
-@click.option("-d", "--dataset", "datasets", multiple=True, default=["nudged-questions", "treccast"],
+@click.option("-d", "--dataset", "datasets", multiple=True, default=["webis-nudged-questions23", "trec-cast22"],
               type=click.Choice(DATASETS), required=True)
 @click.option("-m", "--model", "models", multiple=True, default=None, type=click.Choice(MODELS.keys()),
               required=False)
@@ -56,6 +56,7 @@ def main(datasets, models, simulate_user, config):
 
     if config is not None:
         run_config = load_config(config)
+        print(run_config)
         datasets = run_config["datasets"]
         models = run_config["models"]
         simulate_user = run_config["simulate_user"]
@@ -79,10 +80,12 @@ def main(datasets, models, simulate_user, config):
     inference_log_file = open(f"data/inference-log-{start_timestamp}.jsonl", "w")
 
     for model in models:
+        print(model)
         for user_type, question_mod, question_type in user_conditions:
             llm = MODELS[model]()
 
             for dataset in datasets:
+                print(dataset)
                 for fold in range(NUM_FOLDS):
                     if isinstance(llm, CrossValModel):
                         llm.set_test_fold(fold, NUM_FOLDS)

@@ -17,18 +17,20 @@ make auth
 This will also download the dataset
 ```bash
 make clean install
+git submodule init
+git submodule update
 ```
 
 
 ## Generate Follow-up Questions
 1. Configure which dataset, model and prompt type should be used
    ```bash
-   make configure
+   make configure # creates run.yml
    ```
 2. Activate the virtual environment and run the experiment.
    ```bash
    source venv/bin/activate
-   python src/python/generate_followup_questions.py
+   python src/python/generate_followup_questions.py --config run.yml
    ```
 
 

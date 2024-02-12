@@ -1,0 +1,3 @@
+[submodule "ecir24-simulating-follow-up-questions"]
+	path = ecir24-simulating-follow-up-questions
+	url = https://huggingface.co/webis/ecir24-simulating-follow-up-questions

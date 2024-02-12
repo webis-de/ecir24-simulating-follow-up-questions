@@ -26,7 +26,7 @@ class Param(Enum):
 
 
 class LLM(metaclass=abc.ABCMeta):
-    TUNED_BASE_PATH = "data/kfolds/models"
+    TUNED_BASE_PATH = "ecir24-simulating-follow-up-questions"
 
     def __init__(self):
         self.logger = logging.getLogger(self.__class__.__name__)
