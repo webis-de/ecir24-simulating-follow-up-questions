@@ -80,3 +80,13 @@ cat data/corpus-webis-follow-up-questions-24/simulation-annotations.json.gz \
   > data/simulation-single-annotations.tsv
 ./src/r/kappa.R  data/simulation-single-annotations.tsv
 ```
+
+## Save models
+Edit `src/python/save.py`
+```
+CUDA_VISIBLE_DEVICES="" HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python src/python/save.py
+```
+In [llama.cpp](https://github.com/ggerganov/llama.cpp/tree/master):
+```
+python convert-hf-to-gguf.py <model directory>
+```
