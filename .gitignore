@@ -1,5 +1,8 @@
 /treccastweb/
 /ecir24-simulation-by-question-under-discussion
+/models
+/meta-llama
+/Llama-*
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
